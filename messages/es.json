@@ -1,0 +1,616 @@
+{
+  "nav": {
+    "colombia": "Colombia",
+    "viajes": "Viajes",
+    "mice": "MICE",
+    "luxury": "Luxury",
+    "hoteles": "Hoteles",
+    "nosotros": "Nosotros",
+    "contacto": "Contacto"
+  },
+  "footer": {
+    "desc": "Agencia de viajes de lujo especializada en Colombia auténtica. Experiencias exclusivas para viajeros exigentes.",
+    "col": {
+      "viajes": "Viajes",
+      "empresa": "Empresa",
+      "contacto": "Contacto",
+      "explorar": "Explorar"
+    },
+    "nosotros": "Nosotros",
+    "legal": "Aviso Legal",
+    "privacy": {
+      "label": "Política de Privacidad",
+      "agree": "Estoy de acuerdo con la política de privacidad"
+    },
+    "cookies": "Cookies",
+    "rights": "© 2026 Nueva Frontera Colombia. Todos los derechos reservados.",
+    "newsletter": "¡Obtenga las mejores historias de blogs en su bandeja de entrada!",
+    "email": {
+      "placeholder": "Ingrese su dirección de email"
+    },
+    "subscribe": "Suscribir",
+    "follow": "Síguenos",
+    "brand": {
+      "desc": "Tour Operador Receptivo DMC creado y dirigido por profesionales del turismo españoles y canadienses residentes en Colombia."
+    }
+  },
+  "ui": {
+    "wa": {
+      "tooltip": "¿Hablamos?"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "trips": "Viajes"
+    },
+    "learn": {
+      "more": "Saber más"
+    },
+    "contact": {
+      "wa": "Consultar por WhatsApp",
+      "form": "Formulario de contacto"
+    },
+    "book": {
+      "wa": "Reservar por WhatsApp"
+    },
+    "quote": {
+      "label": "Solicitar cotización",
+      "desc": "Viaje personalizado para grupos privados. Contacte a nuestro equipo."
+    },
+    "days": "días",
+    "send": "Enviar"
+  },
+  "trip": {
+    "label": {
+      "duration": "Duración",
+      "type": "Tipo",
+      "difficulty": "Dificultad",
+      "group": "Grupo",
+      "start": "Inicio",
+      "end": "Fin",
+      "day": "Día"
+    },
+    "includes": {
+      "title": "Lo que incluye"
+    },
+    "itinerary": {
+      "title": "Itinerario día a día"
+    },
+    "hotels": {
+      "title": "Alojamientos seleccionados"
+    },
+    "highlights": {
+      "title": "Puntos destacados"
+    },
+    "stars": {
+      "label": "estrellas"
+    },
+    "norte": {
+      "hero": {
+        "sub": "Norte de Colombia",
+        "title": "Aventura en el Norte",
+        "desc": "Tayrona, trekking a la Ciudad Perdida y desierto de La Guajira"
+      },
+      "overview": {
+        "title": "El gran norte colombiano",
+        "p1": "El norte de Colombia concentra en 17 días algunos de los paisajes más espectaculares del continente. Desde las aguas turquesas del Parque Nacional de Tayrona, donde la selva tropical cae directamente al Caribe, hasta el desierto lunar de La Guajira con sus dunas de 50 metros, pasando por la Sierra Nevada de Santa Marta, el macizo montañoso costero más alto del mundo.",
+        "p2": "El epicentro de la aventura es el trekking a la Ciudad Perdida (Teyuna), ciudad prehispánica construida alrededor del año 800 d.C. por la civilización Tayrona. Cuatro días de marcha por la selva densa, cruzando ríos y aldeas Kogui, culminan en los 1.263 escalones de piedra que llevan a una de las maravillas arqueológicas de América."
+      },
+      "cta": {
+        "title": "¿Preparado para la gran aventura del norte?",
+        "body": "Un viaje de 17 días que reúne lo mejor del norte colombiano: arqueología, naturaleza y cultura ancestral."
+      }
+    },
+    "llanos": {
+      "hero": {
+        "sub": "Llanos Orientales",
+        "title": "Safari en los Llanos",
+        "desc": "Safari fotográfico y a caballo en la Orinoquia colombiana"
+      },
+      "overview": {
+        "title": "El África colombiana",
+        "p1": "Los Llanos Orientales de Colombia son una de las regiones más desconocidas y más fascinantes del continente americano. Un océano de hierba que se extiende hasta el horizonte, surcado por ríos sinuosos y habitado por una fauna que rivaliza con los mejores parques nacionales africanos.",
+        "p2": "Durante 5 días en el Ecolodge Savanna Orinoquia, saldremos a caballo al amanecer y al atardecer en busca de caimanes, anacondas, capibras, delfines rosados de río, toninas, chigüiros y más de 400 especies de aves. Un safari fotográfico de primer nivel en el corazón de la Orinoquia."
+      },
+      "cta": {
+        "title": "¿Listo para el safari de los Llanos?",
+        "body": "Solo 5 días, pero una experiencia que dura toda la vida. La Orinoquia colombiana en estado puro."
+      }
+    },
+    "sur": {
+      "hero": {
+        "sub": "Sur y Caribe colombiano",
+        "title": "Del Sur al Caribe",
+        "desc": "De Bogotá a Cartagena por el corazón de Colombia"
+      },
+      "overview": {
+        "title": "La diagonal de Colombia",
+        "p1": "Del sur al Caribe es un viaje que atraviesa la columna vertebral de Colombia de sur a norte, recorriendo en 12 días algunos de los paisajes y pueblos más extraordinarios del país."
+      },
+      "cta": {
+        "title": "¿La diagonal completa de Colombia?",
+        "body": "12 días para descubrir la Colombia menos conocida: de Bogotá al Caribe por los caminos del interior."
+      }
+    },
+    "islas": {
+      "hero": {
+        "sub": "Archipiélago de las Islas del Rosario",
+        "title": "Extensión a las Islas",
+        "desc": "El Caribe más exclusivo a 45 minutos de Cartagena"
+      },
+      "overview": {
+        "title": "Robinson Crusoe de lujo",
+        "p1": "Las Islas del Rosario son un archipiélago de 27 islas coralinas a 45 minutos en lancha de Cartagena de Indias. Aguas cristalinas de 30 metros de visibilidad, playas de arena blanca y un único lodge de 5 estrellas: Las Islas Luxury Lodge."
+      },
+      "cta": {
+        "title": "¿Cinco días en el paraíso caribeño?",
+        "body": "La extensión perfecta para los amantes del mar, el coral y el silencio. Solo 5 días, eternidad garantizada."
+      }
+    },
+    "amazonas": {
+      "hero": {
+        "sub": "Amazonas colombiano",
+        "title": "Extensión al Amazonas",
+        "desc": "Selva primaria, río gigante y comunidades indígenas Tikuna"
+      },
+      "overview": {
+        "title": "La selva más grande del mundo",
+        "p1": "El Amazonas colombiano es la puerta de entrada a la selva tropical más extensa del planeta. Desde Leticia, capital del departamento de Amazonas, navegamos en canoa por tributarios del gran río para internarnos en una naturaleza primaria donde el tiempo se detiene."
+      },
+      "cta": {
+        "title": "¿Cuatro días en la selva amazónica?",
+        "body": "La extensión amazónica es la más transformadora de nuestro catálogo. Naturaleza, cultura Tikuna y el río más grande del mundo."
+      }
+    },
+    "nido": {
+      "hero": {
+        "sub": "Eje Cafetero",
+        "title": "El Nido del Cóndor",
+        "desc": "Lujo entre cafetales, Valle de Cocora y termas de Santa Rosa de Cabal"
+      },
+      "overview": {
+        "title": "Entre las nubes y el café",
+        "p1": "El Eje Cafetero colombiano, Patrimonio Mundial de la UNESCO, es uno de los paisajes más característicos de América Latina: colinas cubiertas de cafetales, haciendas coloniales, pueblos multicolores y el Valle de Cocora con sus palmas de cera gigantes."
+      },
+      "cta": {
+        "title": "¿Ocho días en el corazón cafetero?",
+        "body": "El Nido del Cóndor es el programa más íntimo y refinado de nuestro catálogo. Lujo con alma en el corazón verde de Colombia."
+      }
+    },
+    "ballenas": {
+      "hero": {
+        "sub": "Pacífico colombiano",
+        "title": "Avistamiento de Ballenas",
+        "desc": "Safari de ballenas jorobadas en Bahía Solano y el Parque Nacional Utría"
+      },
+      "overview": {
+        "title": "El Pacífico secreto de Colombia",
+        "p1": "Cada año, entre julio y noviembre, miles de ballenas jorobadas llegan desde la Antártida al cálido Pacífico colombiano para aparearse y dar a luz a sus crías. El Parque Nacional Natural Utría, en el departamento de Chocó, es uno de los mejores lugares del mundo para presenciar este espectáculo."
+      },
+      "cta": {
+        "title": "¿Siete días en el Pacífico mágico?",
+        "body": "El Pacífico colombiano es la última frontera del ecoturismo de lujo en Colombia. Un destino para viajeros que buscan lo extraordinario."
+      }
+    },
+    "cano": {
+      "hero": {
+        "sub": "Sierra de La Macarena",
+        "title": "Caño Cristales",
+        "desc": "El río de los cinco colores — la maravilla natural de Colombia"
+      },
+      "overview": {
+        "title": "El río más hermoso del mundo",
+        "p1": "Caño Cristales es conocido como el río de los cinco colores o el río más hermoso del mundo. Sus aguas cristalinas fluyen sobre lechos de roca multicolor donde proliferan las algas Macarenia clavigera, que en temporada (junio-noviembre) tiñen el fondo del río de un rojo carmesí que contrasta con el amarillo, verde, azul y negro de la roca."
+      },
+      "cta": {
+        "title": "¿El río más hermoso del mundo en 4 días?",
+        "body": "Caño Cristales solo se puede visitar entre junio y noviembre, cuando el agua está en su nivel óptimo. Reserva con antelación."
+      }
+    },
+    "ciudades": {
+      "hero": {
+        "sub": "Bogotá · Medellín · Cartagena",
+        "title": "Ciudades Míticas",
+        "desc": "La gran trilogía urbana de Colombia en 15 días"
+      },
+      "overview": {
+        "title": "Tres ciudades, tres almas",
+        "p1": "Colombia posee tres ciudades que por sí solas justifican el viaje: Bogotá, la capital intelectual y cultural a 2.600 metros de altitud; Medellín, la ciudad de la eterna primavera que pasó de ser la más violenta del mundo a ser elegida la ciudad más innovadora del planeta; y Cartagena de Indias, la joya colonial del Caribe, declarada Patrimonio Mundial de la UNESCO."
+      },
+      "cta": {
+        "title": "¿Lista para la gran trilogía colombiana?",
+        "body": "15 días para descubrir las tres almas de Colombia. Arte, cultura, gastronomía y lujo en estado puro."
+      }
+    },
+    "bogota": {
+      "hero": {
+        "sub": "Bogotá → Cartagena por el interior",
+        "title": "De Bogotá a Cartagena",
+        "desc": "Villa de Leyva, Barichara, Cañón del Chicamocha y Mompox"
+      },
+      "overview": {
+        "title": "El camino menos transitado",
+        "p1": "De Bogotá a Cartagena no en avión, sino por el interior del país: un recorrido de 13 días por la Colombia más auténtica, la que preserva su alma colonial en pueblos blancos colgados de los Andes, cañones vertiginosos y ciudades fluviales que el tiempo olvidó."
+      },
+      "cta": {
+        "title": "¿El camino interior de Colombia?",
+        "body": "13 días de la capital al Caribe por los caminos menos transitados. La Colombia que no aparece en las guías."
+      }
+    },
+    "selva": {
+      "hero": {
+        "sub": "Amazonas · Tayrona · La Guajira · Cartagena",
+        "title": "De la Selva al Desierto",
+        "desc": "De la selva amazónica al desierto guajiro en 15 días de aventura"
+      },
+      "overview": {
+        "title": "Los extremos de Colombia",
+        "p1": "Colombia es uno de los pocos países del mundo que puede ofrecer en un mismo viaje la selva tropical más densa del planeta y uno de los desiertos más extremos de América. De la Selva al Desierto es un recorrido de 15 días que conecta estos dos mundos opuestos pasando por el Parque Nacional de Tayrona y la costa caribeña."
+      },
+      "cta": {
+        "title": "¿Los extremos de Colombia en 15 días?",
+        "body": "De la selva amazónica al desierto guajiro. El viaje más extremo y completo de nuestro catálogo."
+      }
+    },
+    "andes": {
+      "hero": {
+        "sub": "Eje Cafetero · Medellín · Caribe",
+        "title": "De los Andes al Caribe",
+        "desc": "Del triángulo cafetero a las playas del Caribe en 13 días"
+      },
+      "overview": {
+        "title": "De las montañas al mar",
+        "p1": "De los Andes al Caribe es un recorrido de 13 días que conecta dos de los grandes mundos de Colombia: el Eje Cafetero, Patrimonio Mundial de la UNESCO, con sus haciendas centenarias y el Valle de Cocora; y la costa Caribe con su ciudad estrella, Cartagena de Indias."
+      },
+      "cta": {
+        "title": "¿De los Andes al Caribe en 13 días?",
+        "body": "El viaje clásico por excelencia de Colombia: café, flores, salsas y sol caribeño. Perfecto para un primer viaje."
+      }
+    },
+    "guajira": {
+      "hero": {
+        "sub": "Extremo norte de Colombia",
+        "title": "La Guajira",
+        "desc": "Desierto, mar turquesa y la cultura ancestral del pueblo Wayúu"
+      },
+      "overview": {
+        "title": "El extremo del mundo",
+        "p1": "La Guajira es el punto más septentrional de Sudamérica, una tierra donde el desierto ocre se funde con el mar Caribe turquesa y el Atlántico gris en Punta Gallinas. Un paisaje lunático de dunas gigantes, salinas rosadas, acantilados imponentes y rancherías Wayúu que resistieron siglos de conquista y mantienen viva su cultura, su lengua —el wayuunaiki— y su cosmogonía."
+      },
+      "cta": {
+        "title": "¿Lista para el confín del mundo?",
+        "body": "La Guajira es para los que buscan lo auténtico. Diseñamos su expedición a medida, con todo el confort posible en uno de los paisajes más extremos de América."
+      }
+    },
+    "misterios": {
+      "hero": {
+        "sub": "Sabiduría ancestral de Colombia",
+        "title": "Misterios Indígenas",
+        "desc": "Ciudad Perdida, comunidades Kogui, Wayúu y Tikuna — las raíces vivas de Colombia"
+      },
+      "overview": {
+        "title": "Donde vive el pasado",
+        "p1": "Colombia alberga más de 80 grupos étnicos indígenas que preservan lenguas, rituales y cosmovisiones milenarias. Este viaje excepcional conecta a los más curiosos con cuatro de los pueblos más fascinantes del país: los Kogui de la Sierra Nevada, los Wayúu de La Guajira, los Tikuna del Amazonas y los Tayrona, cuya Ciudad Perdida permanece en lo alto de la sierra."
+      },
+      "cta": {
+        "title": "Conéctese con las raíces de Colombia",
+        "body": "Este viaje transforma. No es turismo: es un encuentro entre mundos. Cupos muy limitados para garantizar el respeto con las comunidades anfitrionas."
+      }
+    },
+    "inedita": {
+      "hero": {
+        "sub": "Grupo · Vuelo incluido",
+        "title": "Colombia Inédita",
+        "desc": "Bogotá, Eje Cafetero, Sierra Nevada, Tayrona y Cartagena — 19 días"
+      },
+      "overview": {
+        "title": "Colombia Inédita",
+        "p1": "Nuestro viaje más completo por Colombia. En 19 días recorreremos las regiones más fascinantes del país, desde la vibrante Bogotá hasta las playas paradisíacas de Cartagena, pasando por las haciendas cafeteras, la Sierra Nevada y el Parque Nacional Tayrona."
+      },
+      "cta": {
+        "title": "¿Te unes a Colombia Inédita?",
+        "body": "Nuestro viaje más emblemático. Un recorrido de 19 días por la Colombia más auténtica."
+      }
+    }
+  },
+  "diff": {
+    "easy": "Fácil",
+    "moderate": "Moderada",
+    "high": "Alta (trekking)"
+  },
+  "home": {
+    "meta": {
+      "title": "Nueva Frontera Colombia | Agencia de lujo — Colombia auténtica"
+    },
+    "hero": {
+      "tagline": "Nueva Frontera Colombia",
+      "title": "Otra Mirada al Mundo",
+      "subtitle": "Creamos recuerdos inolvidables en el último paraíso de América",
+      "btn": "Explorar Viajes",
+      "scroll": "Descubrir",
+      "titleHtml": "Otra Mirada<br>al Mundo"
+    },
+    "intro": {
+      "sub": "Descubre Colombia",
+      "title": "El último paraíso de América",
+      "p1": "Colombia es el cuarto país más extenso de América del Sur, conocerlo entero no es cosa de un viaje, ni de dos…harán falta muchas aventuras para descubrir todos los secretos que esconde su interior todavía misterioso habitado aún por más de 100 comunidades indígenas precolombinas.",
+      "p2": "Un destino en el que todos los viajeros encuentran su viaje y que se ha ido abriendo paulatinamente al turismo en los últimos años, permitiendo todavía alternar la virginidad de zonas poco visitadas con el confort y las infraestructuras hoteleras más adecuadas.",
+      "cta": "Saber Más"
+    },
+    "trips": {
+      "title": "Viajes",
+      "sub": "Explora con nosotros",
+      "intro": "Son cientos los viajes diferentes que podríamos organizar en Colombia, pero aquí ofrecemos una muestra de programas especiales que cubren distintas regiones del variado país americano.",
+      "cta": "Ver Todos los Viajes"
+    },
+    "trip1": {
+      "tag": "Grupo · Vuelo incluido",
+      "excerpt": "Bogotá, Eje Cafetero, Sierra Nevada, Tayrona y Cartagena",
+      "dur": "19 días",
+      "type": "Cultural · Aventura"
+    },
+    "trip2": {
+      "tag": "Aventura",
+      "dur": "15 días",
+      "type": "Aventura confort"
+    },
+    "trip3": {
+      "tag": "Cultural",
+      "dur": "11 días",
+      "type": "FIT · Cultural"
+    },
+    "services": {
+      "title": "Qué hacemos",
+      "subtitle": "Nuestros servicios"
+    },
+    "svc": {
+      "viajes": {
+        "label": "Viajes",
+        "desc": "Expediciones de aventura, viajes de naturaleza, trekking, viajes culturales, lunas de miel, viajes temáticos… Diseñad con nosotros vuestro viaje."
+      },
+      "mice": {
+        "desc": "El país ofrece múltiples atractivos y facilidades para organizar seminarios, congresos y sobre todo viajes de incentivo.",
+        "label": "MICE"
+      },
+      "luxury": {
+        "label": "Luxury Travel",
+        "desc": "Nuestro concepto de Luxury Travel no se limita solamente a alojamientos, sino que abarca vehículos, avionetas privadas, catamaranes, helicópteros…"
+      }
+    },
+    "quote": "“Un viaje puede a veces ser un lujo, otras, puede ser también de lujo. De nuestra mano, los viajes de lujo se convierten también, en un lujo de viaje.”",
+    "split": {
+      "sub": "Colombia",
+      "title": "Un interior partido por los Andes",
+      "p1": "Un interior partido por los Andes y el Eje Cafetero, con la gran mancha verde del Amazonas extendiéndose en el sur y la desconocida Orinoquia en el oeste, una costa del Pacífico delirante y un norte bañado por las aguas mansas del Mar Caribe.",
+      "p2": "Así es Colombia, aunque sus misterios van mucho más allá, como los desiertos de La Guajira, las cumbres de la Sierra Nevada, la Ciudad Perdida, el Parque Nacional de Tayrona, el valle de Cócora, el paisaje imposible de Tatacoa…",
+      "cta": "Descubrir Colombia"
+    },
+    "hotels": {
+      "title": "Hoteles",
+      "sub": "El hogar lejos del hogar",
+      "intro": "Imagina una puesta de sol desde tu exclusivo bungalow ante las aguas del Mar Caribe, o pasar la noche en un antiguo monasterio restaurado, dormir en una cabaña sobre la selva, una casona colonial o en una hacienda cafetera…",
+      "cta": "Ver Alojamientos"
+    },
+    "hotel1": {
+      "name": "Hotel Boutique Colonial",
+      "loc": "Cartagena de Indias"
+    },
+    "hotel2": {
+      "name": "Hacienda Cafetera",
+      "loc": "Eje Cafetero"
+    },
+    "hotel3": {
+      "name": "Lodge Caribeño",
+      "loc": "Costa Caribe"
+    },
+    "cta": {
+      "sub": "¿Listo para la aventura?",
+      "title": "Diseñad con nosotros vuestro viaje",
+      "body": "Cualquier cosa que se os ocurra, es posible en Colombia de la mano de Nueva Frontera.",
+      "btn": "Ponerse en Contacto"
+    }
+  },
+  "cookie": {
+    "text": "Utilizamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra",
+    "policy": "política de cookies",
+    "reject": "Rechazar",
+    "accept": "Aceptar"
+  },
+  "colombia": {
+    "meta": {
+      "title": "Colombia | Nueva Frontera — Descubre el último paraíso de América"
+    },
+    "hero": {
+      "sub": "El paraíso de América del Sur",
+      "title": "Colombia",
+      "desc": "Naturaleza salvaje, cultura ancestral y ciudades vibrantes"
+    },
+    "intro": {
+      "title": "Creamos recuerdos inolvidables.",
+      "body": "Colombia es el cuarto país más extenso de América del Sur, conocerlo entero no es cosa de un viaje, ni de dos... harán falta muchas aventuras para descubrir todos los secretos que esconde su interior todavía misterioso habitado aún por más de 100 comunidades indígenas precolombinas."
+    },
+    "cta": {
+      "title": "Diseñe su Colombia a medida",
+      "body": "Cada rincón de Colombia es único. Cuéntenos sus sueños y los convertimos en un viaje inolvidable.",
+      "btn": "Contactar"
+    }
+  },
+  "viajes": {
+    "meta": {
+      "title": "Viajes | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Descubre el mundo",
+      "title": "Nuestros Viajes",
+      "desc": "Colombia a medida — aventura, lujo y autenticidad"
+    },
+    "intro": {
+      "title": "Viajes",
+      "sub": "Explore con nosotros",
+      "p1": "Son cientos los viajes diferentes que podríamos organizar en Colombia, pero aquí ofrecemos una muestra de programas especiales que cubren distintas regiones del variado país americano. Un resumen de propuestas para que el viajero tenga una primera idea de las posibilidades que ofrece el destino, pero también podemos preparar cualquier tipo de viaje a medida o a la carta.",
+      "p2": "Expediciones de aventura, viajes específicos de naturaleza, trekking en los lugares más remotos del país, lunas de miel de ensueño, programas de incentivo, viajes temáticos para buceadores, surfistas, escaladores... Diseñad con nosotros vuestro viaje, cualquier cosa que se os ocurra, es posible en Colombia de la mano de NUEVA FRONTERA."
+    }
+  },
+  "mice": {
+    "meta": {
+      "title": "MICE en Colombia | Nueva Frontera"
+    },
+    "hero": {
+      "sub": "Meetings · Incentives · Conferences · Events",
+      "title": "MICE en Colombia",
+      "desc": "Seminarios, congresos y viajes de incentivo en el destino más innovador de América"
+    },
+    "intro": {
+      "title": "MICE en Colombia",
+      "body": "El país ofrece múltiples atractivos y facilidades para organizar seminarios, congresos y sobre todo viajes de incentivo. Además de la originalidad de apostar por un destino innovador alejado de los países clásicos en la organización de ese tipo de eventos, Colombia ofrece toda una gama de alojamientos de primer nivel y con tarifas muchas veces más económicas que en otras latitudes."
+    },
+    "nature": {
+      "title": "Naturaleza salvaje y cultura",
+      "body": "Combinar zonas naturales con el conocimiento de unas poblaciones todavía desconocidas es posible en un viaje MICE en Colombia. Lugares de ensueño que emergen de entre la naturaleza más silvestre, como el Eje Cafetero, la selva amazónica, la región de Caño Cristales, el Parque Nacional de Tayrona, los desiertos de la Guajira o Tatacoa, el Valle del Cócora, la cuenca del río Magdalena, los llanos orientales, las costas del Pacífico, el Mar Caribe…"
+    },
+    "cities": {
+      "body": "Ciudades modernas y trepidantes como Bogotá o Medellín, conviven en el país con sosegadas poblaciones que conservan el pasado en sus calles como Villa de Leyva, Barichara, Salento o Santa Cruz de Mompox… y finalmente la célebre Cartagena de Indias, una mezcla de pasado y presente."
+    },
+    "beaches": {
+      "title": "Playas de ensueño",
+      "body": "Miles de kilómetros de playas vírgenes y paradisíacas, en algunas de las cuales se hallan algunos de los lodges más encantadores y exclusivos del Caribe. Paraíso para los amantes del buceo y otros deportes acuáticos, Colombia posee algunos de los spots más reputados del planeta.",
+      "body2": "Fondos marinos plagados de especies acuáticas singulares, avistamiento de ballenas, barreras de coral, poblados de pescadores, largas hileras de cocoteros en playas de arenas níveas y aguas turquesa, pequeños y exclusivos lodges en los que el viajero jugará a Robinson Crusoe... Así es el litoral colombiano."
+    },
+    "advantages": {
+      "title": "Ventajas de organizar un incentivo con nosotros"
+    },
+    "adv": {
+      "1": "Servicios personalizados y de máxima calidad siempre en español",
+      "2": "Rapidez en la respuesta a los emisores, máximo 24h",
+      "3": "La mejor hotelería posible al mejor precio",
+      "4": "Los vehículos más modernos",
+      "5": "Los mejores guías de habla hispana, formados personalmente por el staff directivo",
+      "6": "Coordinadores españoles del staff de Nueva Frontera en todos nuestros viajes de incentivo",
+      "7": "Selección de los mejores restaurantes y asesoramiento en la elección de menús especiales",
+      "8": "Gran flexibilidad y asesoramiento para elegir las mejores y más originales actividades",
+      "9": "Todo el personal local de habla hispana",
+      "10": "Las mejores y más originales actuaciones musicales en los lugares más inéditos",
+      "11": "Organización y planificación logística",
+      "12": "Pagos directamente en España",
+      "13": "Implicación directa en proyectos de ecoturismo y desarrollo sostenible para la población local",
+      "14": "Teléfonos de urgencia 24h y seguimiento personalizado de los clientes en destino"
+    },
+    "cta": {
+      "title": "¿Organizamos su próximo incentivo en Colombia?",
+      "body": "Contacte con nuestro equipo y le presentaremos una propuesta a medida en menos de 24 horas.",
+      "btn": "Contactar ahora"
+    }
+  },
+  "luxury": {
+    "meta": {
+      "title": "Luxury Travel | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Experiencias exclusivas",
+      "title": "Luxury Travel",
+      "desc": "El viaje de lujo que también es un lujo de viaje"
+    },
+    "intro": {
+      "title": "Luxury Travel",
+      "sub": "Sumérgete en una experiencia incomparable",
+      "p1": "Un viaje puede a veces ser un lujo, otras, puede ser también de lujo.",
+      "p2": "Nuestro concepto de Luxury Travel no se limita solamente a alojamientos (siempre los más exclusivos y mejor situados y en las mejores habitaciones), sino que abarca también a los vehículos, traslados en avionetas privadas, catamaranes, sobrevuelos en helicópteros, cenas gastronómicas en los más reputados restaurantes, guías de prestigio, aperitivos especiales mientras contemplamos puestas de sol inolvidables…",
+      "p3": "Detalles… desde el principio al fin del viaje, un seguido de experiencias que se alejan de los viajes convencionales para ofrecer el mayor refinamiento a este antiguo arte de viajar.",
+      "p4": "De nuestra mano, los viajes de lujo se convierten también, en un lujo de viaje."
+    },
+    "services": {
+      "title": "Servicios Luxury"
+    },
+    "svc": {
+      "lodging": "Alojamientos exclusivos",
+      "transport": "Transporte privado",
+      "gastro": "Gastronomía de autor",
+      "details": "Detalles únicos"
+    },
+    "cta": {
+      "title": "Su Colombia de lujo, a medida",
+      "body": "Diseñamos su experiencia exclusiva en Colombia con los más altos estándares de confort y autenticidad.",
+      "btn": "Consultar"
+    }
+  },
+  "hoteles": {
+    "meta": {
+      "title": "Hoteles | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Alojamientos seleccionados",
+      "title": "Hoteles",
+      "desc": "El hogar lejos del hogar"
+    },
+    "intro": {
+      "title": "Hoteles",
+      "sub": "El hogar lejos del hogar",
+      "p1": "Imagina una puesta de sol desde tu exclusivo bungalow ante las aguas del Mar Caribe, o pasar la noche en un antiguo monasterio restaurado, dormir en una cabaña sobre la selva, una casona colonial o en una hacienda cafetera…",
+      "p2": "La infraestructura hotelera de Colombia se desarrolla día a día y en la actualidad podemos ofrecer todo tipo de alojamientos para nuestros viajes, desde lujosas cadenas internacionales, hasta pequeños y encantadores hoteles boutique, pasando por los más exclusivos lodges y sencillos hospedajes gestionados por comunidades indígenas. En Colombia, tenemos el hotel adecuado para cada tipo de viajero."
+    },
+    "collection": "Nuestra selección"
+  },
+  "about": {
+    "meta": {
+      "title": "Nosotros | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "DMC Tour Operador",
+      "title": "Nueva Frontera",
+      "desc": "Otra mirada al mundo…"
+    },
+    "intro": {
+      "title": "Nueva Frontera",
+      "sub": "Otra mirada al mundo…",
+      "p1": "Desde hace décadas nos dedicamos a mostrar distintos lugares del mundo a los viajeros de habla hispana. Con una larga experiencia acumulada en África, llegaba la hora de cambiar de aires. La pandemia y el cierre de fronteras en Madagascar nos permitió explorar a fondo un país que ya conocíamos desde hace años como Colombia.",
+      "p2": "La situación política y social del país había cambiado para bien en los últimos años, y eso nos animó de llevar adelante este proyecto de DMC para poder mostrar a los viajeros españoles, Colombia de una manera distinta.",
+      "p3": "Con el sello personal que hemos impregnado a todos los destinos en los que hemos trabajado antes, con la misma pasión y entrega que nos ha caracterizado siempre, y por supuesto, asumiendo la responsabilidad de guiar personalmente el mayor posible número de grupos.",
+      "p4": "Nuestros viajes se basan en la filosofía de la experiencia, potenciando el contacto con comunidades locales indígenas, descubriendo sus costumbres y su gastronomía, su arte, su idiosincrasia. Porque un país tan extenso y variado como Colombia no son solamente paisajes y monumentos… un país es sobre todo sus gentes."
+    },
+    "dmc": {
+      "label": "Se trata de un Tour Operador Receptivo DMC creado y dirigido por profesionales del turismo españoles y canadienses residentes en Colombia."
+    },
+    "exp": {
+      "label": "Nuestra experiencia de más de 20 años en otros destinos turísticos nos posiciona como referente para hispanohablantes en todo lo relacionado con viajes a Colombia, sobre todo en viajes de incentivo."
+    },
+    "team": {
+      "title": "Conócenos"
+    },
+    "sergi": {
+      "bio": "Desde que tengo uso de razón que quise mostrar el mundo a los demás. Al principio, lo hice como periodista, a través de mis reportajes en diversos medios de comunicación, más tarde empecé a organizar viajes de prensa y otras aventuras para equipos profesionales. Luego llegó el desierto más grande del mundo, y esas rutas transaharianas que me permitieron durante años mostrar como guía el Sáhara y el Sahel a cientos de viajeros. Ahora ha llegado el momento de llevar esa personal forma de trabajar los viajes a las selvas y los desiertos de Colombia, al triángulo cafetero, a las montañas andinas, a sus parques naturales… Estoy deseando que me acompañéis en este nuevo viaje."
+    },
+    "maggie": {
+      "bio": "Siendo casi una niña abandoné mi país natal para cursar mis estudios en Francia. Recorrí Europa, Asia y el Norte de África antes de regresar a Canadá. La vida me llevó a Madagascar, donde dirigí el Lac Hotel Sahambavy durante años. El destino me llevó a conocer a Sergi Formentin, y juntos recorrimos los países más variados. La reciente pausa de la pandemia me permitió adentrarme en los secretos de Colombia y allí me enamoré de Santa Marta y sus alrededores."
+    },
+    "cta": {
+      "title": "¿Hablamos de su viaje?",
+      "body": "Cuéntenos sus sueños y lo convertimos en realidad. Viajes únicos, a medida, para viajeros únicos.",
+      "btn": "Contactar"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Hablemos",
+      "title": "Contáctenos",
+      "desc": "¿Cómo podemos ayudarle?"
+    },
+    "form": {
+      "title": "Escríbenos",
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "agree": "Acepto que mis datos enviados son tratados con los fines que mencionan en las políticas de privacidad",
+      "submit": "Enviar",
+      "help": "¿Cómo podemos ayudarte? Siéntete libre de mantenerte en contacto."
+    },
+    "wa": {
+      "title": "WhatsApp",
+      "desc": "Respuesta inmediata en horario de Colombia (UTC-5)",
+      "btn": "Escribir por WhatsApp"
+    }
+  }
+}

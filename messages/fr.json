@@ -1,0 +1,616 @@
+{
+  "nav": {
+    "colombia": "Colombie",
+    "viajes": "Voyages",
+    "mice": "MICE",
+    "luxury": "Luxe",
+    "hoteles": "Hôtels",
+    "nosotros": "À propos",
+    "contacto": "Contact"
+  },
+  "footer": {
+    "desc": "Agence de voyages de luxe spécialisée dans la Colombie authentique. Expériences exclusives pour les voyageurs exigeants.",
+    "col": {
+      "viajes": "Voyages",
+      "empresa": "Entreprise",
+      "contacto": "Contact",
+      "explorar": "Explorer"
+    },
+    "nosotros": "À propos",
+    "legal": "Mentions légales",
+    "privacy": {
+      "label": "Politique de confidentialité",
+      "agree": "J'accepte la politique de confidentialité"
+    },
+    "cookies": "Cookies",
+    "rights": "© 2026 Nueva Frontera Colombia. Tous droits réservés.",
+    "newsletter": "Recevez les meilleures histoires de blog dans votre boîte de réception !",
+    "email": {
+      "placeholder": "Entrez votre adresse e-mail"
+    },
+    "subscribe": "S'inscrire",
+    "follow": "Suivez-nous",
+    "brand": {
+      "desc": "Tour Opérateur Réceptif DMC créé et dirigé par des professionnels du tourisme espagnols et canadiens résidant en Colombie."
+    }
+  },
+  "ui": {
+    "wa": {
+      "tooltip": "On en parle ?"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "trips": "Voyages"
+    },
+    "learn": {
+      "more": "En savoir plus"
+    },
+    "contact": {
+      "wa": "Contacter par WhatsApp",
+      "form": "Formulaire de contact"
+    },
+    "book": {
+      "wa": "Réserver par WhatsApp"
+    },
+    "quote": {
+      "label": "Demander un devis",
+      "desc": "Voyage personnalisé pour groupes privés. Contactez notre équipe."
+    },
+    "days": "jours",
+    "send": "Envoyer"
+  },
+  "trip": {
+    "label": {
+      "duration": "Durée",
+      "type": "Type",
+      "difficulty": "Difficulté",
+      "group": "Groupe",
+      "start": "Départ",
+      "end": "Fin",
+      "day": "Jour"
+    },
+    "includes": {
+      "title": "Ce qui est inclus"
+    },
+    "itinerary": {
+      "title": "Itinéraire jour par jour"
+    },
+    "hotels": {
+      "title": "Hébergements sélectionnés"
+    },
+    "highlights": {
+      "title": "Points forts"
+    },
+    "stars": {
+      "label": "étoiles"
+    },
+    "norte": {
+      "hero": {
+        "sub": "Nord de la Colombie",
+        "title": "Aventure dans le Nord",
+        "desc": "Tayrona, trek à la Cité Perdue et désert de La Guajira"
+      },
+      "overview": {
+        "title": "Le grand nord colombien",
+        "p1": "Le nord de la Colombie concentre en 17 jours certains des paysages les plus spectaculaires du continent. Des eaux turquoise du Parc National de Tayrona, où la jungle tropicale tombe directement dans la mer des Caraïbes, jusqu'au désert lunaire de La Guajira avec ses dunes de 50 mètres, en passant par la Sierra Nevada de Santa Marta — la chaîne montagneuse côtière la plus haute du monde.",
+        "p2": "Le point culminant de l'aventure est le trek à la Cité Perdue (Teyuna), ville préhispanique construite vers 800 après J.-C. par la civilisation Tayrona. Quatre jours à travers la jungle dense, traversant rivières et villages Kogui, culminent aux 1 263 marches de pierre qui mènent à l'une des merveilles archéologiques des Amériques."
+      },
+      "cta": {
+        "title": "Prêt pour la grande aventure nordique ?",
+        "body": "Un voyage de 17 jours réunissant le meilleur du nord colombien : archéologie, nature et culture ancestrale."
+      }
+    },
+    "llanos": {
+      "hero": {
+        "sub": "Plaines Orientales — Llanos",
+        "title": "Safari dans les Llanos",
+        "desc": "Safari photographique et à cheval dans l'Orénoquie colombienne"
+      },
+      "overview": {
+        "title": "L'Afrique colombienne",
+        "p1": "Les Plaines Orientales de Colombie sont l'une des régions les plus méconnues et les plus fascinantes du continent américain. Un océan d'herbe s'étendant jusqu'à l'horizon, parcouru par des rivières sinueuses et peuplé d'une faune qui rivalise avec les meilleurs parcs nationaux africains.",
+        "p2": "Durant 5 jours à l'Ecolodge Savanna Orinoquia, nous partons à cheval à l'aube et au crépuscule à la recherche de caïmans, d'anacondas, de capybaras, de dauphins roses de rivière et de plus de 400 espèces d'oiseaux. Un safari photographique de premier plan au cœur de l'Orénoquie."
+      },
+      "cta": {
+        "title": "Prêt pour le safari des Llanos ?",
+        "body": "Seulement 5 jours, mais une expérience qui dure toute la vie. L'Orénoquie colombienne à l'état pur."
+      }
+    },
+    "sur": {
+      "hero": {
+        "sub": "Sud et Caraïbes colombiennes",
+        "title": "Du Sud aux Caraïbes",
+        "desc": "De Bogotá à Carthagène à travers le cœur de la Colombie"
+      },
+      "overview": {
+        "title": "La grande diagonale colombienne",
+        "p1": "Du Sud aux Caraïbes est un voyage qui traverse l'épine dorsale de la Colombie du sud au nord, parcourant en 12 jours certains des paysages et villages les plus extraordinaires du pays."
+      },
+      "cta": {
+        "title": "La diagonale complète de la Colombie ?",
+        "body": "12 jours pour découvrir la Colombie la moins connue : de Bogotá aux Caraïbes par les chemins de l'intérieur."
+      }
+    },
+    "islas": {
+      "hero": {
+        "sub": "Archipel des Îles du Rosaire",
+        "title": "Extension aux Îles",
+        "desc": "Les Caraïbes les plus exclusives à 45 minutes de Carthagène"
+      },
+      "overview": {
+        "title": "Robinson Crusoé de luxe",
+        "p1": "Les Îles du Rosaire sont un archipel de 27 îles coralliennes à 45 minutes en vedette de Carthagène des Indes. Des eaux cristallines avec 30 mètres de visibilité, des plages de sable blanc et un seul lodge 5 étoiles : Las Islas Luxury Lodge."
+      },
+      "cta": {
+        "title": "Cinq jours au paradis caribéen ?",
+        "body": "L'extension parfaite pour les amoureux de la mer, du corail et du silence. Seulement 5 jours, éternité garantie."
+      }
+    },
+    "amazonas": {
+      "hero": {
+        "sub": "Amazonie colombienne",
+        "title": "Extension en Amazonie",
+        "desc": "Forêt primaire, le grand fleuve et communautés indigènes Tikuna"
+      },
+      "overview": {
+        "title": "La plus grande forêt du monde",
+        "p1": "L'Amazonie colombienne est la porte d'entrée de la forêt tropicale la plus étendue de la planète. Depuis Leticia, capitale du département d'Amazonie, nous naviguons en pirogue sur les affluents du grand fleuve pour nous enfoncer dans une nature primaire où le temps s'arrête."
+      },
+      "cta": {
+        "title": "Quatre jours dans la jungle amazonienne ?",
+        "body": "L'extension amazonienne est la plus transformatrice de notre catalogue. Nature, culture Tikuna et le plus grand fleuve du monde."
+      }
+    },
+    "nido": {
+      "hero": {
+        "sub": "Région Caféière — Eje Cafetero",
+        "title": "El Nido del Cóndor",
+        "desc": "Luxe parmi les caféiers, Vallée de Cocora et sources thermales de Santa Rosa de Cabal"
+      },
+      "overview": {
+        "title": "Entre les nuages et le café",
+        "p1": "L'Eje Cafetero colombien, Patrimoine Mondial de l'UNESCO, est l'un des paysages les plus caractéristiques d'Amérique Latine : collines couvertes de caféiers, haciendas coloniales, villages multicolores et la Vallée de Cocora avec ses gigantesques palmiers de cire."
+      },
+      "cta": {
+        "title": "Huit jours au cœur de la région caféière ?",
+        "body": "El Nido del Cóndor est le programme le plus intime et raffiné de notre catalogue. Luxe avec âme au cœur vert de la Colombie."
+      }
+    },
+    "ballenas": {
+      "hero": {
+        "sub": "Pacifique colombien",
+        "title": "Observation des Baleines",
+        "desc": "Safari de baleines à bosse dans la Bahía Solano et le Parc National Utría"
+      },
+      "overview": {
+        "title": "Le Pacifique secret de la Colombie",
+        "p1": "Chaque année, entre juillet et novembre, des milliers de baleines à bosse arrivent de l'Antarctique dans le chaud Pacifique colombien pour s'accoupler et donner naissance à leurs petits. Le Parc National Naturel Utría, dans le département du Chocó, est l'un des meilleurs endroits du monde pour assister à ce spectacle."
+      },
+      "cta": {
+        "title": "Sept jours dans le Pacifique magique ?",
+        "body": "Le Pacifique colombien est la dernière frontière de l'écotourisme de luxe en Colombie. Une destination pour les voyageurs qui cherchent l'extraordinaire."
+      }
+    },
+    "cano": {
+      "hero": {
+        "sub": "Sierra de La Macarena",
+        "title": "Caño Cristales",
+        "desc": "La rivière aux cinq couleurs — la merveille naturelle de la Colombie"
+      },
+      "overview": {
+        "title": "La plus belle rivière du monde",
+        "p1": "Caño Cristales est connu comme la rivière aux cinq couleurs, ou la plus belle rivière du monde. Ses eaux cristallines coulent sur des lits de roche multicolores où prolifèrent les algues Macarenia clavigera, qui en saison (juin-novembre) teintent le fond de la rivière d'un rouge cramoisi qui contraste avec le jaune, le vert, le bleu et le noir de la roche."
+      },
+      "cta": {
+        "title": "La plus belle rivière du monde en 4 jours ?",
+        "body": "Caño Cristales ne peut être visitée qu'entre juin et novembre, quand le niveau de l'eau est optimal. Réservez à l'avance."
+      }
+    },
+    "ciudades": {
+      "hero": {
+        "sub": "Bogotá · Medellín · Carthagène",
+        "title": "Villes Mythiques",
+        "desc": "La grande trilogie urbaine de Colombie en 15 jours"
+      },
+      "overview": {
+        "title": "Trois villes, trois âmes",
+        "p1": "La Colombie possède trois villes qui à elles seules justifient le voyage : Bogotá, la capitale intellectuelle et culturelle à 2 600 mètres d'altitude ; Medellín, la ville de l'éternel printemps qui est passée d'être la plus violente du monde à être élue ville la plus innovante de la planète ; et Carthagène des Indes, le joyau colonial des Caraïbes, classé au Patrimoine Mondial de l'UNESCO."
+      },
+      "cta": {
+        "title": "Prêt pour la grande trilogie colombienne ?",
+        "body": "15 jours pour découvrir les trois âmes de la Colombie. Art, culture, gastronomie et luxe à l'état pur."
+      }
+    },
+    "bogota": {
+      "hero": {
+        "sub": "Bogotá → Carthagène par l'intérieur",
+        "title": "De Bogotá à Carthagène",
+        "desc": "Villa de Leyva, Barichara, Canyon de Chicamocha et Mompox"
+      },
+      "overview": {
+        "title": "La route moins empruntée",
+        "p1": "De Bogotá à Carthagène non pas en avion, mais par l'intérieur du pays : un parcours de 13 jours à travers la Colombie la plus authentique, celle qui préserve son âme coloniale dans des villages blancs accrochés aux Andes, des canyons vertigineux et des villes fluviales que le temps a oubliées."
+      },
+      "cta": {
+        "title": "La route intérieure de la Colombie ?",
+        "body": "13 jours de la capitale aux Caraïbes par les chemins les moins empruntés. La Colombie qui n'apparaît pas dans les guides."
+      }
+    },
+    "selva": {
+      "hero": {
+        "sub": "Amazonie · Tayrona · La Guajira · Carthagène",
+        "title": "De la Jungle au Désert",
+        "desc": "De la jungle amazonienne au désert de La Guajira en 15 jours d'aventure"
+      },
+      "overview": {
+        "title": "Les extrêmes de la Colombie",
+        "p1": "La Colombie est l'un des rares pays du monde à pouvoir offrir en un seul voyage la jungle tropicale la plus dense de la planète et l'un des déserts les plus extrêmes des Amériques. De la Jungle au Désert est un parcours de 15 jours qui connecte ces deux mondes opposés en passant par le Parc National de Tayrona et la côte caribéenne."
+      },
+      "cta": {
+        "title": "Les extrêmes de la Colombie en 15 jours ?",
+        "body": "De la jungle amazonienne au désert de La Guajira. Le voyage le plus extrême et le plus complet de notre catalogue."
+      }
+    },
+    "andes": {
+      "hero": {
+        "sub": "Région Caféière · Medellín · Caraïbes",
+        "title": "Des Andes aux Caraïbes",
+        "desc": "Du triangle du café aux plages des Caraïbes en 13 jours"
+      },
+      "overview": {
+        "title": "Des montagnes à la mer",
+        "p1": "Des Andes aux Caraïbes est un parcours de 13 jours qui connecte deux des grands mondes de la Colombie : l'Eje Cafetero, Patrimoine Mondial de l'UNESCO, avec ses haciendas centenaires et la Vallée de Cocora ; et la côte Caraïbe avec sa ville phare, Carthagène des Indes."
+      },
+      "cta": {
+        "title": "Des Andes aux Caraïbes en 13 jours ?",
+        "body": "Le voyage classique par excellence de la Colombie : café, fleurs, salsa et soleil caribéen. Parfait pour un premier voyage."
+      }
+    },
+    "guajira": {
+      "hero": {
+        "sub": "Extrême nord de la Colombie",
+        "title": "La Guajira",
+        "desc": "Désert, mer turquoise et culture ancestrale du peuple Wayúu"
+      },
+      "overview": {
+        "title": "Le bout du monde",
+        "p1": "La Guajira est le point le plus septentrional d'Amérique du Sud, une terre où le désert ocre se fond avec la mer des Caraïbes turquoise et l'Atlantique gris à Punta Gallinas. Un paysage lunaire de dunes géantes, de salines roses, de falaises imposantes et de rancherías Wayúu qui ont résisté des siècles de conquête et maintiennent vivante leur culture, leur langue — le wayuunaiki — et leur cosmogonie."
+      },
+      "cta": {
+        "title": "Prête pour le bout du monde ?",
+        "body": "La Guajira est pour ceux qui cherchent l'authentique. Nous concevons votre expédition sur mesure, avec tout le confort possible dans l'un des paysages les plus extrêmes des Amériques."
+      }
+    },
+    "misterios": {
+      "hero": {
+        "sub": "Sagesse ancestrale de la Colombie",
+        "title": "Mystères Indigènes",
+        "desc": "Cité Perdue, communautés Kogui, Wayúu et Tikuna — les racines vivantes de la Colombie"
+      },
+      "overview": {
+        "title": "Là où vit le passé",
+        "p1": "La Colombie abrite plus de 80 groupes ethniques indigènes qui préservent des langues, des rituels et des visions du monde millénaires. Ce voyage exceptionnel met en contact les plus curieux avec quatre des peuples les plus fascinants du pays : les Kogui de la Sierra Nevada, les Wayúu de La Guajira, les Tikuna de l'Amazonie et les Tayrona, dont la Cité Perdue se dresse au sommet de la sierra."
+      },
+      "cta": {
+        "title": "Connectez-vous aux racines de la Colombie",
+        "body": "Ce voyage transforme. Ce n'est pas du tourisme : c'est une rencontre entre les mondes. Places très limitées pour garantir le respect des communautés hôtes."
+      }
+    },
+    "inedita": {
+      "hero": {
+        "sub": "Groupe · Vol inclus",
+        "title": "Colombie Inédite",
+        "desc": "Bogotá, Région du café, Sierra Nevada, Tayrona et Carthagène — 19 jours"
+      },
+      "overview": {
+        "title": "Colombie Inédite",
+        "p1": "Notre voyage le plus complet en Colombie. En 19 jours nous parcourons les régions les plus fascinantes du pays, de la vibrante Bogotá aux plages paradisiaques de Carthagène, en passant par les haciendas de café, la Sierra Nevada et le Parc National Tayrona."
+      },
+      "cta": {
+        "title": "Rejoignez Colombie Inédite ?",
+        "body": "Notre voyage le plus emblématique. Un parcours de 19 jours à travers la Colombie authentique."
+      }
+    }
+  },
+  "diff": {
+    "easy": "Facile",
+    "moderate": "Modérée",
+    "high": "Élevée (trekking)"
+  },
+  "home": {
+    "meta": {
+      "title": "Nueva Frontera Colombia | Agence de luxe — Colombie authentique"
+    },
+    "hero": {
+      "tagline": "Nueva Frontera Colombia",
+      "title": "Un Autre Regard sur le Monde",
+      "subtitle": "Nous créons des souvenirs de voyage inoubliables dans le dernier paradis d'Amérique",
+      "btn": "Explorer les Voyages",
+      "scroll": "Découvrir",
+      "titleHtml": "Un Autre Regard<br>sur le Monde"
+    },
+    "intro": {
+      "sub": "Découvrez la Colombie",
+      "title": "Le dernier paradis d'Amérique",
+      "p1": "La Colombie est le quatrième pays le plus grand d'Amérique du Sud. La connaître entièrement ne se résume pas à un voyage ou deux… Des aventures en aventures se profilent avant de percer les secrets de cette terre mystérieuse peuplée encore par plus de 100 communautés indigènes précolombiennes.",
+      "p2": "Une destination où chaque voyageur trouve son voyage et qui s'est ouverte progressivement au tourisme ces dernières années, permettant encore d'alterner la virginité de zones peu visitées avec le confort et les infrastructures hôtelières les plus adaptées.",
+      "cta": "En Savoir Plus"
+    },
+    "trips": {
+      "title": "Voyages",
+      "sub": "Explorez avec nous",
+      "intro": "Il existe des centaines de voyages différents que l'on pourrait organiser en Colombie, mais nous vous proposons ici un panel de programmes spéciaux qui couvre les différentes régions du pays.",
+      "cta": "Voir Tous les Voyages"
+    },
+    "trip1": {
+      "tag": "Groupe · Vol inclus",
+      "excerpt": "Bogotá, Axe du Café, Sierra Nevada, Tayrona et Carthagène",
+      "dur": "19 jours",
+      "type": "Culturel · Aventure"
+    },
+    "trip2": {
+      "tag": "Aventure",
+      "dur": "15 jours",
+      "type": "Aventure confort"
+    },
+    "trip3": {
+      "tag": "Culturel",
+      "dur": "11 jours",
+      "type": "FIT · Culturel"
+    },
+    "services": {
+      "title": "Ce que nous faisons",
+      "subtitle": "Nos services"
+    },
+    "svc": {
+      "viajes": {
+        "label": "Voyages",
+        "desc": "Expéditions d'aventure, voyages nature, trekking, voyages culturels, lunes de miel, voyages à thème… Concevez votre voyage avec nous."
+      },
+      "mice": {
+        "desc": "Le pays offre de nombreux attraits et possibilités pour organiser des séminaires, des congrès et surtout des voyages de motivation.",
+        "label": "MICE"
+      },
+      "luxury": {
+        "label": "Voyage de Luxe",
+        "desc": "Notre concept de Luxury Travel ne se limite pas aux hébergements, mais englobe véhicules, avions privés, catamarans, hélicoptères…"
+      }
+    },
+    "quote": "“Un voyage peut parfois être un luxe, d'autres fois, il peut aussi être de luxe. Entre nos mains, les voyages de luxe deviennent aussi un luxe de voyage.”",
+    "split": {
+      "sub": "Colombie",
+      "title": "Un intérieur partagé par les Andes",
+      "p1": "Un intérieur partagé par les Andes et l'Axe du Café, avec la grande tache verte de l'Amazonie s'étendant au sud et la méconnue Orénoquie à l'ouest, une côte Pacifique délirante et un nord baigné par les eaux calmes de la mer des Caraïbes.",
+      "p2": "Voilà la Colombie, bien que ses mystères aillent bien au-delà : les déserts de La Guajira, les sommets de la Sierra Nevada, la Cité Perdue, le Parc National de Tayrona, la vallée de Cocora, le paysage impossible de Tatacoa…",
+      "cta": "Découvrir la Colombie"
+    },
+    "hotels": {
+      "title": "Hôtels",
+      "sub": "Votre maison même loin de chez vous",
+      "intro": "Imaginez un coucher de soleil depuis votre bungalow exclusif face aux eaux de la mer des Caraïbes, ou passer la nuit dans un ancien monastère restauré, dormir dans une cabane au-dessus de la jungle, une maison coloniale ou dans une hacienda de café…",
+      "cta": "Voir les Hébergements"
+    },
+    "hotel1": {
+      "name": "Hôtel Boutique Colonial",
+      "loc": "Carthagène des Indes"
+    },
+    "hotel2": {
+      "name": "Hacienda de Café",
+      "loc": "Axe du Café"
+    },
+    "hotel3": {
+      "name": "Lodge Caribéen",
+      "loc": "Côte Caraïbe"
+    },
+    "cta": {
+      "sub": "Prêt pour l'aventure ?",
+      "title": "Concevez votre voyage avec nous",
+      "body": "Tout ce à quoi vous pouvez rêver est possible en Colombie avec Nueva Frontera.",
+      "btn": "Nous Contacter"
+    }
+  },
+  "cookie": {
+    "text": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez notre",
+    "policy": "politique de cookies",
+    "reject": "Refuser",
+    "accept": "Accepter"
+  },
+  "colombia": {
+    "meta": {
+      "title": "Colombie | Nueva Frontera — Découvrez le dernier paradis d'Amérique"
+    },
+    "hero": {
+      "sub": "Le paradis d'Amérique du Sud",
+      "title": "Colombie",
+      "desc": "Nature sauvage, culture ancestrale et villes vibrantes"
+    },
+    "intro": {
+      "title": "Nous créons des souvenirs inoubliables.",
+      "body": "La Colombie étant le quatrième pays le plus grand d'Amérique du Sud, sa connaissance ne se résume pas à un voyage ou deux... Vous êtes assurés d'un long cheminement d'aventures avant de percer les secrets de la centaine de communautés indigènes précolombiennes qui peuplent encore cette terre mystérieuse."
+    },
+    "cta": {
+      "title": "Concevez votre Colombie sur mesure",
+      "body": "Chaque coin de la Colombie est unique. Parlez-nous de vos rêves et nous les transformons en un voyage inoubliable.",
+      "btn": "Nous contacter"
+    }
+  },
+  "viajes": {
+    "meta": {
+      "title": "Voyages | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Découvrez le monde",
+      "title": "Nos Voyages",
+      "desc": "La Colombie sur mesure — aventure, luxe et authenticité"
+    },
+    "intro": {
+      "title": "Voyages",
+      "sub": "Explorez avec nous",
+      "p1": "Des centaines de voyages différents peuvent être organisés en Colombie, mais nous vous proposons ici un panel de programmes spéciaux qui couvre les différentes régions du pays. Un panel de propositions pour que le voyageur ait une première idée des possibilités offertes par la destination ; nous pouvons également préparer tout type de voyage à la carte.",
+      "p2": "Expéditions d'aventure, voyages nature spécifiques, trekking dans les endroits les plus reculés du pays, lunes de miel de rêve, programmes d'incentive, voyages à thème pour plongeurs, surfeurs, alpinistes... Concevez votre voyage avec nous — tout ce à quoi vous pouvez rêver est possible en Colombie aux mains de NUEVA FRONTERA."
+    }
+  },
+  "mice": {
+    "meta": {
+      "title": "MICE en Colombie | Nueva Frontera"
+    },
+    "hero": {
+      "sub": "Meetings · Incentives · Conferences · Events",
+      "title": "MICE en Colombie",
+      "desc": "Séminaires, congrès et voyages d'incentive dans la destination la plus innovante des Amériques"
+    },
+    "intro": {
+      "title": "MICE en Colombie",
+      "body": "Le pays offre de nombreux attraits et possibilités pour organiser des séminaires, des congrès et surtout des voyages de motivation (incentive). En plus de l'originalité de miser sur une destination innovante loin des pays classiques dans l'organisation de tels événements, la Colombie propose toute une gamme d'hébergements haut de gamme avec des tarifs compétitifs."
+    },
+    "nature": {
+      "title": "Nature sauvage et culture",
+      "body": "Combiner nature et découverte de la population indigène est particulièrement indiqué lors d'un voyage MICE en Colombie : lieux de rêve qui surgissent dans la nature sauvage tels que l'Axe du Café, la forêt Amazonienne, la région de Caño Cristales, le Parc National de Tayrona, les déserts de La Guajira ou Tatacoa, la vallée de Cocora, le bassin de la rivière Magdalena, les plaines orientales, les côtes du Pacifique, la mer des Caraïbes…"
+    },
+    "cities": {
+      "body": "Des villes modernes et trépidantes, telles Bogotá ou Medellín, côtoient des villes plus calmes et préservées ayant su garder leurs architectures telles que Villa de Leyva, Barichara, Salento ou Santa Cruz de Mompox… et enfin la célèbre Carthagène Des Indes : un mélange entre tradition et modernisme."
+    },
+    "beaches": {
+      "title": "Plages de rêve",
+      "body": "Des milliers de kilomètres de plages vierges et paradisiaques, dont certaines abritent quelques lodges des plus charmants et exclusifs des Caraïbes. Un paradis pour les amateurs de plongée et d'autres sports nautiques : la Colombie possède certains des endroits les plus renommés de la planète.",
+      "body2": "Fonds marins regorgeant d'espèces aquatiques uniques, baleines que l'on peut observer, récifs coralliens, villages de pêcheurs, allées de cocotiers le long des plages de sables blancs, petits lodges privatifs où le voyageur s'imagine dans la peau de Robinson Crusoé : ainsi s'offre la côte colombienne."
+    },
+    "advantages": {
+      "title": "Avantages d'organiser un incentive avec nous"
+    },
+    "adv": {
+      "1": "Services personnalisés et de qualité toujours en espagnol",
+      "2": "Réponse rapide aux émetteurs, maximum 24h",
+      "3": "Le meilleur hôtel possible au meilleur prix",
+      "4": "Des véhicules modernes",
+      "5": "Les meilleurs guides hispanophones, formés personnellement par la direction",
+      "6": "Coordinateurs espagnols de Nueva Frontera sur tous nos voyages d'incentive",
+      "7": "Sélection des meilleurs restaurants et conseils dans le choix des menus spéciaux",
+      "8": "Grande flexibilité et conseils dans le choix des meilleures activités les plus originales",
+      "9": "Tout le personnel local parlant espagnol",
+      "10": "Les meilleures performances musicales dans les lieux les plus inédits",
+      "11": "Organisation et planification logistique",
+      "12": "Paiement direct en Espagne",
+      "13": "Implication directe dans des projets d'écotourisme et de développement durable pour la population locale",
+      "14": "Numéros de téléphones d'urgence 24h/24 et suivi personnalisé des clients à destination"
+    },
+    "cta": {
+      "title": "Organisons votre prochain incentive en Colombie ?",
+      "body": "Contactez notre équipe et nous vous présenterons une proposition sur mesure en moins de 24 heures.",
+      "btn": "Nous contacter maintenant"
+    }
+  },
+  "luxury": {
+    "meta": {
+      "title": "Voyage de Luxe | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Expériences exclusives",
+      "title": "Voyage de Luxe",
+      "desc": "Le voyage de luxe qui est aussi un luxe de voyage"
+    },
+    "intro": {
+      "title": "Voyage de Luxe",
+      "sub": "Plongez-vous dans une expérience incomparable",
+      "p1": "Un voyage peut parfois être luxueux, d'autres fois, cela peut aussi être un luxe.",
+      "p2": "Notre concept de Voyage de Luxe ne se limite pas uniquement aux hébergements (toujours les plus exclusifs, les mieux situés et dans les meilleures chambres), mais comprend également les véhicules, les transferts en avions légers privés, les catamarans, les survols en hélicoptère, les dîners gastronomiques dans les restaurants les plus réputés, des guides attentionnés, l'organisation d'apéritifs spéciaux au coucher du soleil…",
+      "p3": "En résumé… Du début à la fin de l'aventure, vous vivrez une somme d'expériences hors des sentiers conventionnels car nous apportons le plus grand raffinement à cet art ancien du voyage.",
+      "p4": "Avec Nueva Frontera, plus que le voyage de luxe, nous vous offrons le luxe du voyage !"
+    },
+    "services": {
+      "title": "Services Luxe"
+    },
+    "svc": {
+      "lodging": "Hébergements exclusifs",
+      "transport": "Transport privé",
+      "gastro": "Gastronomie de chef",
+      "details": "Détails uniques"
+    },
+    "cta": {
+      "title": "Votre Colombie de luxe, sur mesure",
+      "body": "Nous concevons votre expérience exclusive en Colombie selon les plus hauts standards de confort et d'authenticité.",
+      "btn": "Nous consulter"
+    }
+  },
+  "hoteles": {
+    "meta": {
+      "title": "Hôtels | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Hébergements sélectionnés",
+      "title": "Hôtels",
+      "desc": "Votre maison même loin de chez vous"
+    },
+    "intro": {
+      "title": "Hôtels",
+      "sub": "Votre maison même loin de chez vous",
+      "p1": "Émerveillez-vous à la vue stupéfiante d'un coucher de soleil sur la mer des Caraïbes depuis votre bungalow privatif, passez la nuit dans un antique monastère restauré, dormez dans une cabane au-dessus de la jungle, dans une maison coloniale, ou dans une hacienda de café…",
+      "p2": "L'infrastructure hôtelière de la Colombie se développe rapidement et de nos jours, nous pouvons offrir toutes sortes d'hébergements, des chaînes internationales luxueuses aux petits hôtels de charme, en passant par les lodges les plus exclusifs et des gîtes gérés par des communautés autochtones. En Colombie, nous trouvons l'hôtel adéquat pour chaque type de voyageur."
+    },
+    "collection": "Notre sélection"
+  },
+  "about": {
+    "meta": {
+      "title": "À propos | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "DMC Tour Opérateur",
+      "title": "Nueva Frontera",
+      "desc": "Un autre regard sur le monde…"
+    },
+    "intro": {
+      "title": "Nueva Frontera",
+      "sub": "Un autre regard sur le monde…",
+      "p1": "Pendant des décennies, nous nous sommes consacrés à montrer différents endroits du monde aux voyageurs hispanophones. Avec une longue expérience accumulée en Afrique, il était temps de changer de défis. La pandémie et la fermeture des frontières à Madagascar nous ont permis d'explorer en profondeur un pays que nous connaissions depuis des années : la Colombie.",
+      "p2": "La situation politique et sociale du pays avait positivement changé ces dernières années, ce qui nous a motivés à monter ce projet DMC pour pouvoir montrer la Colombie aux voyageurs espagnols sous un angle différent.",
+      "p3": "Avec l'engagement personnel sans failles que nous avons investi dans toutes les destinations pour lesquelles nous avons travaillé, avec la même passion et le même dévouement qui nous a toujours caractérisés pour assumer la responsabilité de guider personnellement autant de groupes que possible.",
+      "p4": "Notre philosophie du voyage est ancrée dans notre expérience, pour favoriser le contact avec les communautés indigènes locales et la découverte de leurs coutumes et de leur gastronomie, de leur artisanat et de leurs singularités. Parce qu'un pays aussi vaste et varié que la Colombie ne se définit pas que par ses paysages… Un pays, c'est avant tout ses habitants."
+    },
+    "dmc": {
+      "label": "Voyagiste Réceptif DMC créé et géré par des professionnels du tourisme espagnol et canadien résidant en Colombie."
+    },
+    "exp": {
+      "label": "Fort de plus de 20 ans d'expériences dans d'autres destinations touristiques, Nueva Frontera se positionne comme une référence pour les hispanophones en ce qui concerne les circuits en Colombie, en particulier les voyages de motivation."
+    },
+    "team": {
+      "title": "Mieux nous connaître"
+    },
+    "sergi": {
+      "bio": "D'aussi loin que je me souvienne, je voulais montrer le monde aux autres. Je l'ai tout d'abord fait en tant que journaliste, à travers mes reportages à différents médias espagnols. Plus tard j'ai commencé à organiser des voyages de presse et d'autres aventures. Puis j'ai guidé des centaines de voyageurs sur les routes transsahariennes du Sahel et du Sahara. Il est temps pour moi de mener à un niveau supérieur ma manière de travailler, en emmenant les voyageurs vers la Colombie, ses jungles, ses déserts, le triangle du café, les montagnes andines… J'ai hâte que vous vous joigniez à moi dans cette nouvelle aventure."
+    },
+    "maggie": {
+      "bio": "J'ai quitté mon pays natal pour étudier en France. J'ai parcouru l'Europe, l'Asie et l'Afrique du Nord avant de revenir au Canada. La vie m'a conduite à Madagascar, où j'ai dirigé le Lac Hôtel Sahambavy pendant des années. Le destin m'a amenée à rencontrer Sergi Formentin, qui m'a encouragée à parcourir le monde à travers les pays les plus variés. La récente pause de la pandémie m'a permis d'explorer les quatre coins de la Colombie et je suis tombée amoureuse de Santa Marta."
+    },
+    "cta": {
+      "title": "Parlons de votre voyage ?",
+      "body": "Parlez-nous de vos rêves et nous les concrétisons. Des voyages uniques, sur mesure, pour des voyageurs uniques.",
+      "btn": "Nous contacter"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact | Nueva Frontera Colombia"
+    },
+    "hero": {
+      "sub": "Parlons",
+      "title": "Contactez-nous",
+      "desc": "Comment pouvons-nous vous aider ?"
+    },
+    "form": {
+      "title": "Écrivez-nous",
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "subject": "Sujet",
+      "message": "Message",
+      "agree": "J'accepte que mes données personnelles collectées sur le site soient utilisées conformément à la politique de confidentialité.",
+      "submit": "Envoyer",
+      "help": "Comment pouvons-nous vous aider ? N'hésitez pas à rester en contact avec nous."
+    },
+    "wa": {
+      "title": "WhatsApp",
+      "desc": "Réponse immédiate aux heures colombiennes (UTC-5)",
+      "btn": "Écrire sur WhatsApp"
+    }
+  }
+}
