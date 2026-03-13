@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
+import { Link } from '@/i18n/navigation';
 import { getTravelAgencyJsonLd } from '@/lib/structured-data';
 
 export async function generateMetadata({
@@ -96,7 +97,7 @@ export default async function HomePage({
           <p style={{ maxWidth: '600px', margin: '0 auto' }}>{t('trips.intro')}</p>
           <div className="grid grid--3" style={{ marginTop: 'var(--space-lg)' }}>
             {/* Trip Card 1 */}
-            <a href="/viajes/colombia-inedita" className="trip-card">
+            <Link href="/viajes/colombia-inedita" className="trip-card">
               <div className="trip-card__image">
                 <img src="/img/viaje-bogota-cartagena-hero.jpg" alt="Colombia Inédita" loading="lazy" />
                 <span className="trip-card__tag">{t('trip1.tag')}</span>
@@ -115,10 +116,10 @@ export default async function HomePage({
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
 
             {/* Trip Card 2 */}
-            <a href="/viajes/de-la-selva-al-desierto" className="trip-card">
+            <Link href="/viajes/de-la-selva-al-desierto" className="trip-card">
               <div className="trip-card__image">
                 <img src="/img/viaje-selva-desierto-hero.jpg" alt="De la Selva al Desierto" loading="lazy" />
                 <span className="trip-card__tag">{t('trip2.tag')}</span>
@@ -137,10 +138,10 @@ export default async function HomePage({
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
 
             {/* Trip Card 3 */}
-            <a href="/viajes/secretos-del-sur" className="trip-card">
+            <Link href="/viajes/secretos-del-sur" className="trip-card">
               <div className="trip-card__image">
                 <img src="/img/viaje-sur-caribe-hero.jpg" alt="Secretos del Sur" loading="lazy" />
                 <span className="trip-card__tag">{t('trip3.tag')}</span>
@@ -159,10 +160,10 @@ export default async function HomePage({
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="text-center" style={{ marginTop: 'var(--space-lg)' }}>
-            <a href="/viajes" className="btn btn--primary">{t('trips.cta')}</a>
+            <Link href="/viajes" className="btn btn--primary">{t('trips.cta')}</Link>
           </div>
         </div>
       </section>
@@ -205,7 +206,7 @@ export default async function HomePage({
       <section className="section section--alt">
         <div className="container container--narrow" style={{ textAlign: 'center' }}>
           <div className="quote-block">
-            <p>{t.raw('quote') as string}</p>
+            <p className="quote-block__text">{t.raw('quote') as string}</p>
           </div>
         </div>
       </section>
@@ -214,7 +215,7 @@ export default async function HomePage({
       <section className="split">
         <div
           className="split__image"
-          style={{ backgroundImage: "url('/img/colombia-map.jpg')" }}
+          style={{ backgroundImage: "url('/img/hero-colombia.jpg')" }}
         />
         <div className="split__content">
           <p className="subtitle">{t('split.sub')}</p>
@@ -222,9 +223,9 @@ export default async function HomePage({
           <div className="divider divider--left"></div>
           <p>{t('split.p1')}</p>
           <p style={{ marginTop: '1rem' }}>{t('split.p2')}</p>
-          <a href="/colombia" className="btn btn--outline" style={{ marginTop: '1.5rem' }}>
+          <Link href="/colombia" className="btn btn--outline" style={{ marginTop: '1.5rem' }}>
             {t('split.cta')}
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -264,9 +265,9 @@ export default async function HomePage({
               </div>
             </div>
           </div>
-          <a href="/hoteles" className="btn btn--outline" style={{ marginTop: '2rem' }}>
+          <Link href="/hoteles" className="btn btn--outline" style={{ marginTop: '2rem' }}>
             {t('hotels.cta')}
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -283,9 +284,9 @@ export default async function HomePage({
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
             {t('cta.body')}
           </p>
-          <a href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+          <Link href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
             {t('cta.btn')}
-          </a>
+          </Link>
         </div>
       </section>
     </>

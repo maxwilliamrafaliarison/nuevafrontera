@@ -494,6 +494,11 @@
       "13": "Direct involvement in ecotourism and sustainable development projects for the local population",
       "14": "24h emergency phone numbers and personalised follow-up of clients at destination"
     },
+    "hotels": {
+      "title": "Hotels",
+      "body": "Colombia has a constantly developing hotel infrastructure, from international chains to charming boutique hotels and eco-lodges.",
+      "btn": "View Hotels"
+    },
     "cta": {
       "title": "Shall we organise your next incentive in Colombia?",
       "body": "Contact our team and we will present a tailor-made proposal in less than 24 hours.",
@@ -522,9 +527,13 @@
     },
     "svc": {
       "lodging": "Exclusive accommodations",
+      "lodging_desc": "Always the most exclusive and best located, in the finest rooms.",
       "transport": "Private transport",
+      "transport_desc": "Private planes, catamarans, helicopters and the best vehicles.",
       "gastro": "Gourmet gastronomy",
-      "details": "Unique details"
+      "gastro_desc": "Gastronomic dinners at the most renowned restaurants in the country.",
+      "details": "Unique details",
+      "details_desc": "Special aperitifs while contemplating unforgettable sunsets."
     },
     "cta": {
       "title": "Your luxury Colombia, tailor-made",

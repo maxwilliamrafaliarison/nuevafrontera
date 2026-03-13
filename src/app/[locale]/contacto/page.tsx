@@ -1,6 +1,8 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
+import { Link } from '@/i18n/navigation';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import ContactForm from './ContactForm';
 
 export async function generateMetadata({
@@ -35,11 +37,14 @@ export default async function ContactoPage() {
           style={{ backgroundImage: "url('/img/viaje-ciudades-hero.jpg')" }}
         />
         <div className="page-hero__content">
-          <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
-            {t('hero.sub')}
-          </p>
-          <h1>{t('hero.title')}</h1>
-          <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          <div className="container">
+            <Breadcrumbs current={t('hero.title')} />
+            <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
+              {t('hero.sub')}
+            </p>
+            <h1>{t('hero.title')}</h1>
+            <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          </div>
         </div>
       </section>
 

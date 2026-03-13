@@ -1,6 +1,8 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
+import { Link } from '@/i18n/navigation';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export async function generateMetadata({
   params,
@@ -36,11 +38,14 @@ export default async function MicePage() {
           style={{ backgroundImage: "url('/img/viaje-ciudades-hero.jpg')" }}
         />
         <div className="page-hero__content">
-          <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
-            {t('hero.sub')}
-          </p>
-          <h1>{t('hero.title')}</h1>
-          <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          <div className="container">
+            <Breadcrumbs current="MICE" />
+            <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
+              {t('hero.sub')}
+            </p>
+            <h1>{t('hero.title')}</h1>
+            <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          </div>
         </div>
       </section>
 
@@ -88,16 +93,12 @@ export default async function MicePage() {
           style={{ backgroundImage: "url('/img/hotel-las-islas.jpg')" }}
         />
         <div className="split__content">
-          <h2>Hoteles</h2>
+          <h2>{t('hotels.title')}</h2>
           <div className="divider divider--left"></div>
-          <p>
-            Colombia dispone de una infraestructura hotelera en constante desarrollo, con
-            alojamientos que van desde grandes cadenas internacionales hasta encantadores
-            lodges y hoteles boutique.
-          </p>
-          <a href="/hoteles" className="btn btn--outline" style={{ marginTop: '1.5rem' }}>
-            Ver Hoteles
-          </a>
+          <p>{t('hotels.body')}</p>
+          <Link href="/hoteles" className="btn btn--outline" style={{ marginTop: '1.5rem' }}>
+            {t('hotels.btn')}
+          </Link>
         </div>
       </section>
 
@@ -136,9 +137,9 @@ export default async function MicePage() {
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
             {t('cta.body')}
           </p>
-          <a href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+          <Link href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
             {t('cta.btn')}
-          </a>
+          </Link>
         </div>
       </section>
     </>

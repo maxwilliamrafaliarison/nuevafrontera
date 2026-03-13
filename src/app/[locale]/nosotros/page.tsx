@@ -1,6 +1,8 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
+import { Link } from '@/i18n/navigation';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export async function generateMetadata({
   params,
@@ -34,11 +36,14 @@ export default async function NosotrosPage() {
           style={{ backgroundImage: "url('/img/hero-colombia.jpg')" }}
         />
         <div className="page-hero__content">
-          <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
-            {t('hero.sub')}
-          </p>
-          <h1>{t('hero.title')}</h1>
-          <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          <div className="container">
+            <Breadcrumbs current={t('hero.title')} />
+            <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
+              {t('hero.sub')}
+            </p>
+            <h1>{t('hero.title')}</h1>
+            <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          </div>
         </div>
       </section>
 
@@ -57,7 +62,7 @@ export default async function NosotrosPage() {
       <section className="section section--alt">
         <div className="container container--narrow" style={{ textAlign: 'center' }}>
           <div className="quote-block">
-            <p>{t('dmc.label')}</p>
+            <p className="quote-block__text">{t('dmc.label')}</p>
           </div>
         </div>
       </section>
@@ -127,9 +132,9 @@ export default async function NosotrosPage() {
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
             {t('cta.body')}
           </p>
-          <a href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+          <Link href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
             {t('cta.btn')}
-          </a>
+          </Link>
         </div>
       </section>
     </>

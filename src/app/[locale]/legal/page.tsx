@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Aviso Legal | Nueva Frontera Colombia',
@@ -13,7 +14,10 @@ export default function LegalPage() {
           style={{ backgroundImage: "url('/img/cta-bg.jpg')" }}
         />
         <div className="page-hero__content">
-          <h1>Aviso Legal</h1>
+          <div className="container">
+            <Breadcrumbs current="Legal" />
+            <h1>Aviso Legal</h1>
+          </div>
         </div>
       </section>
 

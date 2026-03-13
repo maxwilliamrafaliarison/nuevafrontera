@@ -494,6 +494,11 @@
       "13": "Implicación directa en proyectos de ecoturismo y desarrollo sostenible para la población local",
       "14": "Teléfonos de urgencia 24h y seguimiento personalizado de los clientes en destino"
     },
+    "hotels": {
+      "title": "Hoteles",
+      "body": "Colombia dispone de una infraestructura hotelera en constante desarrollo, con alojamientos que van desde grandes cadenas internacionales hasta encantadores lodges y hoteles boutique.",
+      "btn": "Ver Hoteles"
+    },
     "cta": {
       "title": "¿Organizamos su próximo incentivo en Colombia?",
       "body": "Contacte con nuestro equipo y le presentaremos una propuesta a medida en menos de 24 horas.",
@@ -522,9 +527,13 @@
     },
     "svc": {
       "lodging": "Alojamientos exclusivos",
+      "lodging_desc": "Siempre los más exclusivos y mejor situados, en las mejores habitaciones.",
       "transport": "Transporte privado",
+      "transport_desc": "Avionetas privadas, catamaranes, helicópteros y los mejores vehículos.",
       "gastro": "Gastronomía de autor",
-      "details": "Detalles únicos"
+      "gastro_desc": "Cenas gastronómicas en los más reputados restaurantes del país.",
+      "details": "Detalles únicos",
+      "details_desc": "Aperitivos especiales mientras contemplamos puestas de sol inolvidables."
     },
     "cta": {
       "title": "Su Colombia de lujo, a medida",

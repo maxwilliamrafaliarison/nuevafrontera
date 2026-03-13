@@ -494,6 +494,11 @@
       "13": "Implication directe dans des projets d'écotourisme et de développement durable pour la population locale",
       "14": "Numéros de téléphones d'urgence 24h/24 et suivi personnalisé des clients à destination"
     },
+    "hotels": {
+      "title": "Hôtels",
+      "body": "La Colombie dispose d'une infrastructure hôtelière en constant développement, allant des grandes chaînes internationales aux charmants lodges et hôtels boutique.",
+      "btn": "Voir les Hôtels"
+    },
     "cta": {
       "title": "Organisons votre prochain incentive en Colombie ?",
       "body": "Contactez notre équipe et nous vous présenterons une proposition sur mesure en moins de 24 heures.",
@@ -522,9 +527,13 @@
     },
     "svc": {
       "lodging": "Hébergements exclusifs",
+      "lodging_desc": "Toujours les plus exclusifs et les mieux situés, dans les meilleures chambres.",
       "transport": "Transport privé",
+      "transport_desc": "Avionnettes privées, catamarans, hélicoptères et les meilleurs véhicules.",
       "gastro": "Gastronomie de chef",
-      "details": "Détails uniques"
+      "gastro_desc": "Dîners gastronomiques dans les restaurants les plus réputés du pays.",
+      "details": "Détails uniques",
+      "details_desc": "Apéritifs spéciaux tout en contemplant des couchers de soleil inoubliables."
     },
     "cta": {
       "title": "Votre Colombie de luxe, sur mesure",

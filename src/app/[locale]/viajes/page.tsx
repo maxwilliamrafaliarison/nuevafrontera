@@ -1,6 +1,8 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
+import { Link } from '@/i18n/navigation';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export async function generateMetadata({
   params,
@@ -25,15 +27,15 @@ const trips = [
   { slug: 'colombia-inedita', name: 'Colombia Inédita', img: '/img/viaje-bogota-cartagena-hero.jpg', tag: 'Grupo · Vuelo incluido', duration: '19 días', type: 'Cultural · Aventura', excerpt: 'Bogotá, Eje Cafetero, Sierra Nevada, Tayrona y Cartagena' },
   { slug: 'de-la-selva-al-desierto', name: 'De la Selva al Desierto', img: '/img/viaje-selva-desierto-hero.jpg', tag: 'Aventura', duration: '15 días', type: 'Aventura confort', excerpt: 'Amazonas, Tayrona, La Guajira y Cartagena' },
   { slug: 'secretos-del-sur', name: 'Secretos del Sur', img: '/img/viaje-sur-caribe-hero.jpg', tag: 'Cultural', duration: '11 días', type: 'FIT · Cultural', excerpt: 'Tatacoa, San Agustín, Popayán y Hacienda Cafetera' },
-  { slug: 'colombia-al-norte', name: 'Colombia al Norte', img: '/img/viaje-norte-hero.jpg', tag: 'Aventura', duration: '14 días', type: 'FIT · Aventura', excerpt: 'Sierra Nevada, Ciudad Perdida, Tayrona, La Guajira' },
-  { slug: 'llanos-orientales', name: 'Llanos Orientales', img: '/img/viaje-llanos-hero.jpg', tag: 'Naturaleza', duration: '7 días', type: 'FIT · Naturaleza', excerpt: 'Safari llanero, fauna silvestre y cultura vaquera' },
-  { slug: 'islas-del-caribe', name: 'Islas del Caribe', img: '/img/viaje-islas-hero.jpg', tag: 'Playa', duration: '10 días', type: 'FIT · Relax', excerpt: 'San Andrés, Providencia y cayos del Caribe' },
-  { slug: 'amazonas', name: 'Amazonas', img: '/img/viaje-amazonas-hero.jpg', tag: 'Naturaleza', duration: '5 días', type: 'FIT · Naturaleza', excerpt: 'Leticia, comunidades indígenas, selva amazónica' },
-  { slug: 'nido-del-condor', name: 'Nido del Cóndor', img: '/img/viaje-nido-condor-hero.jpg', tag: 'Luxury', duration: '12 días', type: 'Luxury · FIT', excerpt: 'El viaje de lujo por Colombia' },
-  { slug: 'ballenas-del-pacifico', name: 'Ballenas del Pacífico', img: '/img/viaje-ballenas-hero.jpg', tag: 'Naturaleza', duration: '8 días', type: 'FIT · Naturaleza', excerpt: 'Avistamiento de ballenas jorobadas en Nuquí' },
+  { slug: 'aventura-en-el-norte', name: 'Colombia al Norte', img: '/img/viaje-norte-hero.jpg', tag: 'Aventura', duration: '14 días', type: 'FIT · Aventura', excerpt: 'Sierra Nevada, Ciudad Perdida, Tayrona, La Guajira' },
+  { slug: 'safari-en-los-llanos', name: 'Llanos Orientales', img: '/img/viaje-llanos-hero.jpg', tag: 'Naturaleza', duration: '7 días', type: 'FIT · Naturaleza', excerpt: 'Safari llanero, fauna silvestre y cultura vaquera' },
+  { slug: 'extension-a-las-islas', name: 'Islas del Caribe', img: '/img/viaje-islas-hero.jpg', tag: 'Playa', duration: '10 días', type: 'FIT · Relax', excerpt: 'San Andrés, Providencia y cayos del Caribe' },
+  { slug: 'extension-al-amazonas', name: 'Amazonas', img: '/img/viaje-amazonas-hero.jpg', tag: 'Naturaleza', duration: '5 días', type: 'FIT · Naturaleza', excerpt: 'Leticia, comunidades indígenas, selva amazónica' },
+  { slug: 'el-nido-del-condor', name: 'Nido del Cóndor', img: '/img/viaje-nido-condor-hero.jpg', tag: 'Luxury', duration: '12 días', type: 'Luxury · FIT', excerpt: 'El viaje de lujo por Colombia' },
+  { slug: 'avistamiento-de-ballenas', name: 'Ballenas del Pacífico', img: '/img/viaje-ballenas-hero.jpg', tag: 'Naturaleza', duration: '8 días', type: 'FIT · Naturaleza', excerpt: 'Avistamiento de ballenas jorobadas en Nuquí' },
   { slug: 'cano-cristales', name: 'Caño Cristales', img: '/img/viaje-cano-cristales-hero.jpg', tag: 'Naturaleza', duration: '4 días', type: 'FIT · Naturaleza', excerpt: 'El río de los cinco colores' },
-  { slug: 'ciudades-coloniales', name: 'Ciudades Coloniales', img: '/img/viaje-ciudades-hero.jpg', tag: 'Cultural', duration: '10 días', type: 'FIT · Cultural', excerpt: 'Bogotá, Villa de Leyva, Barichara y Cartagena' },
-  { slug: 'bogota-y-alrededores', name: 'Bogotá y Alrededores', img: '/img/viaje-bogota-hero.jpg', tag: 'Cultural', duration: '5 días', type: 'FIT · Cultural', excerpt: 'La capital y sus joyas escondidas' },
+  { slug: 'ciudades-miticas', name: 'Ciudades Coloniales', img: '/img/viaje-ciudades-hero.jpg', tag: 'Cultural', duration: '10 días', type: 'FIT · Cultural', excerpt: 'Bogotá, Villa de Leyva, Barichara y Cartagena' },
+  { slug: 'de-bogota-a-cartagena', name: 'Bogotá y Alrededores', img: '/img/viaje-bogota-cartagena-hero.jpg', tag: 'Cultural', duration: '5 días', type: 'FIT · Cultural', excerpt: 'La capital y sus joyas escondidas' },
   { slug: 'de-los-andes-al-caribe', name: 'De los Andes al Caribe', img: '/img/viaje-andes-caribe-hero.jpg', tag: 'Completo', duration: '16 días', type: 'FIT · Completo', excerpt: 'De Bogotá a Cartagena, pasando por el Eje Cafetero' },
   { slug: 'la-guajira', name: 'La Guajira', img: '/img/viaje-guajira-hero.jpg', tag: 'Aventura', duration: '5 días', type: 'FIT · Aventura', excerpt: 'El desierto más septentrional de Sudamérica' },
 ];
@@ -52,11 +54,14 @@ export default async function ViajesPage() {
           style={{ backgroundImage: "url('/img/hero-home.jpg')" }}
         />
         <div className="page-hero__content">
-          <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
-            {t('hero.sub')}
-          </p>
-          <h1>{t('hero.title')}</h1>
-          <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          <div className="container">
+            <Breadcrumbs current={t('hero.title')} />
+            <p className="subtitle" style={{ color: 'var(--color-accent)' }}>
+              {t('hero.sub')}
+            </p>
+            <h1>{t('hero.title')}</h1>
+            <p style={{ color: 'rgba(255,255,255,0.8)' }}>{t('hero.desc')}</p>
+          </div>
         </div>
       </section>
 
@@ -76,7 +81,7 @@ export default async function ViajesPage() {
         <div className="container">
           <div className="grid grid--3">
             {trips.map((trip) => (
-              <a key={trip.slug} href={`/viajes/${trip.slug}`} className="trip-card">
+              <Link key={trip.slug} href={`/viajes/${trip.slug}`} className="trip-card">
                 <div className="trip-card__image">
                   <img src={trip.img} alt={trip.name} loading="lazy" />
                   <span className="trip-card__tag">{trip.tag}</span>
@@ -95,7 +100,7 @@ export default async function ViajesPage() {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -111,9 +116,9 @@ export default async function ViajesPage() {
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
             No encuentra su viaje ideal? Diseñamos cualquier itinerario a medida por Colombia.
           </p>
-          <a href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+          <Link href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
             Contactar
-          </a>
+          </Link>
         </div>
       </section>
     </>
