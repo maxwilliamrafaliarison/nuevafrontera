@@ -99,11 +99,11 @@ export default async function HomePage({
             {/* Trip Card 1 */}
             <Link href="/viajes/colombia-inedita" className="trip-card">
               <div className="trip-card__image">
-                <img src="/img/viaje-bogota-cartagena-hero.jpg" alt="Colombia Inédita" loading="lazy" />
+                <img src="/img/viaje-bogota-cartagena-hero.jpg" alt={tTrip('inedita.hero.title')} loading="lazy" />
                 <span className="trip-card__tag">{t('trip1.tag')}</span>
               </div>
               <div className="trip-card__body">
-                <h3 className="trip-card__title">Colombia Inédita</h3>
+                <h3 className="trip-card__title">{tTrip('inedita.hero.title')}</h3>
                 <p className="trip-card__excerpt">{t('trip1.excerpt')}</p>
                 <div className="trip-card__meta">
                   <div className="trip-card__meta-item">
@@ -121,12 +121,12 @@ export default async function HomePage({
             {/* Trip Card 2 */}
             <Link href="/viajes/de-la-selva-al-desierto" className="trip-card">
               <div className="trip-card__image">
-                <img src="/img/viaje-selva-desierto-hero.jpg" alt="De la Selva al Desierto" loading="lazy" />
+                <img src="/img/viaje-selva-desierto-hero.jpg" alt={tTrip('selva.hero.title')} loading="lazy" />
                 <span className="trip-card__tag">{t('trip2.tag')}</span>
               </div>
               <div className="trip-card__body">
-                <h3 className="trip-card__title">De la Selva al Desierto</h3>
-                <p className="trip-card__excerpt">Amazonas, Tayrona, La Guajira y Cartagena</p>
+                <h3 className="trip-card__title">{tTrip('selva.hero.title')}</h3>
+                <p className="trip-card__excerpt">{tTrip('selva.hero.desc')}</p>
                 <div className="trip-card__meta">
                   <div className="trip-card__meta-item">
                     <span>{tTrip('label.duration')}</span>
@@ -143,12 +143,12 @@ export default async function HomePage({
             {/* Trip Card 3 */}
             <Link href="/viajes/secretos-del-sur" className="trip-card">
               <div className="trip-card__image">
-                <img src="/img/viaje-sur-caribe-hero.jpg" alt="Secretos del Sur" loading="lazy" />
+                <img src="/img/viaje-sur-caribe-hero.jpg" alt={tTrip('sur.hero.title')} loading="lazy" />
                 <span className="trip-card__tag">{t('trip3.tag')}</span>
               </div>
               <div className="trip-card__body">
-                <h3 className="trip-card__title">Secretos del Sur</h3>
-                <p className="trip-card__excerpt">Tatacoa, San Agustín, Popayán y Hacienda Cafetera</p>
+                <h3 className="trip-card__title">{tTrip('sur.hero.title')}</h3>
+                <p className="trip-card__excerpt">{tTrip('sur.hero.desc')}</p>
                 <div className="trip-card__meta">
                   <div className="trip-card__meta-item">
                     <span>{tTrip('label.duration')}</span>

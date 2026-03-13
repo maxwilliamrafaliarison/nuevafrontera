@@ -67,7 +67,9 @@
       "group": "Group",
       "start": "Start",
       "end": "End",
-      "day": "Day"
+      "day": "Day",
+      "theme": "Theme",
+      "price_from": "Price from"
     },
     "includes": {
       "title": "What's Included"
@@ -98,7 +100,41 @@
       "cta": {
         "title": "Ready for the great northern adventure?",
         "body": "A 17-day journey bringing together the best of northern Colombia: archaeology, nature and ancestral culture."
-      }
+      },
+      "card": {
+        "tag": "Adventure",
+        "type": "Adventure · Nature",
+        "duration": "14 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "High",
+        "theme": "Adventure, Nature",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Lost City: 4-day trek",
+        "Sierra Nevada and indigenous communities",
+        "Tayrona National Park",
+        "La Guajira and Cabo de la Vela"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Guides",
+        "Excursions",
+        "24h assistance"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Taxes",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "llanos": {
       "hero": {
@@ -114,21 +150,135 @@
       "cta": {
         "title": "Ready for the Llanos safari?",
         "body": "Just 5 days, but an experience that lasts a lifetime. The Colombian Orinoquía in its purest form."
-      }
+      },
+      "card": {
+        "tag": "Nature",
+        "type": "Nature · Wildlife",
+        "duration": "7 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Low",
+        "theme": "Nature, Wildlife",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Llanos safari in the eastern plains",
+        "Wildlife watching: capybaras, caimans, anacondas",
+        "Horseback riding and cowboy culture",
+        "Sunsets over the endless savanna"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Full board",
+        "Guides",
+        "Activities"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "sur": {
       "hero": {
-        "sub": "Southern and Caribbean Colombia",
-        "title": "South to the Caribbean",
-        "desc": "From Bogotá to Cartagena through the heart of Colombia"
+        "sub": "SOUTHERN COLOMBIA",
+        "title": "Secrets of the South",
+        "desc": "From Bogotá to the Coffee Region through Colombia's cultural heartland"
       },
       "overview": {
-        "title": "Colombia's great diagonal",
-        "p1": "South to the Caribbean is a journey that crosses Colombia's backbone from south to north, covering in 12 days some of the country's most extraordinary landscapes and towns."
+        "title": "Colombia's deep south",
+        "p1": "Secrets of the South reveals the hidden gems of southern Colombia: from the capital to coffee haciendas, through lunar landscapes, lost civilizations, and dreamy colonial towns.",
+        "p2": "In 11 days we explore the Tatacoa Desert with its reddish formations under starry skies, the mysterious archaeological park of San Agustín with its millenary statues, the immaculate white city of Popayán, and the green mountains of the Coffee Region."
+      },
+      "card": {
+        "tag": "Cultural",
+        "duration": "11 days",
+        "type": "FIT"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Cultural",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Tatacoa Desert and stargazing",
+        "San Agustín: pre-Columbian statues",
+        "Popayán: the White City",
+        "Coffee Region haciendas"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Ground transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Guides",
+        "Excursions",
+        "24h assistance"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Taxes",
+        "Personal expenses",
+        "Meals not indicated",
+        "Insurance",
+        "Tips"
+      ],
+      "days": {
+        "1": {
+          "title": "Arrival in Bogotá",
+          "desc": "Welcome and transfer to hotel."
+        },
+        "2": {
+          "title": "Bogotá",
+          "desc": "Tour of La Candelaria and Monserrate."
+        },
+        "3": {
+          "title": "Bogotá → Tatacoa",
+          "desc": "Flight to Neiva. Route to the Tatacoa Desert."
+        },
+        "4": {
+          "title": "Tatacoa → San Agustín",
+          "desc": "Stargazing. Route to San Agustín."
+        },
+        "5": {
+          "title": "San Agustín",
+          "desc": "Archaeological Park, pre-Columbian statues."
+        },
+        "6": {
+          "title": "San Agustín → Popayán",
+          "desc": "Magdalena Strait. Route to Popayán."
+        },
+        "7": {
+          "title": "Popayán",
+          "desc": "Tour of the White City. Local cuisine."
+        },
+        "8": {
+          "title": "Popayán → Coffee Region",
+          "desc": "Route to the Coffee Region."
+        },
+        "9": {
+          "title": "Coffee Region",
+          "desc": "Coffee tour, Cócora Valley."
+        },
+        "10": {
+          "title": "Coffee Region → Cartagena",
+          "desc": "Flight to Cartagena."
+        },
+        "11": {
+          "title": "Departure",
+          "desc": "Transfer to airport."
+        }
       },
       "cta": {
-        "title": "The full Colombian diagonal?",
-        "body": "12 days to discover lesser-known Colombia: from Bogotá to the Caribbean through the interior."
+        "title": "Ready to discover the secrets of the south?",
+        "body": "An 11-day journey through Colombia's cultural heart: archaeology, deserts, and coffee."
       }
     },
     "islas": {
@@ -144,7 +294,37 @@
       "cta": {
         "title": "Five days in Caribbean paradise?",
         "body": "The perfect extension for lovers of the sea, coral and silence. Just 5 days, eternity guaranteed."
-      }
+      },
+      "card": {
+        "tag": "Beach",
+        "type": "Beach · Relaxation",
+        "duration": "5 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Low",
+        "theme": "Beach, Relaxation",
+        "price_per": "per person",
+        "price_notes": "double room"
+      },
+      "highlights": [
+        "San Andrés: white sand beaches",
+        "Providencia: Caribbean paradise",
+        "Snorkeling on the coral reef",
+        "Cays and marine life"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Breakfasts"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Unlisted meals",
+        "Insurance"
+      ]
     },
     "amazonas": {
       "hero": {
@@ -159,7 +339,38 @@
       "cta": {
         "title": "Four days in the Amazon jungle?",
         "body": "The Amazon extension is the most transformative in our catalogue. Nature, Tikuna culture and the world's largest river."
-      }
+      },
+      "card": {
+        "tag": "Nature",
+        "type": "Nature · Indigenous",
+        "duration": "5 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Nature, Indigenous",
+        "price_per": "per person",
+        "price_notes": "double room"
+      },
+      "highlights": [
+        "Primary Amazon rainforest",
+        "Ticuna indigenous communities",
+        "Pink river dolphins",
+        "Victoria Regia and wild fauna"
+      ],
+      "includes_list": [
+        "Bogotá–Leticia–Bogotá flight",
+        "Transfers",
+        "Jungle lodge",
+        "Full board",
+        "Indigenous guides"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "nido": {
       "hero": {
@@ -174,7 +385,39 @@
       "cta": {
         "title": "Eight days in the heart of coffee country?",
         "body": "El Nido del Cóndor is the most intimate and refined programme in our catalogue. Luxury with soul in Colombia's green heartland."
-      }
+      },
+      "card": {
+        "tag": "Luxury",
+        "type": "Luxury · Cultural",
+        "duration": "12 days"
+      },
+      "facts": {
+        "type": "Luxury",
+        "difficulty": "Low",
+        "theme": "Luxury, Cultural",
+        "price_per": "per person",
+        "price_notes": "double room · all-inclusive"
+      },
+      "highlights": [
+        "Luxury accommodation throughout",
+        "Private plane transfers",
+        "Signature cuisine",
+        "Exclusive personalized experiences"
+      ],
+      "includes_list": [
+        "Domestic flights and private planes",
+        "5★ hotels and exclusive lodges",
+        "Gourmet full board",
+        "Private guide",
+        "All activities",
+        "VIP 24h assistance"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Premium insurance",
+        "Tips"
+      ]
     },
     "ballenas": {
       "hero": {
@@ -189,7 +432,39 @@
       "cta": {
         "title": "Seven days in the magical Pacific?",
         "body": "The Colombian Pacific is the last frontier of luxury ecotourism in Colombia. A destination for travellers who seek the extraordinary."
-      }
+      },
+      "card": {
+        "tag": "Nature",
+        "type": "Nature · Pacific",
+        "duration": "8 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Nature, Pacific",
+        "price_per": "per person",
+        "price_notes": "double room · Jun–Oct"
+      },
+      "highlights": [
+        "Humpback whale watching",
+        "Nuquí and the Pacific coast",
+        "Chocó tropical rainforest",
+        "Virgin beaches and biodiversity"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Nuquí lodge",
+        "Full board",
+        "Whale watching excursions",
+        "Guides"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "cano": {
       "hero": {
@@ -204,7 +479,37 @@
       "cta": {
         "title": "The world's most beautiful river in 4 days?",
         "body": "Caño Cristales can only be visited between June and November, when water levels are optimal. Book well in advance."
-      }
+      },
+      "card": {
+        "tag": "Nature",
+        "type": "Nature",
+        "duration": "4 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Nature",
+        "price_per": "per person",
+        "price_notes": "double room · Jun–Nov"
+      },
+      "highlights": [
+        "The river of five colors",
+        "Caño Cristales in the Serranía de la Macarena",
+        "Multicolor natural pools",
+        "Unique fauna and flora"
+      ],
+      "includes_list": [
+        "Bogotá–La Macarena–Bogotá flight",
+        "Accommodation",
+        "Meals",
+        "Local guide",
+        "Park entrance fees"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance"
+      ]
     },
     "ciudades": {
       "hero": {
@@ -219,7 +524,39 @@
       "cta": {
         "title": "Ready for the great Colombian trilogy?",
         "body": "15 days to discover the three souls of Colombia. Art, culture, gastronomy and luxury in its purest form."
-      }
+      },
+      "card": {
+        "tag": "Cultural",
+        "type": "Cultural · History",
+        "duration": "10 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Low",
+        "theme": "Cultural, History",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Bogotá: La Candelaria, Monserrate",
+        "Villa de Leyva and Barichara",
+        "Santa Cruz de Mompox",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Guides",
+        "Excursions"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "bogota": {
       "hero": {
@@ -234,7 +571,39 @@
       "cta": {
         "title": "The interior road of Colombia?",
         "body": "13 days from the capital to the Caribbean by the least-travelled roads. The Colombia that doesn't appear in the guidebooks."
-      }
+      },
+      "card": {
+        "tag": "Classic",
+        "type": "Cultural · Complete",
+        "duration": "10 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Low",
+        "theme": "Cultural, Complete",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Bogotá and Zipaquirá",
+        "Coffee Region",
+        "Santa Marta and Tayrona",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Guides",
+        "Excursions"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "selva": {
       "hero": {
@@ -249,6 +618,103 @@
       "cta": {
         "title": "Colombia's extremes in 15 days?",
         "body": "From the Amazon jungle to the Guajira desert. The most extreme and complete journey in our catalogue."
+      },
+      "card": {
+        "tag": "Adventure",
+        "type": "Comfort Adventure",
+        "duration": "15 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Adventure, Nature",
+        "price_per": "per person",
+        "price_notes": "double room · excl. international flights"
+      },
+      "highlights": [
+        "Amazon: jungle, indigenous communities, wildlife",
+        "Tayrona National Park: beaches and tropical forest",
+        "La Guajira: desert, Wayuu, Cabo de la Vela",
+        "Cartagena de Indias: heritage and gastronomy"
+      ],
+      "includes_list": [
+        "Domestic flights as per itinerary",
+        "All ground transfers",
+        "Accommodation in listed hotels",
+        "Meals as per program",
+        "Specialized local guides",
+        "Listed activities and excursions",
+        "24h assistance"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Airport taxes",
+        "Personal expenses",
+        "Unlisted meals",
+        "Travel insurance",
+        "Tips"
+      ],
+      "days": {
+        "1": {
+          "title": "Arrival in Leticia",
+          "desc": "Arrival in the Colombian Amazon."
+        },
+        "2": {
+          "title": "Amazon",
+          "desc": "Jungle exploration, encounter with indigenous communities."
+        },
+        "3": {
+          "title": "Amazon",
+          "desc": "Pink dolphin watching, artisanal fishing."
+        },
+        "4": {
+          "title": "Leticia → Santa Marta",
+          "desc": "Flight to Santa Marta."
+        },
+        "5": {
+          "title": "Tayrona",
+          "desc": "Tayrona National Park."
+        },
+        "6": {
+          "title": "Tayrona",
+          "desc": "Free day in the park."
+        },
+        "7": {
+          "title": "Tayrona → Palomino",
+          "desc": "Transfer to Palomino. River tubing."
+        },
+        "8": {
+          "title": "Palomino → La Guajira",
+          "desc": "Route to La Guajira. Uribia, Wayuu rancherías."
+        },
+        "9": {
+          "title": "La Guajira",
+          "desc": "Cabo de la Vela, Pilón de Azúcar, Punta Gallinas."
+        },
+        "10": {
+          "title": "La Guajira → Riohacha",
+          "desc": "Return through La Guajira. Flamingos in Camarones."
+        },
+        "11": {
+          "title": "Riohacha → Cartagena",
+          "desc": "Flight to Cartagena de Indias."
+        },
+        "12": {
+          "title": "Cartagena",
+          "desc": "Walking tour of the walled city."
+        },
+        "13": {
+          "title": "Rosario Islands",
+          "desc": "Island excursion."
+        },
+        "14": {
+          "title": "Cartagena free",
+          "desc": "Free day to explore."
+        },
+        "15": {
+          "title": "Departure",
+          "desc": "Transfer to airport."
+        }
       }
     },
     "andes": {
@@ -264,7 +730,40 @@
       "cta": {
         "title": "From the Andes to the Caribbean in 13 days?",
         "body": "Colombia's classic trip par excellence: coffee, flowers, salsa and Caribbean sunshine. Perfect for a first visit."
-      }
+      },
+      "card": {
+        "tag": "Complete",
+        "type": "Complete",
+        "duration": "16 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Complete",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Bogotá and the Cundiboyacense highlands",
+        "Coffee Region and Cócora Valley",
+        "Caribbean Coast: Tayrona, Santa Marta",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Guides",
+        "Excursions",
+        "24h assistance"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "guajira": {
       "hero": {
@@ -279,7 +778,37 @@
       "cta": {
         "title": "Ready for the end of the world?",
         "body": "La Guajira is for those who seek the authentic. We design your expedition to measure, with all possible comfort in one of the most extreme landscapes in the Americas."
-      }
+      },
+      "card": {
+        "tag": "Adventure",
+        "type": "Adventure · Indigenous",
+        "duration": "5 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "High",
+        "theme": "Adventure, Indigenous",
+        "price_per": "per person",
+        "price_notes": "double room"
+      },
+      "highlights": [
+        "Cabo de la Vela and Punta Gallinas",
+        "Wayuu communities",
+        "Flamingos in Camarones",
+        "La Guajira Desert"
+      ],
+      "includes_list": [
+        "4x4 transfers",
+        "Ranchería accommodation",
+        "Full board",
+        "Local Wayuu guide"
+      ],
+      "excludes_list": [
+        "Flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "misterios": {
       "hero": {
@@ -294,7 +823,39 @@
       "cta": {
         "title": "Connect with the roots of Colombia",
         "body": "This journey transforms. It is not tourism: it is an encounter between worlds. Very limited places to guarantee respect for the host communities."
-      }
+      },
+      "card": {
+        "tag": "Cultural",
+        "type": "Cultural · Adventure",
+        "duration": "12 days"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "High",
+        "theme": "Cultural, Adventure",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Lost City: ancestral trek",
+        "Sierra Nevada and Kogui villages",
+        "Tierradentro: hypogea tombs",
+        "San Agustín: megalithic statuary"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Specialized guides",
+        "Indigenous permits"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ]
     },
     "inedita": {
       "hero": {
@@ -309,6 +870,239 @@
       "cta": {
         "title": "Join Unseen Colombia?",
         "body": "Our most emblematic trip. A 19-day journey through authentic Colombia."
+      },
+      "card": {
+        "tag": "Group · Flight included",
+        "type": "Cultural · Adventure",
+        "duration": "19 days"
+      },
+      "facts": {
+        "type": "Group",
+        "difficulty": "Medium",
+        "theme": "Cultural, Nature, Adventure",
+        "price_per": "per person (flights included)",
+        "price_notes": "+ airport taxes · double room"
+      },
+      "highlights": [
+        "Bogotá and surroundings: La Candelaria, Monserrate, Zipaquirá",
+        "Coffee Region: haciendas, Cócora Valley, Salento",
+        "Sierra Nevada de Santa Marta: indigenous communities",
+        "Tayrona National Park: beaches and tropical rainforest",
+        "Cartagena de Indias: history, gastronomy and beaches",
+        "Domestic flights included"
+      ],
+      "includes_list": [
+        "International flights Madrid–Bogotá–Cartagena–Madrid",
+        "Domestic flights as per itinerary",
+        "All ground transfers in private vehicle",
+        "Accommodation in listed hotels (or similar)",
+        "Meals as per program (B=Breakfast, L=Lunch, D=Dinner)",
+        "Spanish-speaking guide throughout the trip",
+        "All listed activities and excursions",
+        "24h phone assistance at destination"
+      ],
+      "excludes_list": [
+        "Airport taxes",
+        "Personal expenses",
+        "Meals not listed in the program",
+        "Unspecified entrance fees",
+        "Travel medical insurance",
+        "Tips"
+      ],
+      "days": {
+        "1": {
+          "title": "Madrid → Bogotá",
+          "desc": "International flight. Arrival and transfer to hotel."
+        },
+        "2": {
+          "title": "Bogotá",
+          "desc": "Visit to La Candelaria, Gold Museum, Monserrate hill."
+        },
+        "3": {
+          "title": "Bogotá → Zipaquirá → Villa de Leyva",
+          "desc": "Zipaquirá Salt Cathedral. Route to Villa de Leyva."
+        },
+        "4": {
+          "title": "Villa de Leyva → Barichara",
+          "desc": "Exploration of Villa de Leyva. Journey to Barichara."
+        },
+        "5": {
+          "title": "Barichara → Coffee Region",
+          "desc": "Flight to Pereira. Arrival at the Coffee Region."
+        },
+        "6": {
+          "title": "Coffee Region",
+          "desc": "Coffee tour, Cócora Valley, Salento."
+        },
+        "7": {
+          "title": "Coffee Region → Filandia",
+          "desc": "Filandia and its viewpoints. Basketry crafts."
+        },
+        "8": {
+          "title": "Coffee Region → Santa Marta",
+          "desc": "Flight to Santa Marta via Bogotá."
+        },
+        "9": {
+          "title": "Sierra Nevada",
+          "desc": "Visit to Wiwa indigenous communities in the Sierra Nevada."
+        },
+        "10": {
+          "title": "Minca",
+          "desc": "Mountain village, cacao and coffee farms, waterfalls."
+        },
+        "11": {
+          "title": "Santa Marta → Tayrona",
+          "desc": "Entry to Tayrona National Park. Hike to the beaches."
+        },
+        "12": {
+          "title": "Tayrona",
+          "desc": "Free day in the park. Snorkeling, hiking."
+        },
+        "13": {
+          "title": "Tayrona → Palomino",
+          "desc": "Tubing on the Palomino River. River and sea beach."
+        },
+        "14": {
+          "title": "Palomino → Cartagena",
+          "desc": "Transfer to Cartagena de Indias."
+        },
+        "15": {
+          "title": "Cartagena",
+          "desc": "Walking tour of the walled city, Getsemaní, San Felipe."
+        },
+        "16": {
+          "title": "Rosario Islands",
+          "desc": "Boat trip to the Rosario Islands. Snorkeling."
+        },
+        "17": {
+          "title": "Cartagena free",
+          "desc": "Free day. Shopping, gastronomy or Bocagrande beach."
+        },
+        "18": {
+          "title": "Cartagena → Madrid",
+          "desc": "Transfer to airport. Return flight."
+        },
+        "19": {
+          "title": "Arrival in Madrid",
+          "desc": "Arrival in Madrid."
+        }
+      }
+    },
+    "excludes": {
+      "title": "Not included"
+    },
+    "btn": {
+      "wa": "Ask via WhatsApp",
+      "quote": "Request a quote",
+      "others": "See Other Trips",
+      "interested": "Interested in this trip?",
+      "contact_quote": "Contact us and we'll prepare a personalized quote."
+    },
+    "surcaribe": {
+      "hero": {
+        "sub": "SOUTH AND COLOMBIAN CARIBBEAN",
+        "title": "From South to Caribbean",
+        "desc": "From Bogotá to Cartagena through the heart of Colombia"
+      },
+      "overview": {
+        "title": "The great Colombian diagonal",
+        "p1": "From South to Caribbean is a journey that traverses Colombia's backbone from south to north, discovering in 14 days some of the most extraordinary landscapes and towns in the country.",
+        "p2": "From the Tatacoa Desert and the enigmatic statues of San Agustín, through the white city of Popayán and coffee haciendas, to the walls of Cartagena de Indias bathed by the Caribbean."
+      },
+      "card": {
+        "tag": "Cultural · Nature",
+        "duration": "14 days",
+        "type": "FIT"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Medium",
+        "theme": "Cultural, Nature",
+        "price_per": "per person",
+        "price_notes": "double room · excl. intl. flights"
+      },
+      "highlights": [
+        "Tatacoa Desert",
+        "San Agustín: pre-Columbian statues",
+        "Popayán: the White City",
+        "Coffee haciendas",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Domestic flights",
+        "Ground transfers",
+        "Accommodation",
+        "Meals as per program",
+        "Guides",
+        "Excursions"
+      ],
+      "excludes_list": [
+        "International flights",
+        "Personal expenses",
+        "Insurance",
+        "Tips"
+      ],
+      "days": {
+        "1": {
+          "title": "Arrival in Bogotá",
+          "desc": "Welcome and transfer to hotel."
+        },
+        "2": {
+          "title": "Bogotá",
+          "desc": "Tour of La Candelaria and Monserrate."
+        },
+        "3": {
+          "title": "Bogotá → Tatacoa",
+          "desc": "Flight to Neiva. Route to the Tatacoa Desert."
+        },
+        "4": {
+          "title": "Tatacoa → San Agustín",
+          "desc": "Stargazing. Route to San Agustín."
+        },
+        "5": {
+          "title": "San Agustín",
+          "desc": "Archaeological Park, pre-Columbian statues."
+        },
+        "6": {
+          "title": "San Agustín → Popayán",
+          "desc": "Magdalena Strait. Route to Popayán."
+        },
+        "7": {
+          "title": "Popayán",
+          "desc": "Tour of the White City."
+        },
+        "8": {
+          "title": "Popayán → Coffee Region",
+          "desc": "Route to the Coffee Region."
+        },
+        "9": {
+          "title": "Coffee Region",
+          "desc": "Coffee tour, Cócora Valley."
+        },
+        "10": {
+          "title": "Coffee Region → Cartagena",
+          "desc": "Flight to Cartagena."
+        },
+        "11": {
+          "title": "Cartagena",
+          "desc": "Tour of the walled city."
+        },
+        "12": {
+          "title": "Rosario Islands",
+          "desc": "Island excursion."
+        },
+        "13": {
+          "title": "Free day in Cartagena",
+          "desc": "Free day to explore."
+        },
+        "14": {
+          "title": "Departure",
+          "desc": "Transfer to airport."
+        }
+      },
+      "cta": {
+        "title": "Ready for the great Colombian journey?",
+        "body": "14 days from the deep south to the Caribbean: archaeology, coffee, history, and beach."
       }
     }
   },
@@ -448,6 +1242,11 @@
       "sub": "Explore with us",
       "p1": "There are hundreds of different trips we could organize in Colombia, but here we offer a sample of special programs that cover different regions of this varied Latin-American country. A summary of proposals to give the traveller a first idea of the possibilities offered by this destination, but we can also prepare any type of tailor-made trip.",
       "p2": "Adventure expeditions, specific nature trips, trekking in the most remote places of the country, dream honeymoons, incentive programs, thematic trips for divers, surfers, climbers... Design your trip with us — anything you think of is possible in Colombia with NUEVA FRONTERA."
+    },
+    "cta": {
+      "title": "Ready to experience Colombia?",
+      "body": "Contact our team and we'll prepare a tailor-made trip for you.",
+      "btn": "Contact Us"
     }
   },
   "mice": {
@@ -479,18 +1278,18 @@
       "title": "Advantages of organizing an incentive with us"
     },
     "adv": {
-      "1": "Personalised, high-quality services always in Spanish",
+      "1": "Personalised, high-quality services with multilingual support",
       "2": "Fast response time to senders, maximum 24h",
       "3": "The best possible hotel accommodation at the best price",
       "4": "The most modern vehicles",
-      "5": "The best Spanish-speaking guides, personally trained by management",
-      "6": "Spanish coordinators from Nueva Frontera staff on all our incentive trips",
+      "5": "The best bilingual guides, personally trained by management",
+      "6": "On-site coordinators from Nueva Frontera staff on all our incentive trips",
       "7": "Selection of the best restaurants and advice on special menus",
       "8": "Great flexibility and advice to choose the best and most original activities",
-      "9": "All local Spanish-speaking staff",
+      "9": "All local multilingual staff",
       "10": "The best and most original musical performances in the most unusual places",
       "11": "Organisation and logistical planning",
-      "12": "Direct payments in Spain",
+      "12": "Direct payments in Europe",
       "13": "Direct involvement in ecotourism and sustainable development projects for the local population",
       "14": "24h emergency phone numbers and personalised follow-up of clients at destination"
     },
@@ -556,7 +1355,34 @@
       "p1": "Imagine a sunset from your exclusive bungalow overlooking the waters of the Caribbean Sea, or spending the night in an old restored monastery, sleeping in a cabin over the jungle, a colonial mansion or a coffee plantation…",
       "p2": "Colombia's hotel infrastructure is developing day by day and today we can offer all kinds of accommodations for our trips, from luxurious international chains to small and charming boutique hotels, to the most exclusive lodges and simple accommodations managed by indigenous communities. In Colombia, we have the right hotel for every type of traveller."
     },
-    "collection": "Our selection"
+    "collection": "Our selection",
+    "cat": {
+      "boutique": {
+        "title": "Boutique Hotel",
+        "desc": "Intimate accommodations with character in restored historic buildings."
+      },
+      "lodge": {
+        "title": "Lodge & Ecolodge",
+        "desc": "Total immersion in nature with all comfort."
+      },
+      "hacienda": {
+        "title": "Hacienda",
+        "desc": "Coffee farms and colonial haciendas with traditional charm."
+      },
+      "colonial": {
+        "title": "Colonial Hotel",
+        "desc": "Colonial buildings converted into luxury accommodations."
+      },
+      "beach": {
+        "title": "Beach Resort",
+        "desc": "Seaside paradise with private beaches and spa."
+      }
+    },
+    "cta": {
+      "title": "Looking for the perfect accommodation?",
+      "body": "We help you find the ideal hotel for your trip to Colombia.",
+      "btn": "Contact Us"
+    }
   },
   "about": {
     "meta": {

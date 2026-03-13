@@ -67,7 +67,9 @@
       "group": "Grupo",
       "start": "Inicio",
       "end": "Fin",
-      "day": "Día"
+      "day": "Día",
+      "theme": "Temática",
+      "price_from": "Precio desde"
     },
     "includes": {
       "title": "Lo que incluye"
@@ -98,7 +100,41 @@
       "cta": {
         "title": "¿Preparado para la gran aventura del norte?",
         "body": "Un viaje de 17 días que reúne lo mejor del norte colombiano: arqueología, naturaleza y cultura ancestral."
-      }
+      },
+      "card": {
+        "tag": "Aventura",
+        "type": "Aventura · Naturaleza",
+        "duration": "14 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Alta",
+        "theme": "Aventura, Naturaleza",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Ciudad Perdida: trekking de 4 días",
+        "Sierra Nevada y comunidades indígenas",
+        "Parque Nacional Tayrona",
+        "La Guajira y Cabo de la Vela"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías",
+        "Excursiones",
+        "Asistencia 24h"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Tasas",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "llanos": {
       "hero": {
@@ -114,21 +150,135 @@
       "cta": {
         "title": "¿Listo para el safari de los Llanos?",
         "body": "Solo 5 días, pero una experiencia que dura toda la vida. La Orinoquia colombiana en estado puro."
-      }
+      },
+      "card": {
+        "tag": "Naturaleza",
+        "type": "Naturaleza · Fauna",
+        "duration": "7 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Baja",
+        "theme": "Naturaleza, Fauna",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Safari llanero en los llanos orientales",
+        "Avistamiento de fauna: capibaras, caimanes, anacondas",
+        "Cabalgatas y cultura vaquera",
+        "Atardeceres en la sabana infinita"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Pensión completa",
+        "Guías",
+        "Actividades"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "sur": {
       "hero": {
-        "sub": "Sur y Caribe colombiano",
-        "title": "Del Sur al Caribe",
-        "desc": "De Bogotá a Cartagena por el corazón de Colombia"
+        "sub": "SUR DE COLOMBIA",
+        "title": "Secretos del Sur",
+        "desc": "De Bogotá al Eje Cafetero atravesando el corazón cultural del sur colombiano"
       },
       "overview": {
-        "title": "La diagonal de Colombia",
-        "p1": "Del sur al Caribe es un viaje que atraviesa la columna vertebral de Colombia de sur a norte, recorriendo en 12 días algunos de los paisajes y pueblos más extraordinarios del país."
+        "title": "El sur profundo colombiano",
+        "p1": "Secretos del Sur es un viaje que descubre las joyas escondidas del sur de Colombia: desde la capital hasta las haciendas cafeteras, pasando por paisajes lunares, civilizaciones perdidas y pueblos coloniales de ensueño.",
+        "p2": "En 11 días recorremos el desierto de la Tatacoa con sus formaciones rojizas bajo un cielo estrellado, el misterioso parque arqueológico de San Agustín con sus estatuas milenarias, la inmaculada ciudad blanca de Popayán y las verdes montañas del Eje Cafetero."
+      },
+      "card": {
+        "tag": "Cultural",
+        "duration": "11 días",
+        "type": "FIT"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Cultural",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos internacionales"
+      },
+      "highlights": [
+        "Desierto de la Tatacoa y observación de estrellas",
+        "San Agustín: estatuas precolombinas",
+        "Popayán: la ciudad blanca",
+        "Haciendas cafeteras del Eje Cafetero"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados terrestres",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías",
+        "Excursiones",
+        "Asistencia 24h"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Tasas",
+        "Gastos personales",
+        "Comidas no indicadas",
+        "Seguro",
+        "Propinas"
+      ],
+      "days": {
+        "1": {
+          "title": "Llegada a Bogotá",
+          "desc": "Recepción y traslado al hotel."
+        },
+        "2": {
+          "title": "Bogotá",
+          "desc": "Tour por La Candelaria y Monserrate."
+        },
+        "3": {
+          "title": "Bogotá → Tatacoa",
+          "desc": "Vuelo a Neiva. Ruta al desierto de la Tatacoa."
+        },
+        "4": {
+          "title": "Tatacoa → San Agustín",
+          "desc": "Observación de estrellas. Ruta a San Agustín."
+        },
+        "5": {
+          "title": "San Agustín",
+          "desc": "Parque Arqueológico, estatuas precolombinas."
+        },
+        "6": {
+          "title": "San Agustín → Popayán",
+          "desc": "Estrecho del Magdalena. Ruta a Popayán."
+        },
+        "7": {
+          "title": "Popayán",
+          "desc": "Tour por la ciudad blanca. Gastronomía local."
+        },
+        "8": {
+          "title": "Popayán → Eje Cafetero",
+          "desc": "Ruta al Eje Cafetero."
+        },
+        "9": {
+          "title": "Eje Cafetero",
+          "desc": "Tour del café, Valle del Cócora."
+        },
+        "10": {
+          "title": "Eje Cafetero → Cartagena",
+          "desc": "Vuelo a Cartagena."
+        },
+        "11": {
+          "title": "Salida",
+          "desc": "Traslado al aeropuerto."
+        }
       },
       "cta": {
-        "title": "¿La diagonal completa de Colombia?",
-        "body": "12 días para descubrir la Colombia menos conocida: de Bogotá al Caribe por los caminos del interior."
+        "title": "¿Listo para descubrir los secretos del sur?",
+        "body": "Un viaje de 11 días por el corazón cultural de Colombia: arqueología, desiertos y café."
       }
     },
     "islas": {
@@ -144,7 +294,37 @@
       "cta": {
         "title": "¿Cinco días en el paraíso caribeño?",
         "body": "La extensión perfecta para los amantes del mar, el coral y el silencio. Solo 5 días, eternidad garantizada."
-      }
+      },
+      "card": {
+        "tag": "Playa",
+        "type": "Playa · Relax",
+        "duration": "5 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Baja",
+        "theme": "Playa, Relax",
+        "price_per": "por persona",
+        "price_notes": "hab. doble"
+      },
+      "highlights": [
+        "San Andrés: playas de arena blanca",
+        "Providencia: paraíso del Caribe",
+        "Snorkeling en la barrera de coral",
+        "Cayos y vida marina"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Desayunos"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Comidas no incluidas",
+        "Seguro"
+      ]
     },
     "amazonas": {
       "hero": {
@@ -159,7 +339,38 @@
       "cta": {
         "title": "¿Cuatro días en la selva amazónica?",
         "body": "La extensión amazónica es la más transformadora de nuestro catálogo. Naturaleza, cultura Tikuna y el río más grande del mundo."
-      }
+      },
+      "card": {
+        "tag": "Naturaleza",
+        "type": "Naturaleza · Indígena",
+        "duration": "5 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Naturaleza, Indígena",
+        "price_per": "por persona",
+        "price_notes": "hab. doble"
+      },
+      "highlights": [
+        "Selva amazónica primaria",
+        "Comunidades indígenas Ticuna",
+        "Delfines rosados",
+        "Victoria Regia y fauna silvestre"
+      ],
+      "includes_list": [
+        "Vuelo Bogotá–Leticia–Bogotá",
+        "Traslados",
+        "Lodge en selva",
+        "Pensión completa",
+        "Guías indígenas"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "nido": {
       "hero": {
@@ -174,7 +385,39 @@
       "cta": {
         "title": "¿Ocho días en el corazón cafetero?",
         "body": "El Nido del Cóndor es el programa más íntimo y refinado de nuestro catálogo. Lujo con alma en el corazón verde de Colombia."
-      }
+      },
+      "card": {
+        "tag": "Luxury",
+        "type": "Luxury · Cultural",
+        "duration": "12 días"
+      },
+      "facts": {
+        "type": "Luxury",
+        "difficulty": "Baja",
+        "theme": "Luxury, Cultural",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · todo incluido"
+      },
+      "highlights": [
+        "Alojamientos de lujo en todo el recorrido",
+        "Traslados en avioneta privada",
+        "Gastronomía de autor",
+        "Experiencias exclusivas y personalizadas"
+      ],
+      "includes_list": [
+        "Vuelos nacionales y avionetas privadas",
+        "Hoteles 5★ y lodges exclusivos",
+        "Pensión completa gourmet",
+        "Guía privado",
+        "Todas las actividades",
+        "Asistencia VIP 24h"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro premium",
+        "Propinas"
+      ]
     },
     "ballenas": {
       "hero": {
@@ -189,7 +432,39 @@
       "cta": {
         "title": "¿Siete días en el Pacífico mágico?",
         "body": "El Pacífico colombiano es la última frontera del ecoturismo de lujo en Colombia. Un destino para viajeros que buscan lo extraordinario."
-      }
+      },
+      "card": {
+        "tag": "Naturaleza",
+        "type": "Naturaleza · Pacífico",
+        "duration": "8 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Naturaleza, Pacífico",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · jun–oct"
+      },
+      "highlights": [
+        "Avistamiento de ballenas jorobadas",
+        "Nuquí y la costa del Pacífico",
+        "Selva tropical del Chocó",
+        "Playas vírgenes y biodiversidad"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Lodge en Nuquí",
+        "Pensión completa",
+        "Excursiones de avistamiento",
+        "Guías"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "cano": {
       "hero": {
@@ -204,7 +479,37 @@
       "cta": {
         "title": "¿El río más hermoso del mundo en 4 días?",
         "body": "Caño Cristales solo se puede visitar entre junio y noviembre, cuando el agua está en su nivel óptimo. Reserva con antelación."
-      }
+      },
+      "card": {
+        "tag": "Naturaleza",
+        "type": "Naturaleza",
+        "duration": "4 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Naturaleza",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · jun–nov"
+      },
+      "highlights": [
+        "El río de los cinco colores",
+        "Caño Cristales en la Serranía de la Macarena",
+        "Piscinas naturales multicolor",
+        "Fauna y flora única"
+      ],
+      "includes_list": [
+        "Vuelo Bogotá–La Macarena–Bogotá",
+        "Alojamiento",
+        "Comidas",
+        "Guía local",
+        "Entradas al parque"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro"
+      ]
     },
     "ciudades": {
       "hero": {
@@ -219,7 +524,39 @@
       "cta": {
         "title": "¿Lista para la gran trilogía colombiana?",
         "body": "15 días para descubrir las tres almas de Colombia. Arte, cultura, gastronomía y lujo en estado puro."
-      }
+      },
+      "card": {
+        "tag": "Cultural",
+        "type": "Cultural · Historia",
+        "duration": "10 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Baja",
+        "theme": "Cultural, Historia",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Bogotá: La Candelaria, Monserrate",
+        "Villa de Leyva y Barichara",
+        "Santa Cruz de Mompox",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías",
+        "Excursiones"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "bogota": {
       "hero": {
@@ -234,7 +571,39 @@
       "cta": {
         "title": "¿El camino interior de Colombia?",
         "body": "13 días de la capital al Caribe por los caminos menos transitados. La Colombia que no aparece en las guías."
-      }
+      },
+      "card": {
+        "tag": "Clásico",
+        "type": "Cultural · Completo",
+        "duration": "10 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Baja",
+        "theme": "Cultural, Completo",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Bogotá y Zipaquirá",
+        "Eje Cafetero",
+        "Santa Marta y Tayrona",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías",
+        "Excursiones"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "selva": {
       "hero": {
@@ -249,6 +618,103 @@
       "cta": {
         "title": "¿Los extremos de Colombia en 15 días?",
         "body": "De la selva amazónica al desierto guajiro. El viaje más extremo y completo de nuestro catálogo."
+      },
+      "card": {
+        "tag": "Aventura",
+        "type": "Aventura confort",
+        "duration": "15 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Aventura, Naturaleza",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos internacionales"
+      },
+      "highlights": [
+        "Amazonas: selva, comunidades indígenas, fauna",
+        "Parque Nacional Tayrona: playas y bosque tropical",
+        "La Guajira: desierto, Wayuu, Cabo de la Vela",
+        "Cartagena de Indias: patrimonio y gastronomía"
+      ],
+      "includes_list": [
+        "Vuelos nacionales según itinerario",
+        "Todos los traslados terrestres",
+        "Alojamiento en hoteles indicados",
+        "Comidas según programa",
+        "Guías locales especializados",
+        "Actividades y excursiones indicadas",
+        "Asistencia 24h"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Tasas de aeropuerto",
+        "Gastos personales",
+        "Comidas no indicadas",
+        "Seguro de viaje",
+        "Propinas"
+      ],
+      "days": {
+        "1": {
+          "title": "Llegada a Leticia",
+          "desc": "Llegada al Amazonas colombiano."
+        },
+        "2": {
+          "title": "Amazonas",
+          "desc": "Exploración de la selva, encuentro con comunidades indígenas."
+        },
+        "3": {
+          "title": "Amazonas",
+          "desc": "Avistamiento de delfines rosados, pesca artesanal."
+        },
+        "4": {
+          "title": "Leticia → Santa Marta",
+          "desc": "Vuelo a Santa Marta."
+        },
+        "5": {
+          "title": "Tayrona",
+          "desc": "Parque Nacional Tayrona."
+        },
+        "6": {
+          "title": "Tayrona",
+          "desc": "Día libre en el parque."
+        },
+        "7": {
+          "title": "Tayrona → Palomino",
+          "desc": "Traslado a Palomino. Tubing en el río."
+        },
+        "8": {
+          "title": "Palomino → La Guajira",
+          "desc": "Ruta hacia la Guajira. Uribia, rancherías Wayuu."
+        },
+        "9": {
+          "title": "La Guajira",
+          "desc": "Cabo de la Vela, Pilón de Azúcar, Punta Gallinas."
+        },
+        "10": {
+          "title": "La Guajira → Riohacha",
+          "desc": "Regreso por la Guajira. Flamencos en Camarones."
+        },
+        "11": {
+          "title": "Riohacha → Cartagena",
+          "desc": "Vuelo a Cartagena de Indias."
+        },
+        "12": {
+          "title": "Cartagena",
+          "desc": "Tour por la ciudad amurallada."
+        },
+        "13": {
+          "title": "Islas del Rosario",
+          "desc": "Excursión a las islas."
+        },
+        "14": {
+          "title": "Cartagena libre",
+          "desc": "Día libre para explorar."
+        },
+        "15": {
+          "title": "Salida",
+          "desc": "Traslado al aeropuerto."
+        }
       }
     },
     "andes": {
@@ -264,7 +730,40 @@
       "cta": {
         "title": "¿De los Andes al Caribe en 13 días?",
         "body": "El viaje clásico por excelencia de Colombia: café, flores, salsas y sol caribeño. Perfecto para un primer viaje."
-      }
+      },
+      "card": {
+        "tag": "Completo",
+        "type": "Completo",
+        "duration": "16 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Completo",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Bogotá y altiplano cundiboyacense",
+        "Eje Cafetero y Valle del Cócora",
+        "Costa Caribe: Tayrona, Santa Marta",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías",
+        "Excursiones",
+        "Asistencia 24h"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "guajira": {
       "hero": {
@@ -279,7 +778,37 @@
       "cta": {
         "title": "¿Lista para el confín del mundo?",
         "body": "La Guajira es para los que buscan lo auténtico. Diseñamos su expedición a medida, con todo el confort posible en uno de los paisajes más extremos de América."
-      }
+      },
+      "card": {
+        "tag": "Aventura",
+        "type": "Aventura · Indígena",
+        "duration": "5 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Alta",
+        "theme": "Aventura, Indígena",
+        "price_per": "por persona",
+        "price_notes": "hab. doble"
+      },
+      "highlights": [
+        "Cabo de la Vela y Punta Gallinas",
+        "Comunidades Wayuu",
+        "Flamencos en Camarones",
+        "Desierto de la Guajira"
+      ],
+      "includes_list": [
+        "Traslados en 4x4",
+        "Alojamiento en rancherías",
+        "Pensión completa",
+        "Guía local Wayuu"
+      ],
+      "excludes_list": [
+        "Vuelos",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "misterios": {
       "hero": {
@@ -294,7 +823,39 @@
       "cta": {
         "title": "Conéctese con las raíces de Colombia",
         "body": "Este viaje transforma. No es turismo: es un encuentro entre mundos. Cupos muy limitados para garantizar el respeto con las comunidades anfitrionas."
-      }
+      },
+      "card": {
+        "tag": "Cultural",
+        "type": "Cultural · Aventura",
+        "duration": "12 días"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Alta",
+        "theme": "Cultural, Aventura",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Ciudad Perdida: trekking ancestral",
+        "Sierra Nevada y pueblos Kogui",
+        "Tierradentro: tumbas hipogeas",
+        "San Agustín: estatuaria megalítica"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías especializados",
+        "Permisos indígenas"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ]
     },
     "inedita": {
       "hero": {
@@ -309,6 +870,239 @@
       "cta": {
         "title": "¿Te unes a Colombia Inédita?",
         "body": "Nuestro viaje más emblemático. Un recorrido de 19 días por la Colombia más auténtica."
+      },
+      "card": {
+        "tag": "Grupo · Vuelo incluido",
+        "type": "Cultural · Aventura",
+        "duration": "19 días"
+      },
+      "facts": {
+        "type": "Grupo",
+        "difficulty": "Media",
+        "theme": "Cultural, Naturaleza, Aventura",
+        "price_per": "por persona (vuelos incluidos)",
+        "price_notes": "+ tasas de aeropuerto · hab. doble"
+      },
+      "highlights": [
+        "Bogotá y sus alrededores: La Candelaria, Monserrate, Zipaquirá",
+        "Eje Cafetero: haciendas, Valle del Cócora, Salento",
+        "Sierra Nevada de Santa Marta: comunidades indígenas",
+        "Parque Nacional Tayrona: playas y selva tropical",
+        "Cartagena de Indias: historia, gastronomía y playas",
+        "Vuelos nacionales incluidos"
+      ],
+      "includes_list": [
+        "Vuelos internacionales Madrid–Bogotá–Cartagena–Madrid",
+        "Vuelos nacionales según itinerario",
+        "Todos los traslados terrestres en vehículo privado",
+        "Alojamiento en hoteles indicados (o similares)",
+        "Comidas según programa (D=Desayuno, A=Almuerzo, C=Cena)",
+        "Guía acompañante español durante todo el viaje",
+        "Todas las actividades y excursiones indicadas",
+        "Asistencia telefónica 24h en destino"
+      ],
+      "excludes_list": [
+        "Tasas de aeropuerto",
+        "Gastos personales",
+        "Comidas no indicadas en el programa",
+        "Entradas no especificadas",
+        "Seguro médico de viaje",
+        "Propinas"
+      ],
+      "days": {
+        "1": {
+          "title": "Madrid → Bogotá",
+          "desc": "Vuelo internacional. Llegada y traslado al hotel."
+        },
+        "2": {
+          "title": "Bogotá",
+          "desc": "Visita a La Candelaria, Museo del Oro, cerro de Monserrate."
+        },
+        "3": {
+          "title": "Bogotá → Zipaquirá → Villa de Leyva",
+          "desc": "Catedral de Sal de Zipaquirá. Ruta hacia Villa de Leyva."
+        },
+        "4": {
+          "title": "Villa de Leyva → Barichara",
+          "desc": "Exploración de Villa de Leyva. Viaje a Barichara."
+        },
+        "5": {
+          "title": "Barichara → Eje Cafetero",
+          "desc": "Vuelo a Pereira. Llegada al Eje Cafetero."
+        },
+        "6": {
+          "title": "Eje Cafetero",
+          "desc": "Tour del café, Valle del Cócora, Salento."
+        },
+        "7": {
+          "title": "Eje Cafetero → Filandia",
+          "desc": "Filandia y sus miradores. Artesanías en cestería."
+        },
+        "8": {
+          "title": "Eje Cafetero → Santa Marta",
+          "desc": "Vuelo a Santa Marta vía Bogotá."
+        },
+        "9": {
+          "title": "Sierra Nevada",
+          "desc": "Visita a comunidades indígenas Wiwa en la Sierra Nevada."
+        },
+        "10": {
+          "title": "Minca",
+          "desc": "Pueblo de montaña, fincas de cacao y café, cascadas."
+        },
+        "11": {
+          "title": "Santa Marta → Tayrona",
+          "desc": "Entrada al Parque Nacional Tayrona. Caminata a las playas."
+        },
+        "12": {
+          "title": "Tayrona",
+          "desc": "Día libre en el parque. Snorkeling, senderismo."
+        },
+        "13": {
+          "title": "Tayrona → Palomino",
+          "desc": "Tubing en el río Palomino. Playa del río y mar."
+        },
+        "14": {
+          "title": "Palomino → Cartagena",
+          "desc": "Traslado a Cartagena de Indias."
+        },
+        "15": {
+          "title": "Cartagena",
+          "desc": "Tour a pie por la ciudad amurallada, Getsemaní, San Felipe."
+        },
+        "16": {
+          "title": "Islas del Rosario",
+          "desc": "Excursión en lancha a las Islas del Rosario. Snorkeling."
+        },
+        "17": {
+          "title": "Cartagena libre",
+          "desc": "Día libre. Compras, gastronomía o playa de Bocagrande."
+        },
+        "18": {
+          "title": "Cartagena → Madrid",
+          "desc": "Traslado al aeropuerto. Vuelo de regreso."
+        },
+        "19": {
+          "title": "Llegada a Madrid",
+          "desc": "Llegada a Madrid."
+        }
+      }
+    },
+    "excludes": {
+      "title": "No incluye"
+    },
+    "btn": {
+      "wa": "Consultar por WhatsApp",
+      "quote": "Solicitar cotización",
+      "others": "Ver Otros Viajes",
+      "interested": "¿Le interesa este viaje?",
+      "contact_quote": "Contacte con nosotros y le prepararemos un presupuesto personalizado."
+    },
+    "surcaribe": {
+      "hero": {
+        "sub": "SUR Y CARIBE COLOMBIANO",
+        "title": "Del Sur al Caribe",
+        "desc": "De Bogotá a Cartagena atravesando el corazón de Colombia"
+      },
+      "overview": {
+        "title": "La gran diagonal colombiana",
+        "p1": "Del Sur al Caribe es un viaje que recorre la columna vertebral de Colombia de sur a norte, descubriendo en 14 días algunos de los paisajes y pueblos más extraordinarios del país.",
+        "p2": "Desde el desierto de la Tatacoa y las enigmáticas estatuas de San Agustín, pasando por la ciudad blanca de Popayán y las haciendas cafeteras, hasta llegar a las murallas de Cartagena de Indias bañada por el Caribe."
+      },
+      "card": {
+        "tag": "Cultural · Naturaleza",
+        "duration": "14 días",
+        "type": "FIT"
+      },
+      "facts": {
+        "type": "FIT",
+        "difficulty": "Media",
+        "theme": "Cultural, Naturaleza",
+        "price_per": "por persona",
+        "price_notes": "hab. doble · sin vuelos int."
+      },
+      "highlights": [
+        "Desierto de la Tatacoa",
+        "San Agustín: estatuas precolombinas",
+        "Popayán: la ciudad blanca",
+        "Haciendas cafeteras",
+        "Cartagena de Indias"
+      ],
+      "includes_list": [
+        "Vuelos nacionales",
+        "Traslados terrestres",
+        "Alojamiento",
+        "Comidas según programa",
+        "Guías",
+        "Excursiones"
+      ],
+      "excludes_list": [
+        "Vuelos internacionales",
+        "Gastos personales",
+        "Seguro",
+        "Propinas"
+      ],
+      "days": {
+        "1": {
+          "title": "Llegada a Bogotá",
+          "desc": "Recepción y traslado al hotel."
+        },
+        "2": {
+          "title": "Bogotá",
+          "desc": "Tour por La Candelaria y Monserrate."
+        },
+        "3": {
+          "title": "Bogotá → Tatacoa",
+          "desc": "Vuelo a Neiva. Ruta al desierto de la Tatacoa."
+        },
+        "4": {
+          "title": "Tatacoa → San Agustín",
+          "desc": "Observación de estrellas. Ruta a San Agustín."
+        },
+        "5": {
+          "title": "San Agustín",
+          "desc": "Parque Arqueológico, estatuas precolombinas."
+        },
+        "6": {
+          "title": "San Agustín → Popayán",
+          "desc": "Estrecho del Magdalena. Ruta a Popayán."
+        },
+        "7": {
+          "title": "Popayán",
+          "desc": "Tour por la ciudad blanca."
+        },
+        "8": {
+          "title": "Popayán → Eje Cafetero",
+          "desc": "Ruta al Eje Cafetero."
+        },
+        "9": {
+          "title": "Eje Cafetero",
+          "desc": "Tour del café, Valle del Cócora."
+        },
+        "10": {
+          "title": "Eje Cafetero → Cartagena",
+          "desc": "Vuelo a Cartagena."
+        },
+        "11": {
+          "title": "Cartagena",
+          "desc": "Tour por la ciudad amurallada."
+        },
+        "12": {
+          "title": "Islas del Rosario",
+          "desc": "Excursión a las islas."
+        },
+        "13": {
+          "title": "Cartagena libre",
+          "desc": "Día libre para explorar."
+        },
+        "14": {
+          "title": "Salida",
+          "desc": "Traslado al aeropuerto."
+        }
+      },
+      "cta": {
+        "title": "¿Listo para la gran travesía colombiana?",
+        "body": "14 días del sur profundo al Caribe: arqueología, café, historia y playa."
       }
     }
   },
@@ -448,6 +1242,11 @@
       "sub": "Explore con nosotros",
       "p1": "Son cientos los viajes diferentes que podríamos organizar en Colombia, pero aquí ofrecemos una muestra de programas especiales que cubren distintas regiones del variado país americano. Un resumen de propuestas para que el viajero tenga una primera idea de las posibilidades que ofrece el destino, pero también podemos preparar cualquier tipo de viaje a medida o a la carta.",
       "p2": "Expediciones de aventura, viajes específicos de naturaleza, trekking en los lugares más remotos del país, lunas de miel de ensueño, programas de incentivo, viajes temáticos para buceadores, surfistas, escaladores... Diseñad con nosotros vuestro viaje, cualquier cosa que se os ocurra, es posible en Colombia de la mano de NUEVA FRONTERA."
+    },
+    "cta": {
+      "title": "¿Listo para vivir Colombia?",
+      "body": "Contacte con nuestro equipo y le prepararemos un viaje a medida.",
+      "btn": "Contactar"
     }
   },
   "mice": {
@@ -556,7 +1355,34 @@
       "p1": "Imagina una puesta de sol desde tu exclusivo bungalow ante las aguas del Mar Caribe, o pasar la noche en un antiguo monasterio restaurado, dormir en una cabaña sobre la selva, una casona colonial o en una hacienda cafetera…",
       "p2": "La infraestructura hotelera de Colombia se desarrolla día a día y en la actualidad podemos ofrecer todo tipo de alojamientos para nuestros viajes, desde lujosas cadenas internacionales, hasta pequeños y encantadores hoteles boutique, pasando por los más exclusivos lodges y sencillos hospedajes gestionados por comunidades indígenas. En Colombia, tenemos el hotel adecuado para cada tipo de viajero."
     },
-    "collection": "Nuestra selección"
+    "collection": "Nuestra selección",
+    "cat": {
+      "boutique": {
+        "title": "Hotel Boutique",
+        "desc": "Alojamientos íntimos y con carácter en edificios históricos restaurados."
+      },
+      "lodge": {
+        "title": "Lodge & Ecolodge",
+        "desc": "Inmersión total en la naturaleza con todo el confort."
+      },
+      "hacienda": {
+        "title": "Hacienda",
+        "desc": "Fincas cafeteras y haciendas coloniales con encanto tradicional."
+      },
+      "colonial": {
+        "title": "Hotel Colonial",
+        "desc": "Edificios coloniales convertidos en alojamientos de lujo."
+      },
+      "beach": {
+        "title": "Resort de Playa",
+        "desc": "Paraísos frente al mar con playas privadas y spa."
+      }
+    },
+    "cta": {
+      "title": "¿Busca el alojamiento perfecto?",
+      "body": "Le ayudamos a encontrar el hotel ideal para su viaje a Colombia.",
+      "btn": "Contactar"
+    }
   },
   "about": {
     "meta": {

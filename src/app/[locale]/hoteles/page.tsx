@@ -24,15 +24,17 @@ export async function generateMetadata({
 }
 
 const hotels = [
-  { name: 'Quadrifolio', location: 'Cartagena de Indias', img: '/img/hotel-sofitel-cartagena.jpg' },
-  { name: 'Hacienda Combia', location: 'Eje Cafetero', img: '/img/hacienda-combia.jpg' },
-  { name: 'Canaloa Ecoluxury Lodge', location: 'Amazonas', img: '/img/hotel-canaloa.jpg' },
-  { name: 'Tayrona Tented Camp', location: 'Tayrona', img: '/img/hotel-tayrona.jpg' },
-  { name: 'Hotel La Opera', location: 'Bogotá', img: '/img/hotel-opera.jpg' },
-  { name: 'Hotel Sazagua', location: 'Eje Cafetero', img: '/img/nido-del-condor.jpg' },
-  { name: 'Dann Monasterio', location: 'Popayán', img: '/img/hotel-dann-monasterio.jpg' },
-  { name: 'Savanna Orinoquia', location: 'Llanos Orientales', img: '/img/hotel-savanna-orinoquia.jpg' },
+  { name: 'Quadrifolio', location: 'Cartagena de Indias', img: '/img/hotel-sofitel-cartagena.jpg', url: 'https://hotelquadrifolio.com/en/galeria-quadrifolio/' },
+  { name: 'Hacienda Combia', location: 'Eje Cafetero', img: '/img/hacienda-combia.jpg', url: 'https://www.combia.com.co/gallery.html' },
+  { name: 'Calanoa Amazonas', location: 'Amazonas', img: '/img/hotel-canaloa.jpg', url: 'https://www.calanoaamazonas.com/en/jungle-lodge/' },
+  { name: 'Tayrona Tented Lodge', location: 'Tayrona', img: '/img/hotel-tayrona.jpg', url: 'https://www.ecohoteles.co/' },
+  { name: 'Hotel de la Opera', location: 'Bogotá', img: '/img/hotel-opera.jpg', url: 'https://www.hotelopera.com.co/en/photos/' },
+  { name: 'Hotel Sazagua', location: 'Eje Cafetero', img: '/img/nido-del-condor.jpg', url: 'https://www.sazagua.com/en/' },
+  { name: 'Dann Monasterio', location: 'Popayán', img: '/img/hotel-dann-monasterio.jpg', url: 'https://hotelesdann.com/dann-popayan/en/images/' },
+  { name: 'Savanna Orinoquia Lodge', location: 'Llanos Orientales', img: '/img/hotel-savanna-orinoquia.jpg', url: 'https://savannaorinoquialodge.co/' },
 ];
+
+const CATEGORY_KEYS = ['boutique', 'lodge', 'hacienda', 'colonial', 'beach'] as const;
 
 export default async function HotelesPage() {
   const locale = await getLocale();
@@ -73,26 +75,12 @@ export default async function HotelesPage() {
       <section className="section section--alt">
         <div className="container" style={{ textAlign: 'center' }}>
           <div className="grid grid--3" style={{ marginTop: '2rem' }}>
-            <div className="service-card">
-              <h4>Hoteles Boutique</h4>
-              <p>Pequeños hoteles con encanto, decoración cuidada y atención personalizada.</p>
-            </div>
-            <div className="service-card">
-              <h4>Lodges & Eco-lodges</h4>
-              <p>Alojamientos integrados en la naturaleza, perfectos para los amantes del ecoturismo.</p>
-            </div>
-            <div className="service-card">
-              <h4>Haciendas Cafeteras</h4>
-              <p>Antiguas fincas cafeteras reconvertidas en alojamientos de lujo.</p>
-            </div>
-            <div className="service-card">
-              <h4>Hoteles Coloniales</h4>
-              <p>Casonas y monasterios históricos restaurados con todos los servicios modernos.</p>
-            </div>
-            <div className="service-card">
-              <h4>Resorts de Playa</h4>
-              <p>Los mejores resorts del Caribe colombiano, con playas privadas y spa.</p>
-            </div>
+            {CATEGORY_KEYS.map((catKey) => (
+              <div key={catKey} className="service-card">
+                <h4>{t(`cat.${catKey}.title`)}</h4>
+                <p>{t(`cat.${catKey}.desc`)}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -104,7 +92,14 @@ export default async function HotelesPage() {
           <div className="divider"></div>
           <div className="grid grid--4" style={{ marginTop: '2rem' }}>
             {hotels.map((hotel) => (
-              <div key={hotel.name} className="hotel-card">
+              <a
+                key={hotel.name}
+                href={hotel.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hotel-card"
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
                 <div className="hotel-card__image">
                   <img src={hotel.img} alt={hotel.name} loading="lazy" />
                 </div>
@@ -112,7 +107,7 @@ export default async function HotelesPage() {
                   <h4>{hotel.name}</h4>
                   <p>{hotel.location}</p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
@@ -124,12 +119,12 @@ export default async function HotelesPage() {
         style={{ backgroundImage: "url('/img/cta-bg.jpg')" }}
       >
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ color: 'white' }}>Hoteles a medida</h2>
+          <h2 style={{ color: 'white' }}>{t('cta.title')}</h2>
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
-            Le ayudamos a elegir el alojamiento perfecto para cada etapa de su viaje.
+            {t('cta.body')}
           </p>
           <Link href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
-            Contactar
+            {t.has('cta.btn') ? t('cta.btn') : 'Contactar'}
           </Link>
         </div>
       </section>

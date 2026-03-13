@@ -298,7 +298,7 @@ export const trips: Trip[] = [
   },
   {
     slug: 'del-sur-al-caribe',
-    i18nKey: 'sur',
+    i18nKey: 'surcaribe',
     heroImg: '/img/viaje-sur-caribe-hero.jpg',
     facts: { duration: '14 días', type: 'FIT', difficulty: 'Media', group: '2–8 pax', theme: 'Cultural, Naturaleza' },
     price: { amount: '2.890 €', per: 'por persona', notes: 'hab. doble · sin vuelos int.' },

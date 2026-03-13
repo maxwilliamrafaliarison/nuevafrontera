@@ -2,6 +2,7 @@ import { getTranslations, getLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n/config';
+import { Link } from '@/i18n/navigation';
 import { trips, getTripBySlug, getAllTripSlugs } from '@/data/trips';
 import { getTouristTripJsonLd } from '@/lib/structured-data';
 import ItineraryAccordion from './ItineraryAccordion';
@@ -54,6 +55,7 @@ export default async function TripDetailPage({
   if (!trip) notFound();
 
   const t = await getTranslations({ locale, namespace: 'trip' });
+  const tUi = await getTranslations({ locale, namespace: 'ui' });
   const key = trip.i18nKey;
 
   // Helper to safely get optional translation keys
@@ -67,6 +69,60 @@ export default async function TripDetailPage({
   const overviewP2 = tSafe(`${key}.overview.p2`);
   const ctaTitle = tSafe(`${key}.cta.title`);
   const ctaBody = tSafe(`${key}.cta.body`);
+
+  // Translated facts (with fallback to trips.ts data)
+  const factsType = tSafe(`${key}.facts.type`) || trip.facts.type;
+  const factsDifficulty = tSafe(`${key}.facts.difficulty`) || trip.facts.difficulty;
+  const factsTheme = tSafe(`${key}.facts.theme`) || trip.facts.theme;
+  const pricePer = tSafe(`${key}.facts.price_per`) || trip.price.per;
+  const priceNotes = tSafe(`${key}.facts.price_notes`) || trip.price.notes;
+
+  // Translated highlights, includes, excludes (with fallback to trips.ts)
+  let highlights: string[] = trip.highlights;
+  try {
+    const raw = t.raw(`${key}.highlights`);
+    if (Array.isArray(raw) && raw.length > 0) highlights = raw;
+  } catch { /* fallback to trips.ts */ }
+
+  let includesList: string[] = trip.includes;
+  try {
+    const raw = t.raw(`${key}.includes_list`);
+    if (Array.isArray(raw) && raw.length > 0) includesList = raw;
+  } catch { /* fallback to trips.ts */ }
+
+  let excludesList: string[] = trip.excludes;
+  try {
+    const raw = t.raw(`${key}.excludes_list`);
+    if (Array.isArray(raw) && raw.length > 0) excludesList = raw;
+  } catch { /* fallback to trips.ts */ }
+
+  // Translated itinerary (with fallback to trips.ts)
+  let itinerary = trip.itinerary;
+  try {
+    const rawDays = t.raw(`${key}.days`);
+    if (rawDays && typeof rawDays === 'object') {
+      const translatedDays = Object.entries(rawDays as Record<string, { title: string; desc: string }>).map(
+        ([dayNum, data]) => ({
+          day: parseInt(dayNum),
+          title: data.title,
+          description: data.desc,
+          hotel: trip.itinerary.find((d) => d.day === parseInt(dayNum))?.hotel,
+          meals: trip.itinerary.find((d) => d.day === parseInt(dayNum))?.meals,
+        })
+      );
+      if (translatedDays.length > 0) itinerary = translatedDays;
+    }
+  } catch { /* fallback to trips.ts */ }
+
+  // Translated labels
+  const labelTheme = tSafe('label.theme') || 'Temática';
+  const labelPriceFrom = tSafe('label.price_from') || 'Precio desde';
+  const excludesTitle = tSafe('excludes.title') || 'No incluye';
+  const btnWa = tSafe('btn.wa') || tUi('contact.wa');
+  const btnQuote = tSafe('btn.quote') || tUi('quote.label');
+  const btnOthers = tSafe('btn.others') || 'Ver Otros Viajes';
+  const btnInterested = tSafe('btn.interested') || '¿Le interesa este viaje?';
+  const btnContactQuote = tSafe('btn.contact_quote') || 'Contacte con nosotros y le prepararemos un presupuesto personalizado.';
 
   const tripJsonLd = getTouristTripJsonLd({
     name: heroTitle,
@@ -108,23 +164,23 @@ export default async function TripDetailPage({
           <div className="trip-detail__facts">
             <div className="trip-detail__fact">
               <span className="trip-detail__fact-label">{t('label.duration')}</span>
-              <span className="trip-detail__fact-value">{trip.facts.duration}</span>
+              <span className="trip-detail__fact-value">{tSafe(`${key}.card.duration`) || trip.facts.duration}</span>
             </div>
             <div className="trip-detail__fact">
               <span className="trip-detail__fact-label">{t('label.type')}</span>
-              <span className="trip-detail__fact-value">{trip.facts.type}</span>
+              <span className="trip-detail__fact-value">{factsType}</span>
             </div>
             <div className="trip-detail__fact">
               <span className="trip-detail__fact-label">{t('label.difficulty')}</span>
-              <span className="trip-detail__fact-value">{trip.facts.difficulty}</span>
+              <span className="trip-detail__fact-value">{factsDifficulty}</span>
             </div>
             <div className="trip-detail__fact">
               <span className="trip-detail__fact-label">{t('label.group')}</span>
               <span className="trip-detail__fact-value">{trip.facts.group}</span>
             </div>
             <div className="trip-detail__fact">
-              <span className="trip-detail__fact-label">Temática</span>
-              <span className="trip-detail__fact-value">{trip.facts.theme}</span>
+              <span className="trip-detail__fact-label">{labelTheme}</span>
+              <span className="trip-detail__fact-value">{factsTheme}</span>
             </div>
           </div>
         </div>
@@ -144,11 +200,11 @@ export default async function TripDetailPage({
             {overviewP1 && <p>{overviewP1}</p>}
             {overviewP2 && <p style={{ marginTop: '1rem' }}>{overviewP2}</p>}
 
-            {trip.highlights.length > 0 && (
+            {highlights.length > 0 && (
               <div style={{ marginTop: '2rem' }}>
                 <h3>{t('highlights.title')}</h3>
                 <div className="highlights" style={{ marginTop: '1rem' }}>
-                  {trip.highlights.map((h, i) => (
+                  {highlights.map((h, i) => (
                     <div key={i} className="highlight-item" style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', padding: '0.5rem 0' }}>
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" strokeWidth="2" style={{ flexShrink: 0, marginTop: '2px' }}>
                         <polyline points="20 6 9 17 4 12" />
@@ -163,10 +219,10 @@ export default async function TripDetailPage({
 
           {/* Right: Price Box */}
           <div className="price-box" style={{ background: 'var(--color-bg-alt, #f8f5f0)', padding: '2rem', borderRadius: '8px', position: 'sticky', top: '120px' }}>
-            <p className="price-box__label" style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Precio desde</p>
+            <p className="price-box__label" style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>{labelPriceFrom}</p>
             <p className="price-box__value" style={{ fontSize: '2.5rem', fontFamily: 'var(--font-heading)', color: 'var(--color-accent)', fontWeight: 600 }}>{trip.price.amount}</p>
-            <p className="price-box__per" style={{ fontSize: '0.85rem', color: 'var(--color-text-light, #777)', marginBottom: '0.5rem' }}>{trip.price.per}</p>
-            <p style={{ fontSize: '0.75rem', color: 'var(--color-text-light, #999)' }}>{trip.price.notes}</p>
+            <p className="price-box__per" style={{ fontSize: '0.85rem', color: 'var(--color-text-light, #777)', marginBottom: '0.5rem' }}>{pricePer}</p>
+            <p style={{ fontSize: '0.75rem', color: 'var(--color-text-light, #999)' }}>{priceNotes}</p>
             <a
               href="https://wa.me/573125606586"
               className="btn btn--primary"
@@ -174,22 +230,22 @@ export default async function TripDetailPage({
               target="_blank"
               rel="noopener noreferrer"
             >
-              Consultar por WhatsApp
+              {btnWa}
             </a>
-            <a href="/contacto" className="btn btn--outline" style={{ width: '100%', marginTop: '0.75rem', textAlign: 'center' }}>
-              Solicitar presupuesto
-            </a>
+            <Link href="/contacto" className="btn btn--outline" style={{ width: '100%', marginTop: '0.75rem', textAlign: 'center' }}>
+              {btnQuote}
+            </Link>
           </div>
         </div>
       </section>
 
       {/* ITINERARY */}
-      {trip.itinerary.length > 0 && (
+      {itinerary.length > 0 && (
         <section className="section section--alt">
           <div className="container">
             <h2 style={{ textAlign: 'center' }}>{t('itinerary.title')}</h2>
             <div className="divider" style={{ margin: '0 auto 2rem' }}></div>
-            <ItineraryAccordion days={trip.itinerary} dayLabel={t('label.day')} />
+            <ItineraryAccordion days={itinerary} dayLabel={t('label.day')} />
           </div>
         </section>
       )}
@@ -224,7 +280,7 @@ export default async function TripDetailPage({
             <div>
               <h3>{t('includes.title')}</h3>
               <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-                {trip.includes.map((item, i) => (
+                {includesList.map((item, i) => (
                   <li key={i} style={{ padding: '0.5rem 0', display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
                     <span style={{ color: 'var(--color-accent)' }}>✓</span>
                     <span>{item}</span>
@@ -233,9 +289,9 @@ export default async function TripDetailPage({
               </ul>
             </div>
             <div>
-              <h3>No incluye</h3>
+              <h3>{excludesTitle}</h3>
               <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-                {trip.excludes.map((item, i) => (
+                {excludesList.map((item, i) => (
                   <li key={i} style={{ padding: '0.5rem 0', display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
                     <span style={{ color: '#c44' }}>✗</span>
                     <span>{item}</span>
@@ -253,17 +309,17 @@ export default async function TripDetailPage({
         style={{ backgroundImage: "url('/img/cta-bg.jpg')" }}
       >
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ color: 'white' }}>{ctaTitle || '¿Le interesa este viaje?'}</h2>
+          <h2 style={{ color: 'white' }}>{ctaTitle || btnInterested}</h2>
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
-            {ctaBody || 'Contacte con nosotros y le prepararemos un presupuesto personalizado.'}
+            {ctaBody || btnContactQuote}
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '1rem', flexWrap: 'wrap' }}>
             <a href="https://wa.me/573125606586" className="btn btn--primary" target="_blank" rel="noopener noreferrer">
               WhatsApp
             </a>
-            <a href="/viajes" className="btn btn--outline-white">
-              Ver Otros Viajes
-            </a>
+            <Link href="/viajes" className="btn btn--outline-white">
+              {btnOthers}
+            </Link>
           </div>
         </div>
       </section>

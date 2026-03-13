@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { locales } from '@/i18n/config';
 import { Link } from '@/i18n/navigation';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
+import { trips } from '@/data/trips';
 
 export async function generateMetadata({
   params,
@@ -23,27 +24,32 @@ export async function generateMetadata({
   };
 }
 
-const trips = [
-  { slug: 'colombia-inedita', name: 'Colombia Inédita', img: '/img/viaje-bogota-cartagena-hero.jpg', tag: 'Grupo · Vuelo incluido', duration: '19 días', type: 'Cultural · Aventura', excerpt: 'Bogotá, Eje Cafetero, Sierra Nevada, Tayrona y Cartagena' },
-  { slug: 'de-la-selva-al-desierto', name: 'De la Selva al Desierto', img: '/img/viaje-selva-desierto-hero.jpg', tag: 'Aventura', duration: '15 días', type: 'Aventura confort', excerpt: 'Amazonas, Tayrona, La Guajira y Cartagena' },
-  { slug: 'secretos-del-sur', name: 'Secretos del Sur', img: '/img/viaje-sur-caribe-hero.jpg', tag: 'Cultural', duration: '11 días', type: 'FIT · Cultural', excerpt: 'Tatacoa, San Agustín, Popayán y Hacienda Cafetera' },
-  { slug: 'aventura-en-el-norte', name: 'Colombia al Norte', img: '/img/viaje-norte-hero.jpg', tag: 'Aventura', duration: '14 días', type: 'FIT · Aventura', excerpt: 'Sierra Nevada, Ciudad Perdida, Tayrona, La Guajira' },
-  { slug: 'safari-en-los-llanos', name: 'Llanos Orientales', img: '/img/viaje-llanos-hero.jpg', tag: 'Naturaleza', duration: '7 días', type: 'FIT · Naturaleza', excerpt: 'Safari llanero, fauna silvestre y cultura vaquera' },
-  { slug: 'extension-a-las-islas', name: 'Islas del Caribe', img: '/img/viaje-islas-hero.jpg', tag: 'Playa', duration: '10 días', type: 'FIT · Relax', excerpt: 'San Andrés, Providencia y cayos del Caribe' },
-  { slug: 'extension-al-amazonas', name: 'Amazonas', img: '/img/viaje-amazonas-hero.jpg', tag: 'Naturaleza', duration: '5 días', type: 'FIT · Naturaleza', excerpt: 'Leticia, comunidades indígenas, selva amazónica' },
-  { slug: 'el-nido-del-condor', name: 'Nido del Cóndor', img: '/img/viaje-nido-condor-hero.jpg', tag: 'Luxury', duration: '12 días', type: 'Luxury · FIT', excerpt: 'El viaje de lujo por Colombia' },
-  { slug: 'avistamiento-de-ballenas', name: 'Ballenas del Pacífico', img: '/img/viaje-ballenas-hero.jpg', tag: 'Naturaleza', duration: '8 días', type: 'FIT · Naturaleza', excerpt: 'Avistamiento de ballenas jorobadas en Nuquí' },
-  { slug: 'cano-cristales', name: 'Caño Cristales', img: '/img/viaje-cano-cristales-hero.jpg', tag: 'Naturaleza', duration: '4 días', type: 'FIT · Naturaleza', excerpt: 'El río de los cinco colores' },
-  { slug: 'ciudades-miticas', name: 'Ciudades Coloniales', img: '/img/viaje-ciudades-hero.jpg', tag: 'Cultural', duration: '10 días', type: 'FIT · Cultural', excerpt: 'Bogotá, Villa de Leyva, Barichara y Cartagena' },
-  { slug: 'de-bogota-a-cartagena', name: 'Bogotá y Alrededores', img: '/img/viaje-bogota-cartagena-hero.jpg', tag: 'Cultural', duration: '5 días', type: 'FIT · Cultural', excerpt: 'La capital y sus joyas escondidas' },
-  { slug: 'de-los-andes-al-caribe', name: 'De los Andes al Caribe', img: '/img/viaje-andes-caribe-hero.jpg', tag: 'Completo', duration: '16 días', type: 'FIT · Completo', excerpt: 'De Bogotá a Cartagena, pasando por el Eje Cafetero' },
-  { slug: 'la-guajira', name: 'La Guajira', img: '/img/viaje-guajira-hero.jpg', tag: 'Aventura', duration: '5 días', type: 'FIT · Aventura', excerpt: 'El desierto más septentrional de Sudamérica' },
+/* Slugs shown on the listing page (14 trips) */
+const LISTING_SLUGS = [
+  'colombia-inedita',
+  'de-la-selva-al-desierto',
+  'secretos-del-sur',
+  'aventura-en-el-norte',
+  'safari-en-los-llanos',
+  'extension-a-las-islas',
+  'extension-al-amazonas',
+  'el-nido-del-condor',
+  'avistamiento-de-ballenas',
+  'cano-cristales',
+  'ciudades-miticas',
+  'de-bogota-a-cartagena',
+  'de-los-andes-al-caribe',
+  'la-guajira',
 ];
 
 export default async function ViajesPage() {
   const locale = await getLocale();
   const t = await getTranslations({ locale, namespace: 'viajes' });
   const tTrip = await getTranslations({ locale, namespace: 'trip' });
+
+  const listingTrips = LISTING_SLUGS
+    .map((slug) => trips.find((tr) => tr.slug === slug)!)
+    .filter(Boolean);
 
   return (
     <>
@@ -80,28 +86,47 @@ export default async function ViajesPage() {
       <section className="section section--alt">
         <div className="container">
           <div className="grid grid--3">
-            {trips.map((trip) => (
-              <Link key={trip.slug} href={`/viajes/${trip.slug}`} className="trip-card">
-                <div className="trip-card__image">
-                  <img src={trip.img} alt={trip.name} loading="lazy" />
-                  <span className="trip-card__tag">{trip.tag}</span>
-                </div>
-                <div className="trip-card__body">
-                  <h3 className="trip-card__title">{trip.name}</h3>
-                  <p className="trip-card__excerpt">{trip.excerpt}</p>
-                  <div className="trip-card__meta">
-                    <div className="trip-card__meta-item">
-                      <span>{tTrip('label.duration')}</span>
-                      <strong>{trip.duration}</strong>
-                    </div>
-                    <div className="trip-card__meta-item">
-                      <span>{tTrip('label.type')}</span>
-                      <strong>{trip.type}</strong>
+            {listingTrips.map((trip) => {
+              const key = trip.i18nKey;
+              const heroTitle = tTrip.has(`${key}.hero.title`)
+                ? tTrip(`${key}.hero.title`)
+                : trip.slug.replace(/-/g, ' ');
+              const heroDesc = tTrip.has(`${key}.hero.desc`)
+                ? tTrip(`${key}.hero.desc`)
+                : '';
+              const cardTag = tTrip.has(`${key}.card.tag`)
+                ? tTrip(`${key}.card.tag`)
+                : '';
+              const cardType = tTrip.has(`${key}.card.type`)
+                ? tTrip(`${key}.card.type`)
+                : '';
+              const cardDuration = tTrip.has(`${key}.card.duration`)
+                ? tTrip(`${key}.card.duration`)
+                : trip.facts.duration;
+
+              return (
+                <Link key={trip.slug} href={`/viajes/${trip.slug}`} className="trip-card">
+                  <div className="trip-card__image">
+                    <img src={trip.heroImg} alt={heroTitle} loading="lazy" />
+                    {cardTag && <span className="trip-card__tag">{cardTag}</span>}
+                  </div>
+                  <div className="trip-card__body">
+                    <h3 className="trip-card__title">{heroTitle}</h3>
+                    <p className="trip-card__excerpt">{heroDesc}</p>
+                    <div className="trip-card__meta">
+                      <div className="trip-card__meta-item">
+                        <span>{tTrip('label.duration')}</span>
+                        <strong>{cardDuration}</strong>
+                      </div>
+                      <div className="trip-card__meta-item">
+                        <span>{tTrip('label.type')}</span>
+                        <strong>{cardType}</strong>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -112,12 +137,12 @@ export default async function ViajesPage() {
         style={{ backgroundImage: "url('/img/cta-bg.jpg')" }}
       >
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ color: 'white' }}>Su viaje a medida</h2>
+          <h2 style={{ color: 'white' }}>{t('cta.title')}</h2>
           <p style={{ color: 'rgba(255,255,255,0.8)', maxWidth: '600px', margin: '1rem auto' }}>
-            No encuentra su viaje ideal? Diseñamos cualquier itinerario a medida por Colombia.
+            {t('cta.body')}
           </p>
           <Link href="/contacto" className="btn btn--primary" style={{ marginTop: '1rem' }}>
-            Contactar
+            {t('cta.btn')}
           </Link>
         </div>
       </section>
