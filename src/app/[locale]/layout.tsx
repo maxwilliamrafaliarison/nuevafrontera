@@ -28,7 +28,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.nueva-frontera.com'),
-  icons: { icon: '/favicon.ico' },
+  icons: { icon: '/icon.png', apple: '/apple-icon.png' },
 };
 
 export function generateStaticParams() {
