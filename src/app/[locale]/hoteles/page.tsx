@@ -24,7 +24,7 @@ export async function generateMetadata({
 }
 
 const hotels = [
-  { name: 'Quadrifolio', location: 'Cartagena de Indias', img: '/img/hotel-sofitel-cartagena.jpg', url: 'https://hotelquadrifolio.com/en/galeria-quadrifolio/' },
+  { name: 'Quadrifolio', location: 'Cartagena de Indias', img: '/img/hotel-quadrifolio.jpg', url: 'https://hotelquadrifolio.com/en/galeria-quadrifolio/' },
   { name: 'Hacienda Combia', location: 'Eje Cafetero', img: '/img/hacienda-combia.jpg', url: 'https://www.combia.com.co/gallery.html' },
   { name: 'Calanoa Amazonas', location: 'Amazonas', img: '/img/hotel-canaloa.jpg', url: 'https://www.calanoaamazonas.com/en/jungle-lodge/' },
   { name: 'Tayrona Tented Lodge', location: 'Tayrona', img: '/img/hotel-tayrona.jpg', url: 'https://www.ecohoteles.co/' },
@@ -46,7 +46,7 @@ export default async function HotelesPage() {
       <section className="page-hero">
         <div
           className="page-hero__bg"
-          style={{ backgroundImage: "url('/img/hotel-cartagena.jpg')" }}
+          style={{ backgroundImage: "url('/img/hotel-quadrifolio.jpg')" }}
         />
         <div className="page-hero__content">
           <div className="container">

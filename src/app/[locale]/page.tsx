@@ -239,7 +239,7 @@ export default async function HomePage({
           <div className="grid grid--3">
             <div className="hotel-card">
               <div className="hotel-card__image">
-                <img src="/img/hotel-cartagena.jpg" alt="" loading="lazy" />
+                <img src="/img/hotel-quadrifolio.jpg" alt="" loading="lazy" />
               </div>
               <div className="hotel-card__body">
                 <h4>{t('hotel1.name')}</h4>

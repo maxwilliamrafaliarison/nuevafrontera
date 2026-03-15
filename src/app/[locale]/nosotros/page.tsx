@@ -33,7 +33,7 @@ export default async function NosotrosPage() {
       <section className="page-hero">
         <div
           className="page-hero__bg"
-          style={{ backgroundImage: "url('/img/hero-colombia.jpg')" }}
+          style={{ backgroundImage: "url('/img/nosotros-hero.jpg')" }}
         />
         <div className="page-hero__content">
           <div className="container">

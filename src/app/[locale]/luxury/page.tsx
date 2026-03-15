@@ -32,7 +32,7 @@ export default async function LuxuryPage() {
       <section className="hero">
         <div
           className="hero__bg"
-          style={{ backgroundImage: "url('/img/viaje-nido-condor-hero.jpg')" }}
+          style={{ backgroundImage: "url('/img/luxury-hero.jpg')" }}
         />
         {/* Stronger overlay for readability on busy image */}
         <div style={{
@@ -81,7 +81,7 @@ export default async function LuxuryPage() {
 
           <div className="luxury-feature" style={{ display: 'flex', gap: '2rem', marginBottom: '3rem', alignItems: 'center' }}>
             <div className="luxury-feature__image" style={{ flex: 1 }}>
-              <img src="/img/nido-del-condor.jpg" alt={t('svc.lodging')} loading="lazy" style={{ width: '100%' }} />
+              <img src="/img/luxury-lodging.jpg" alt={t('svc.lodging')} loading="lazy" style={{ width: '100%' }} />
             </div>
             <div className="luxury-feature__content" style={{ flex: 1 }}>
               <h3>{t('svc.lodging')}</h3>
@@ -92,7 +92,7 @@ export default async function LuxuryPage() {
 
           <div className="luxury-feature" style={{ display: 'flex', gap: '2rem', marginBottom: '3rem', alignItems: 'center', flexDirection: 'row-reverse' }}>
             <div className="luxury-feature__image" style={{ flex: 1 }}>
-              <img src="/img/viaje-ciudades-hero.jpg" alt={t('svc.transport')} loading="lazy" style={{ width: '100%' }} />
+              <img src="/img/luxury-transport.jpg" alt={t('svc.transport')} loading="lazy" style={{ width: '100%' }} />
             </div>
             <div className="luxury-feature__content" style={{ flex: 1 }}>
               <h3>{t('svc.transport')}</h3>
@@ -103,7 +103,7 @@ export default async function LuxuryPage() {
 
           <div className="luxury-feature" style={{ display: 'flex', gap: '2rem', marginBottom: '3rem', alignItems: 'center' }}>
             <div className="luxury-feature__image" style={{ flex: 1 }}>
-              <img src="/img/cta-bg.jpg" alt={t('svc.gastro')} loading="lazy" style={{ width: '100%' }} />
+              <img src="/img/luxury-gastro.jpg" alt={t('svc.gastro')} loading="lazy" style={{ width: '100%' }} />
             </div>
             <div className="luxury-feature__content" style={{ flex: 1 }}>
               <h3>{t('svc.gastro')}</h3>
@@ -114,7 +114,7 @@ export default async function LuxuryPage() {
 
           <div className="luxury-feature" style={{ display: 'flex', gap: '2rem', marginBottom: '3rem', alignItems: 'center', flexDirection: 'row-reverse' }}>
             <div className="luxury-feature__image" style={{ flex: 1 }}>
-              <img src="/img/viaje-andes-caribe-hero.jpg" alt={t('svc.details')} loading="lazy" style={{ width: '100%' }} />
+              <img src="/img/luxury-details.jpg" alt={t('svc.details')} loading="lazy" style={{ width: '100%' }} />
             </div>
             <div className="luxury-feature__content" style={{ flex: 1 }}>
               <h3>{t('svc.details')}</h3>

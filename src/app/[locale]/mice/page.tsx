@@ -35,7 +35,7 @@ export default async function MicePage() {
       <section className="page-hero">
         <div
           className="page-hero__bg"
-          style={{ backgroundImage: "url('/img/viaje-ciudades-hero.jpg')" }}
+          style={{ backgroundImage: "url('/img/mice-hero.jpg')" }}
         />
         <div className="page-hero__content">
           <div className="container">

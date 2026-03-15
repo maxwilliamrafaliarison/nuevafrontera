@@ -82,7 +82,7 @@ export const trips: Trip[] = [
       { name: 'Hotel Spot Bogotá', location: 'Bogotá', img: '/img/hotel-opera.jpg' },
       { name: 'Hacienda Combia', location: 'Eje Cafetero', img: '/img/hacienda-combia.jpg' },
       { name: 'Ecohabs Tayrona', location: 'Tayrona', img: '/img/hotel-tayrona.jpg' },
-      { name: 'Hotel Quadrifolio', location: 'Cartagena', img: '/img/hotel-sofitel-cartagena.jpg' },
+      { name: 'Hotel Quadrifolio', location: 'Cartagena', img: '/img/hotel-quadrifolio.jpg' },
     ],
     includes: [
       'Vuelos internacionales Madrid–Bogotá–Cartagena–Madrid',
@@ -135,7 +135,7 @@ export const trips: Trip[] = [
     hotels: [
       { name: 'Canaloa Ecoluxury Lodge', location: 'Amazonas', img: '/img/hotel-canaloa.jpg' },
       { name: 'Ecohabs Tayrona', location: 'Tayrona', img: '/img/hotel-tayrona.jpg' },
-      { name: 'Hotel Quadrifolio', location: 'Cartagena', img: '/img/hotel-sofitel-cartagena.jpg' },
+      { name: 'Hotel Quadrifolio', location: 'Cartagena', img: '/img/hotel-quadrifolio.jpg' },
     ],
     includes: [
       'Vuelos nacionales según itinerario',
