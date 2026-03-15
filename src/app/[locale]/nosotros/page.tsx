@@ -86,7 +86,7 @@ export default async function NosotrosPage() {
                 <img src="/img/team-sergi.jpg" alt="Sergi Formentin" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h3>Sergi Formentin</h3>
-              <p style={{ color: 'var(--color-accent)', marginBottom: '1rem' }}>Fundador & Director</p>
+              <p style={{ color: 'var(--color-accent)', marginBottom: '1rem' }}>{t('sergi.role')}</p>
               <p style={{ textAlign: 'left' }}>{t('sergi.bio')}</p>
             </div>
             <div className="team-member" style={{ textAlign: 'center' }}>
@@ -94,7 +94,7 @@ export default async function NosotrosPage() {
                 <img src="/img/team-maggie.jpg" alt="Maggie Leong" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h3>Maggie Leong</h3>
-              <p style={{ color: 'var(--color-accent)', marginBottom: '1rem' }}>Co-Fundadora & Directora</p>
+              <p style={{ color: 'var(--color-accent)', marginBottom: '1rem' }}>{t('maggie.role')}</p>
               <p style={{ textAlign: 'left' }}>{t('maggie.bio')}</p>
             </div>
           </div>
@@ -108,15 +108,15 @@ export default async function NosotrosPage() {
           <div style={{ display: 'flex', justifyContent: 'center', gap: '4rem', marginTop: '2rem', flexWrap: 'wrap' }}>
             <div>
               <p style={{ fontSize: '3rem', fontFamily: 'var(--font-heading)', color: 'var(--color-accent)' }}>+20</p>
-              <p style={{ color: 'rgba(255,255,255,0.7)' }}>Años de experiencia</p>
+              <p style={{ color: 'rgba(255,255,255,0.7)' }}>{t('stat1')}</p>
             </div>
             <div>
               <p style={{ fontSize: '3rem', fontFamily: 'var(--font-heading)', color: 'var(--color-accent)' }}>14</p>
-              <p style={{ color: 'rgba(255,255,255,0.7)' }}>Viajes únicos</p>
+              <p style={{ color: 'rgba(255,255,255,0.7)' }}>{t('stat2')}</p>
             </div>
             <div>
               <p style={{ fontSize: '3rem', fontFamily: 'var(--font-heading)', color: 'var(--color-accent)' }}>24/7</p>
-              <p style={{ color: 'rgba(255,255,255,0.7)' }}>Atención al viajero</p>
+              <p style={{ color: 'rgba(255,255,255,0.7)' }}>{t('stat3')}</p>
             </div>
           </div>
         </div>

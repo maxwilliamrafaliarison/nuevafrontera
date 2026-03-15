@@ -19,8 +19,8 @@ export default async function Header() {
             <Image
               src="/logo.png"
               alt="Nueva Frontera Colombia"
-              width={48}
-              height={48}
+              width={120}
+              height={120}
               priority
             />
             <span className="nav__logo-text">

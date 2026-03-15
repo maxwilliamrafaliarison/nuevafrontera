@@ -1410,10 +1410,15 @@
     "team": {
       "title": "Conócenos"
     },
+    "stat1": "Años de experiencia",
+    "stat2": "Viajes únicos",
+    "stat3": "Atención al viajero",
     "sergi": {
+      "role": "Fundador & Director",
       "bio": "Desde que tengo uso de razón que quise mostrar el mundo a los demás. Al principio, lo hice como periodista, a través de mis reportajes en diversos medios de comunicación, más tarde empecé a organizar viajes de prensa y otras aventuras para equipos profesionales. Luego llegó el desierto más grande del mundo, y esas rutas transaharianas que me permitieron durante años mostrar como guía el Sáhara y el Sahel a cientos de viajeros. Ahora ha llegado el momento de llevar esa personal forma de trabajar los viajes a las selvas y los desiertos de Colombia, al triángulo cafetero, a las montañas andinas, a sus parques naturales… Estoy deseando que me acompañéis en este nuevo viaje."
     },
     "maggie": {
+      "role": "Co-Fundadora & Directora",
       "bio": "Siendo casi una niña abandoné mi país natal para cursar mis estudios en Francia. Recorrí Europa, Asia y el Norte de África antes de regresar a Canadá. La vida me llevó a Madagascar, donde dirigí el Lac Hotel Sahambavy durante años. El destino me llevó a conocer a Sergi Formentin, y juntos recorrimos los países más variados. La reciente pausa de la pandemia me permitió adentrarme en los secretos de Colombia y allí me enamoré de Santa Marta y sus alrededores."
     },
     "cta": {

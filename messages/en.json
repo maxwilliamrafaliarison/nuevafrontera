@@ -1410,10 +1410,15 @@
     "team": {
       "title": "Get to know us"
     },
+    "stat1": "Years of experience",
+    "stat2": "Unique trips",
+    "stat3": "Traveller support",
     "sergi": {
+      "role": "Founder & Director",
       "bio": "For as long as I can remember I wanted to show the world to others. At first I did it as a journalist, through my reports in various media, later I began to organize press trips and other adventures for professional teams. Then came the largest desert in the world, and those trans-Saharan routes that allowed me for years to show the Sahara and the Sahel to hundreds of travellers. Now the time has come to bring this personal way of working with travel to the jungles and deserts of Colombia, to the coffee triangle, to the Andean mountains, to its natural parks… I am looking forward to your joining me on this new journey."
     },
     "maggie": {
+      "role": "Co-Founder & Director",
       "bio": "As a young girl, I left my native country to study in France. I travelled through Europe, Asia and North Africa before returning to Canada. Life took me to Madagascar, where I managed the Lac Hotel Sahambavy for years. Destiny led me to meet Sergi Formentin, and together we travelled through the most varied countries. The recent pause of the pandemic allowed me to enter the secrets of Colombia and I fell in love with Santa Marta and its surroundings."
     },
     "cta": {

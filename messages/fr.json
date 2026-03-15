@@ -1119,7 +1119,7 @@
       "tagline": "Nueva Frontera Colombia",
       "title": "Un Autre Regard sur le Monde",
       "subtitle": "Nous créons des souvenirs de voyage inoubliables dans le dernier paradis d'Amérique",
-      "btn": "Explorer les Voyages",
+      "btn": "Explorez les Voyages",
       "scroll": "Découvrir",
       "titleHtml": "Un Autre Regard<br>sur le Monde"
     },
@@ -1410,10 +1410,15 @@
     "team": {
       "title": "Mieux nous connaître"
     },
+    "stat1": "Années d'expérience",
+    "stat2": "Voyages uniques",
+    "stat3": "Assistance voyageur",
     "sergi": {
+      "role": "Fondateur & Directeur",
       "bio": "D'aussi loin que je me souvienne, je voulais montrer le monde aux autres. Je l'ai tout d'abord fait en tant que journaliste, à travers mes reportages à différents médias espagnols. Plus tard j'ai commencé à organiser des voyages de presse et d'autres aventures. Puis j'ai guidé des centaines de voyageurs sur les routes transsahariennes du Sahel et du Sahara. Il est temps pour moi de mener à un niveau supérieur ma manière de travailler, en emmenant les voyageurs vers la Colombie, ses jungles, ses déserts, le triangle du café, les montagnes andines… J'ai hâte que vous vous joigniez à moi dans cette nouvelle aventure."
     },
     "maggie": {
+      "role": "Co-Fondatrice & Directrice",
       "bio": "J'ai quitté mon pays natal pour étudier en France. J'ai parcouru l'Europe, l'Asie et l'Afrique du Nord avant de revenir au Canada. La vie m'a conduite à Madagascar, où j'ai dirigé le Lac Hôtel Sahambavy pendant des années. Le destin m'a amenée à rencontrer Sergi Formentin, qui m'a encouragée à parcourir le monde à travers les pays les plus variés. La récente pause de la pandémie m'a permis d'explorer les quatre coins de la Colombie et je suis tombée amoureuse de Santa Marta."
     },
     "cta": {
