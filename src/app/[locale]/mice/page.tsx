@@ -107,20 +107,10 @@ export default async function MicePage() {
         <div className="container" style={{ textAlign: 'center' }}>
           <h2 style={{ color: 'white' }}>{t('advantages.title')}</h2>
           <div className="divider"></div>
-          <div className="advantages-list" style={{ marginTop: '2rem', maxWidth: '800px', margin: '2rem auto 0' }}>
+          <div className="advantages-list">
             {advantages.map((adv, i) => (
-              <div key={i} className="advantage-item" style={{
-                display: 'flex',
-                alignItems: 'flex-start',
-                gap: '1rem',
-                padding: '0.75rem 0',
-                borderBottom: '1px solid rgba(255,255,255,0.1)',
-                textAlign: 'left',
-              }}>
-                <span style={{ color: 'var(--color-accent)', fontWeight: 600, minWidth: '2rem' }}>
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <span style={{ color: 'rgba(255,255,255,0.85)' }}>{adv}</span>
+              <div key={i} className="advantage-item">
+                <p>{adv}</p>
               </div>
             ))}
           </div>
