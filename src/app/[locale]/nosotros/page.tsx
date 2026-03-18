@@ -91,7 +91,7 @@ export default async function NosotrosPage() {
             </div>
             <div className="team-member" style={{ textAlign: 'center' }}>
               <div className="team-member__photo" style={{ width: '200px', height: '200px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 1.5rem' }}>
-                <img src="/img/team-maggie.jpg" alt="Maggie Leong" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/img/team-maggie.jpg" alt="Maggie Leong" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
               </div>
               <h3>Maggie Leong</h3>
               <p style={{ color: 'var(--color-accent)', marginBottom: '1rem' }}>{t('maggie.role')}</p>
