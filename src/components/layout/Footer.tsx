@@ -35,7 +35,7 @@ export default async function Footer() {
             <h5 className="footer__heading">{t('footer.col.contacto')}</h5>
             <div className="footer__contact-item">
               <span>📍</span>
-              <span>Villa Laura, Calle 54<br />Santa Marta, Colombia</span>
+              <span>CL 127 N° 60, Torre 3, Apt. 504<br />Bogotá 11-001, Colombia</span>
             </div>
             <div className="footer__contact-item">
               <span>✉️</span>

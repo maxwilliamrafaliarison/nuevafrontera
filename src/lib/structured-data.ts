@@ -9,8 +9,9 @@ export function getTravelAgencyJsonLd() {
       'Agencia de viajes de lujo especializada en Colombia auténtica. Experiencias exclusivas para viajeros exigentes.',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Villa Laura, Calle 54',
-      addressLocality: 'Santa Marta',
+      streetAddress: 'CL 127 N° 60, Torre 3, Apt. 504',
+      addressLocality: 'Bogotá',
+      postalCode: '11-001',
       addressCountry: 'CO',
     },
     email: 'booking@nueva-frontera.com',

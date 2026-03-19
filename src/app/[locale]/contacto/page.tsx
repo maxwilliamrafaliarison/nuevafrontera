@@ -63,7 +63,7 @@ export default async function ContactoPage() {
                   <span style={{ fontSize: '1.5rem' }}>📍</span>
                   <div>
                     <strong>Dirección</strong>
-                    <p>Villa Laura, Calle 54<br />Santa Marta, Colombia</p>
+                    <p>CL 127 N° 60, Torre 3, Apt. 504<br />Bogotá 11-001, Colombia</p>
                   </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', marginBottom: '1.5rem' }}>

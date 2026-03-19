@@ -28,8 +28,8 @@ export default function LegalPage() {
           <p>
             En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la
             Sociedad de la Información y el Comercio Electrónico (LSSI-CE), se informa que el titular
-            de este sitio web es Nueva Frontera Colombia S.A.S., con domicilio en Villa Laura, Calle 54,
-            Santa Marta, Colombia.
+            de este sitio web es Nueva Frontera Colombia S.A.S., con domicilio en CL 127 N° 60, Torre 3, Apt. 504,
+            Bogotá 11-001, Colombia.
           </p>
 
           <h3 style={{ marginTop: '2rem' }}>Política de Privacidad</h3>
