@@ -32,11 +32,14 @@
     "follow": "Síguenos",
     "brand": {
       "desc": "Tour Operador Receptivo DMC creado y dirigido por profesionales del turismo españoles y canadienses residentes en Colombia."
-    }
+    },
+    "country": "Colombia"
   },
   "ui": {
     "wa": {
-      "tooltip": "¿Hablamos?"
+      "tooltip": "¿Hablamos?",
+      "message": "Hola, me interesa saber más sobre sus viajes a Colombia.",
+      "aria": "Contactar por WhatsApp — Nueva Frontera Colombia"
     },
     "breadcrumb": {
       "home": "Inicio",
@@ -145,7 +148,7 @@
       "overview": {
         "title": "El África colombiana",
         "p1": "Los Llanos Orientales de Colombia son una de las regiones más desconocidas y más fascinantes del continente americano. Un océano de hierba que se extiende hasta el horizonte, surcado por ríos sinuosos y habitado por una fauna que rivaliza con los mejores parques nacionales africanos.",
-        "p2": "Durante 5 días en el Ecolodge Savanna Orinoquia, saldremos a caballo al amanecer y al atardecer en busca de caimanes, anacondas, capibras, delfines rosados de río, toninas, chigüiros y más de 400 especies de aves. Un safari fotográfico de primer nivel en el corazón de la Orinoquia."
+        "p2": "Durante 5 días en el Ecolodge Savanna Orinoquia, saldremos a caballo al amanecer y al atardecer en busca de caimanes, anacondas, chigüiros, delfines rosados de río y más de 400 especies de aves. Un safari fotográfico de primer nivel en el corazón de la Orinoquia."
       },
       "cta": {
         "title": "¿Listo para el safari de los Llanos?",
@@ -265,7 +268,7 @@
         },
         "9": {
           "title": "Eje Cafetero",
-          "desc": "Tour del café, Valle del Cócora."
+          "desc": "Tour del café, Valle del Cocora."
         },
         "10": {
           "title": "Eje Cafetero → Cartagena",
@@ -515,7 +518,7 @@
       "hero": {
         "sub": "Bogotá · Medellín · Cartagena",
         "title": "Ciudades Míticas",
-        "desc": "La gran trilogía urbana de Colombia en 15 días"
+        "desc": "La gran trilogía urbana de Colombia en 10 días"
       },
       "overview": {
         "title": "Tres ciudades, tres almas",
@@ -721,11 +724,11 @@
       "hero": {
         "sub": "Eje Cafetero · Medellín · Caribe",
         "title": "De los Andes al Caribe",
-        "desc": "Del triángulo cafetero a las playas del Caribe en 13 días"
+        "desc": "Del Eje Cafetero a las playas del Caribe en 16 días"
       },
       "overview": {
         "title": "De las montañas al mar",
-        "p1": "De los Andes al Caribe es un recorrido de 13 días que conecta dos de los grandes mundos de Colombia: el Eje Cafetero, Patrimonio Mundial de la UNESCO, con sus haciendas centenarias y el Valle de Cocora; y la costa Caribe con su ciudad estrella, Cartagena de Indias."
+        "p1": "De los Andes al Caribe es un recorrido de 16 días que conecta dos de los grandes mundos de Colombia: el Eje Cafetero, Patrimonio Mundial de la UNESCO, con sus haciendas centenarias y el Valle de Cocora; y la costa Caribe con su ciudad estrella, Cartagena de Indias."
       },
       "cta": {
         "title": "¿De los Andes al Caribe en 13 días?",
@@ -745,7 +748,7 @@
       },
       "highlights": [
         "Bogotá y altiplano cundiboyacense",
-        "Eje Cafetero y Valle del Cócora",
+        "Eje Cafetero y Valle del Cocora",
         "Costa Caribe: Tayrona, Santa Marta",
         "Cartagena de Indias"
       ],
@@ -769,11 +772,11 @@
       "hero": {
         "sub": "Extremo norte de Colombia",
         "title": "La Guajira",
-        "desc": "Desierto, mar turquesa y la cultura ancestral del pueblo Wayúu"
+        "desc": "Desierto, mar turquesa y la cultura ancestral del pueblo Wayuu"
       },
       "overview": {
         "title": "El extremo del mundo",
-        "p1": "La Guajira es el punto más septentrional de Sudamérica, una tierra donde el desierto ocre se funde con el mar Caribe turquesa y el Atlántico gris en Punta Gallinas. Un paisaje lunático de dunas gigantes, salinas rosadas, acantilados imponentes y rancherías Wayúu que resistieron siglos de conquista y mantienen viva su cultura, su lengua —el wayuunaiki— y su cosmogonía."
+        "p1": "La Guajira es el punto más septentrional de Sudamérica, una tierra donde el desierto ocre se funde con el mar Caribe turquesa y el Atlántico gris en Punta Gallinas. Un paisaje lunático de dunas gigantes, salinas rosadas, acantilados imponentes y rancherías Wayuu que resistieron siglos de conquista y mantienen viva su cultura, su lengua —el wayuunaiki— y su cosmogonía."
       },
       "cta": {
         "title": "¿Lista para el confín del mundo?",
@@ -814,11 +817,11 @@
       "hero": {
         "sub": "Sabiduría ancestral de Colombia",
         "title": "Misterios Indígenas",
-        "desc": "Ciudad Perdida, comunidades Kogui, Wayúu y Tikuna — las raíces vivas de Colombia"
+        "desc": "Ciudad Perdida, comunidades Kogui, Wayuu y Tikuna — las raíces vivas de Colombia"
       },
       "overview": {
         "title": "Donde vive el pasado",
-        "p1": "Colombia alberga más de 80 grupos étnicos indígenas que preservan lenguas, rituales y cosmovisiones milenarias. Este viaje excepcional conecta a los más curiosos con cuatro de los pueblos más fascinantes del país: los Kogui de la Sierra Nevada, los Wayúu de La Guajira, los Tikuna del Amazonas y los Tayrona, cuya Ciudad Perdida permanece en lo alto de la sierra."
+        "p1": "Colombia alberga más de 80 grupos étnicos indígenas que preservan lenguas, rituales y cosmovisiones milenarias. Este viaje excepcional conecta a los más curiosos con cuatro de los pueblos más fascinantes del país: los Kogui de la Sierra Nevada, los Wayuu de La Guajira, los Tikuna del Amazonas y los Tayrona, cuya Ciudad Perdida permanece en lo alto de la sierra."
       },
       "cta": {
         "title": "Conéctese con las raíces de Colombia",
@@ -885,7 +888,7 @@
       },
       "highlights": [
         "Bogotá y sus alrededores: La Candelaria, Monserrate, Zipaquirá",
-        "Eje Cafetero: haciendas, Valle del Cócora, Salento",
+        "Eje Cafetero: haciendas, Valle del Cocora, Salento",
         "Sierra Nevada de Santa Marta: comunidades indígenas",
         "Parque Nacional Tayrona: playas y selva tropical",
         "Cartagena de Indias: historia, gastronomía y playas",
@@ -932,7 +935,7 @@
         },
         "6": {
           "title": "Eje Cafetero",
-          "desc": "Tour del café, Valle del Cócora, Salento."
+          "desc": "Tour del café, Valle del Cocora, Salento."
         },
         "7": {
           "title": "Eje Cafetero → Filandia",
@@ -1077,7 +1080,7 @@
         },
         "9": {
           "title": "Eje Cafetero",
-          "desc": "Tour del café, Valle del Cócora."
+          "desc": "Tour del café, Valle del Cocora."
         },
         "10": {
           "title": "Eje Cafetero → Cartagena",
@@ -1117,24 +1120,24 @@
     },
     "hero": {
       "tagline": "Nueva Frontera Colombia",
-      "title": "Otra Mirada al Mundo",
+      "title": "Otra mirada al mundo",
       "subtitle": "Creamos recuerdos inolvidables en el último paraíso de América",
-      "btn": "Explorar Viajes",
+      "btn": "Explorar viajes",
       "scroll": "Descubrir",
-      "titleHtml": "Otra Mirada<br>al Mundo"
+      "titleHtml": "Otra mirada <br>al mundo"
     },
     "intro": {
       "sub": "Descubre Colombia",
       "title": "El último paraíso de América",
-      "p1": "Colombia es el cuarto país más extenso de América del Sur, conocerlo entero no es cosa de un viaje, ni de dos…harán falta muchas aventuras para descubrir todos los secretos que esconde su interior todavía misterioso habitado aún por más de 100 comunidades indígenas precolombinas.",
+      "p1": "Colombia es el cuarto país más extenso de América del Sur, conocerlo entero no es cosa de un viaje, ni de dos… Harán falta muchas aventuras para descubrir todos los secretos que esconde su interior todavía misterioso habitado aún por más de 100 comunidades indígenas precolombinas.",
       "p2": "Un destino en el que todos los viajeros encuentran su viaje y que se ha ido abriendo paulatinamente al turismo en los últimos años, permitiendo todavía alternar la virginidad de zonas poco visitadas con el confort y las infraestructuras hoteleras más adecuadas.",
-      "cta": "Saber Más"
+      "cta": "Saber más"
     },
     "trips": {
       "title": "Viajes",
       "sub": "Explora con nosotros",
       "intro": "Son cientos los viajes diferentes que podríamos organizar en Colombia, pero aquí ofrecemos una muestra de programas especiales que cubren distintas regiones del variado país americano.",
-      "cta": "Ver Todos los Viajes"
+      "cta": "Ver todos los viajes"
     },
     "trip1": {
       "tag": "Grupo · Vuelo incluido",
@@ -1159,7 +1162,7 @@
     "svc": {
       "viajes": {
         "label": "Viajes",
-        "desc": "Expediciones de aventura, viajes de naturaleza, trekking, viajes culturales, lunas de miel, viajes temáticos… Diseñad con nosotros vuestro viaje."
+        "desc": "Expediciones de aventura, viajes de naturaleza, trekking, viajes culturales, lunas de miel, viajes temáticos… Diseñe con nosotros su viaje."
       },
       "mice": {
         "desc": "El país ofrece múltiples atractivos y facilidades para organizar seminarios, congresos y sobre todo viajes de incentivo.",
@@ -1167,22 +1170,22 @@
       },
       "luxury": {
         "label": "Luxury Travel",
-        "desc": "Nuestro concepto de Luxury Travel no se limita solamente a alojamientos, sino que abarca vehículos, avionetas privadas, catamaranes, helicópteros…"
+        "desc": "Nuestro concepto de Luxury Travel no se limita solamente a alojamientos, sino que abarca vehículos, aviones privados, catamaranes, helicópteros…"
       }
     },
-    "quote": "“Un viaje puede a veces ser un lujo, otras, puede ser también de lujo. De nuestra mano, los viajes de lujo se convierten también, en un lujo de viaje.”",
+    "quote": "« Un viaje puede a veces ser un lujo; otras, puede ser también de lujo. De nuestra mano, los viajes de lujo se convierten también en un lujo de viaje. »",
     "split": {
       "sub": "Colombia",
       "title": "Un interior partido por los Andes",
-      "p1": "Un interior partido por los Andes y el Eje Cafetero, con la gran mancha verde del Amazonas extendiéndose en el sur y la desconocida Orinoquia en el oeste, una costa del Pacífico delirante y un norte bañado por las aguas mansas del Mar Caribe.",
-      "p2": "Así es Colombia, aunque sus misterios van mucho más allá, como los desiertos de La Guajira, las cumbres de la Sierra Nevada, la Ciudad Perdida, el Parque Nacional de Tayrona, el valle de Cócora, el paisaje imposible de Tatacoa…",
+      "p1": "Los Andes y el Eje Cafetero dividen su interior, con la gran mancha verde del Amazonas extendiéndose en el sur y la desconocida Orinoquia en el oriente, una costa del Pacífico delirante y un norte bañado por las aguas mansas del Mar Caribe.",
+      "p2": "Así es Colombia, aunque sus misterios van mucho más allá, como los desiertos de La Guajira, las cumbres de la Sierra Nevada, la Ciudad Perdida, el Parque Nacional de Tayrona, el valle de Cocora, el paisaje imposible de Tatacoa…",
       "cta": "Descubrir Colombia"
     },
     "hotels": {
       "title": "Hoteles",
       "sub": "El hogar lejos del hogar",
       "intro": "Imagina una puesta de sol desde tu exclusivo bungalow ante las aguas del Mar Caribe, o pasar la noche en un antiguo monasterio restaurado, dormir en una cabaña sobre la selva, una casona colonial o en una hacienda cafetera…",
-      "cta": "Ver Alojamientos"
+      "cta": "Ver alojamientos"
     },
     "hotel1": {
       "name": "Hotel Boutique Colonial",
@@ -1198,9 +1201,9 @@
     },
     "cta": {
       "sub": "¿Listo para la aventura?",
-      "title": "Diseñad con nosotros vuestro viaje",
-      "body": "Cualquier cosa que se os ocurra, es posible en Colombia de la mano de Nueva Frontera.",
-      "btn": "Ponerse en Contacto"
+      "title": "Diseñe con nosotros su viaje",
+      "body": "Cualquier cosa que se le ocurra es posible en Colombia de la mano de Nueva Frontera.",
+      "btn": "Ponerse en contacto"
     }
   },
   "cookie": {
@@ -1241,7 +1244,7 @@
       "title": "Viajes",
       "sub": "Explore con nosotros",
       "p1": "Son cientos los viajes diferentes que podríamos organizar en Colombia, pero aquí ofrecemos una muestra de programas especiales que cubren distintas regiones del variado país americano. Un resumen de propuestas para que el viajero tenga una primera idea de las posibilidades que ofrece el destino, pero también podemos preparar cualquier tipo de viaje a medida o a la carta.",
-      "p2": "Expediciones de aventura, viajes específicos de naturaleza, trekking en los lugares más remotos del país, lunas de miel de ensueño, programas de incentivo, viajes temáticos para buceadores, surfistas, escaladores... Diseñad con nosotros vuestro viaje, cualquier cosa que se os ocurra, es posible en Colombia de la mano de NUEVA FRONTERA."
+      "p2": "Expediciones de aventura, viajes específicos de naturaleza, trekking en los lugares más remotos del país, lunas de miel de ensueño, programas de incentivo, viajes temáticos para buceadores, surfistas, escaladores... Diseñe con nosotros su viaje, cualquier cosa que se le ocurra, es posible en Colombia de la mano de NUEVA FRONTERA."
     },
     "cta": {
       "title": "¿Listo para vivir Colombia?",
@@ -1264,7 +1267,7 @@
     },
     "nature": {
       "title": "Naturaleza salvaje y cultura",
-      "body": "Combinar zonas naturales con el conocimiento de unas poblaciones todavía desconocidas es posible en un viaje MICE en Colombia. Lugares de ensueño que emergen de entre la naturaleza más silvestre, como el Eje Cafetero, la selva amazónica, la región de Caño Cristales, el Parque Nacional de Tayrona, los desiertos de la Guajira o Tatacoa, el Valle del Cócora, la cuenca del río Magdalena, los llanos orientales, las costas del Pacífico, el Mar Caribe…"
+      "body": "Combinar zonas naturales con el conocimiento de unas poblaciones todavía desconocidas es posible en un viaje MICE en Colombia. Lugares de ensueño que emergen de entre la naturaleza más silvestre, como el Eje Cafetero, la selva amazónica, la región de Caño Cristales, el Parque Nacional de Tayrona, los desiertos de la Guajira o Tatacoa, el Valle del Cocora, la cuenca del río Magdalena, los llanos orientales, las costas del Pacífico, el Mar Caribe…"
     },
     "cities": {
       "body": "Ciudades modernas y trepidantes como Bogotá o Medellín, conviven en el país con sosegadas poblaciones que conservan el pasado en sus calles como Villa de Leyva, Barichara, Salento o Santa Cruz de Mompox… y finalmente la célebre Cartagena de Indias, una mezcla de pasado y presente."
@@ -1451,6 +1454,32 @@
       "title": "WhatsApp",
       "desc": "Respuesta inmediata en horario de Colombia (UTC-5)",
       "btn": "Escribir por WhatsApp"
+    }
+  },
+  "legal": {
+    "meta": {
+      "title": "Aviso Legal | Nueva Frontera Colombia"
+    },
+    "breadcrumb": "Aviso Legal",
+    "hero": {
+      "title": "Aviso Legal"
+    },
+    "notice": {
+      "title": "Aviso Legal",
+      "body": "En cumplimiento del deber de información, se informa que el titular de este sitio web es Nueva Frontera Colombia S.A.S., con domicilio en CL 127 N° 60, Torre 3, Apt. 504, Bogotá 11-001, Colombia."
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "p1": "Los datos personales que nos facilite a través de los formularios de este sitio web serán tratados por Nueva Frontera Colombia S.A.S. con la finalidad de gestionar sus consultas y solicitudes de información sobre nuestros servicios turísticos.",
+      "p2": "Los datos proporcionados se conservarán mientras se mantenga la relación comercial o durante los años necesarios para cumplir con las obligaciones legales. Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal."
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "body": "Este sitio web utiliza cookies propias y de terceros para mejorar la experiencia del usuario, realizar análisis de navegación y mostrar contenido personalizado."
+    },
+    "contact": {
+      "title": "Contacto",
+      "body": "Para cualquier consulta relativa a estas políticas, puede contactarnos en:"
     }
   }
 }

@@ -1,11 +1,30 @@
+import { getTranslations, getLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
+import { locales } from '@/i18n/config';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
-export const metadata: Metadata = {
-  title: 'Aviso Legal | Nueva Frontera Colombia',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'legal' });
+  return {
+    title: t('meta.title'),
+    alternates: {
+      canonical: `https://www.nueva-frontera.com/${locale}/legal`,
+      languages: Object.fromEntries(
+        locales.map((l) => [l, `https://www.nueva-frontera.com/${l}/legal`])
+      ),
+    },
+  };
+}
 
-export default function LegalPage() {
+export default async function LegalPage() {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: 'legal' });
+
   return (
     <>
       <section className="page-hero" style={{ height: '35vh', minHeight: '250px' }}>
@@ -15,45 +34,28 @@ export default function LegalPage() {
         />
         <div className="page-hero__content">
           <div className="container">
-            <Breadcrumbs current="Legal" />
-            <h1>Aviso Legal</h1>
+            <Breadcrumbs current={t('breadcrumb')} />
+            <h1>{t('hero.title')}</h1>
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container container--narrow">
-          <h2>Aviso Legal</h2>
+          <h2 id="legal">{t('notice.title')}</h2>
           <div className="divider divider--left"></div>
-          <p>
-            En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la
-            Sociedad de la Información y el Comercio Electrónico (LSSI-CE), se informa que el titular
-            de este sitio web es Nueva Frontera Colombia S.A.S., con domicilio en CL 127 N° 60, Torre 3, Apt. 504,
-            Bogotá 11-001, Colombia.
-          </p>
+          <p>{t('notice.body')}</p>
 
-          <h3 style={{ marginTop: '2rem' }}>Política de Privacidad</h3>
-          <p>
-            Los datos personales que nos facilite a través de los formularios de este sitio web serán
-            tratados por Nueva Frontera Colombia S.A.S. con la finalidad de gestionar sus consultas y
-            solicitudes de información sobre nuestros servicios turísticos.
-          </p>
-          <p style={{ marginTop: '1rem' }}>
-            Los datos proporcionados se conservarán mientras se mantenga la relación comercial o durante
-            los años necesarios para cumplir con las obligaciones legales. Los datos no se cederán a
-            terceros salvo en los casos en que exista una obligación legal.
-          </p>
+          <h3 id="privacy" style={{ marginTop: '2rem' }}>{t('privacy.title')}</h3>
+          <p>{t('privacy.p1')}</p>
+          <p style={{ marginTop: '1rem' }}>{t('privacy.p2')}</p>
 
-          <h3 style={{ marginTop: '2rem' }}>Política de Cookies</h3>
-          <p>
-            Este sitio web utiliza cookies propias y de terceros para mejorar la experiencia del usuario,
-            realizar análisis de navegación y mostrar contenido personalizado. Al continuar navegando,
-            acepta nuestra política de cookies.
-          </p>
+          <h3 id="cookies" style={{ marginTop: '2rem' }}>{t('cookies.title')}</h3>
+          <p>{t('cookies.body')}</p>
 
-          <h3 style={{ marginTop: '2rem' }}>Contacto</h3>
+          <h3 style={{ marginTop: '2rem' }}>{t('contact.title')}</h3>
           <p>
-            Para cualquier consulta relativa a estas políticas, puede contactarnos en:{' '}
+            {t('contact.body')}{' '}
             <a href="mailto:booking@nueva-frontera.com">booking@nueva-frontera.com</a>
           </p>
         </div>

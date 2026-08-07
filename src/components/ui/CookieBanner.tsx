@@ -2,36 +2,47 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
+
+/**
+ * Clé de consentement. Stocke explicitement 'granted' ou 'denied' :
+ * l'ancienne clé écrivait 'true' dans les deux cas, ce qui enregistrait
+ * un refus comme un consentement.
+ */
+const CONSENT_KEY = 'nf_cookies_consent';
 
 export default function CookieBanner() {
   const t = useTranslations('cookie');
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const accepted = localStorage.getItem('nf_cookies_accepted');
-    if (!accepted) {
+    const choice = localStorage.getItem(CONSENT_KEY);
+    if (!choice) {
       const timer = setTimeout(() => setVisible(true), 2000);
       return () => clearTimeout(timer);
     }
   }, []);
 
-  function handleAccept() {
-    localStorage.setItem('nf_cookies_accepted', 'true');
+  function setConsent(value: 'granted' | 'denied') {
+    localStorage.setItem(CONSENT_KEY, value);
     setVisible(false);
   }
 
+  function handleAccept() {
+    setConsent('granted');
+  }
+
   function handleReject() {
-    localStorage.setItem('nf_cookies_accepted', 'true');
-    setVisible(false);
+    setConsent('denied');
   }
 
   return (
     <div className={`cookie-banner${visible ? ' visible' : ''}`} id="cookieBanner">
       <p>
         <span>{t('text')}</span>{' '}
-        <a href="/legal" style={{ color: 'var(--color-accent)' }}>
+        <Link href="/legal#cookies" style={{ color: 'var(--color-accent)' }}>
           {t('policy')}
-        </a>
+        </Link>
         .
       </p>
       <div style={{ display: 'flex', gap: '0.5rem' }}>

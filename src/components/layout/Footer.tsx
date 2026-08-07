@@ -35,7 +35,7 @@ export default async function Footer() {
             <h5 className="footer__heading">{t('footer.col.contacto')}</h5>
             <div className="footer__contact-item">
               <span>📍</span>
-              <span>CL 127 N° 60, Torre 3, Apt. 504<br />Bogotá 11-001, Colombia</span>
+              <span>CL 127 N° 60, Torre 3, Apt. 504<br />Bogotá 11-001, {t('footer.country')}</span>
             </div>
             <div className="footer__contact-item">
               <span>✉️</span>
@@ -50,9 +50,9 @@ export default async function Footer() {
         <div className="footer__bottom">
           <p><span>{t('footer.rights')}</span></p>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
-            <Link href="/legal">{t('footer.legal')}</Link>
-            <Link href="/legal">{t('footer.privacy.label')}</Link>
-            <Link href="/legal">{t('footer.cookies')}</Link>
+            <Link href="/legal#legal">{t('footer.legal')}</Link>
+            <Link href="/legal#privacy">{t('footer.privacy.label')}</Link>
+            <Link href="/legal#cookies">{t('footer.cookies')}</Link>
           </div>
         </div>
       </div>

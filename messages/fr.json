@@ -32,11 +32,14 @@
     "follow": "Suivez-nous",
     "brand": {
       "desc": "Tour Opérateur Réceptif DMC créé et dirigé par des professionnels du tourisme espagnols et canadiens résidant en Colombie."
-    }
+    },
+    "country": "Colombie"
   },
   "ui": {
     "wa": {
-      "tooltip": "On en parle ?"
+      "tooltip": "On en parle ?",
+      "message": "Bonjour, je souhaiterais en savoir plus sur vos voyages en Colombie.",
+      "aria": "Nous contacter par WhatsApp — Nueva Frontera Colombia"
     },
     "breadcrumb": {
       "home": "Accueil",
@@ -265,11 +268,11 @@
         },
         "9": {
           "title": "Région du Café",
-          "desc": "Tour du café, Vallée de Cócora."
+          "desc": "Tour du café, Vallée de Cocora."
         },
         "10": {
-          "title": "Région du Café → Cartagena",
-          "desc": "Vol vers Cartagena."
+          "title": "Région du Café → Carthagène",
+          "desc": "Vol vers Carthagène."
         },
         "11": {
           "title": "Départ",
@@ -374,13 +377,13 @@
     },
     "nido": {
       "hero": {
-        "sub": "Région Caféière — Eje Cafetero",
+        "sub": "Région Caféière — Région du Café",
         "title": "El Nido del Cóndor",
         "desc": "Luxe parmi les caféiers, Vallée de Cocora et sources thermales de Santa Rosa de Cabal"
       },
       "overview": {
         "title": "Entre les nuages et le café",
-        "p1": "L'Eje Cafetero colombien, Patrimoine Mondial de l'UNESCO, est l'un des paysages les plus caractéristiques d'Amérique Latine : collines couvertes de caféiers, haciendas coloniales, villages multicolores et la Vallée de Cocora avec ses gigantesques palmiers de cire."
+        "p1": "L'Région du Café colombien, Patrimoine Mondial de l'UNESCO, est l'un des paysages les plus caractéristiques d'Amérique Latine : collines couvertes de caféiers, haciendas coloniales, villages multicolores et la Vallée de Cocora avec ses gigantesques palmiers de cire."
       },
       "cta": {
         "title": "Huit jours au cœur de la région caféière ?",
@@ -515,7 +518,7 @@
       "hero": {
         "sub": "Bogotá · Medellín · Carthagène",
         "title": "Villes Mythiques",
-        "desc": "La grande trilogie urbaine de Colombie en 15 jours"
+        "desc": "La grande trilogie urbaine de Colombie en 10 jours"
       },
       "overview": {
         "title": "Trois villes, trois âmes",
@@ -696,11 +699,11 @@
           "desc": "Retour par la Guajira. Flamants à Camarones."
         },
         "11": {
-          "title": "Riohacha → Cartagena",
+          "title": "Riohacha → Carthagène",
           "desc": "Vol vers Carthagène des Indes."
         },
         "12": {
-          "title": "Cartagena",
+          "title": "Carthagène",
           "desc": "Visite de la ville fortifiée."
         },
         "13": {
@@ -708,7 +711,7 @@
           "desc": "Excursion aux îles."
         },
         "14": {
-          "title": "Cartagena libre",
+          "title": "Carthagène, journée libre",
           "desc": "Journée libre pour explorer."
         },
         "15": {
@@ -721,11 +724,11 @@
       "hero": {
         "sub": "Région Caféière · Medellín · Caraïbes",
         "title": "Des Andes aux Caraïbes",
-        "desc": "Du triangle du café aux plages des Caraïbes en 13 jours"
+        "desc": "De la Région du Café aux plages des Caraïbes en 16 jours"
       },
       "overview": {
         "title": "Des montagnes à la mer",
-        "p1": "Des Andes aux Caraïbes est un parcours de 13 jours qui connecte deux des grands mondes de la Colombie : l'Eje Cafetero, Patrimoine Mondial de l'UNESCO, avec ses haciendas centenaires et la Vallée de Cocora ; et la côte Caraïbe avec sa ville phare, Carthagène des Indes."
+        "p1": "Des Andes aux Caraïbes est un parcours de 16 jours qui connecte deux des grands mondes de la Colombie : l'Région du Café, Patrimoine Mondial de l'UNESCO, avec ses haciendas centenaires et la Vallée de Cocora ; et la côte Caraïbe avec sa ville phare, Carthagène des Indes."
       },
       "cta": {
         "title": "Des Andes aux Caraïbes en 13 jours ?",
@@ -745,7 +748,7 @@
       },
       "highlights": [
         "Bogotá et le haut plateau cundiboyacense",
-        "Région du Café et Vallée de Cócora",
+        "Région du Café et Vallée de Cocora",
         "Côte Caraïbe : Tayrona, Santa Marta",
         "Carthagène des Indes"
       ],
@@ -769,11 +772,11 @@
       "hero": {
         "sub": "Extrême nord de la Colombie",
         "title": "La Guajira",
-        "desc": "Désert, mer turquoise et culture ancestrale du peuple Wayúu"
+        "desc": "Désert, mer turquoise et culture ancestrale du peuple Wayuu"
       },
       "overview": {
         "title": "Le bout du monde",
-        "p1": "La Guajira est le point le plus septentrional d'Amérique du Sud, une terre où le désert ocre se fond avec la mer des Caraïbes turquoise et l'Atlantique gris à Punta Gallinas. Un paysage lunaire de dunes géantes, de salines roses, de falaises imposantes et de rancherías Wayúu qui ont résisté des siècles de conquête et maintiennent vivante leur culture, leur langue — le wayuunaiki — et leur cosmogonie."
+        "p1": "La Guajira est le point le plus septentrional d'Amérique du Sud, une terre où le désert ocre se fond avec la mer des Caraïbes turquoise et l'Atlantique gris à Punta Gallinas. Un paysage lunaire de dunes géantes, de salines roses, de falaises imposantes et de rancherías Wayuu qui ont résisté des siècles de conquête et maintiennent vivante leur culture, leur langue — le wayuunaiki — et leur cosmogonie."
       },
       "cta": {
         "title": "Prête pour le bout du monde ?",
@@ -814,11 +817,11 @@
       "hero": {
         "sub": "Sagesse ancestrale de la Colombie",
         "title": "Mystères Indigènes",
-        "desc": "Cité Perdue, communautés Kogui, Wayúu et Tikuna — les racines vivantes de la Colombie"
+        "desc": "Cité Perdue, communautés Kogui, Wayuu et Tikuna — les racines vivantes de la Colombie"
       },
       "overview": {
         "title": "Là où vit le passé",
-        "p1": "La Colombie abrite plus de 80 groupes ethniques indigènes qui préservent des langues, des rituels et des visions du monde millénaires. Ce voyage exceptionnel met en contact les plus curieux avec quatre des peuples les plus fascinants du pays : les Kogui de la Sierra Nevada, les Wayúu de La Guajira, les Tikuna de l'Amazonie et les Tayrona, dont la Cité Perdue se dresse au sommet de la sierra."
+        "p1": "La Colombie abrite plus de 80 groupes ethniques indigènes qui préservent des langues, des rituels et des visions du monde millénaires. Ce voyage exceptionnel met en contact les plus curieux avec quatre des peuples les plus fascinants du pays : les Kogui de la Sierra Nevada, les Wayuu de La Guajira, les Tikuna de l'Amazonie et les Tayrona, dont la Cité Perdue se dresse au sommet de la sierra."
       },
       "cta": {
         "title": "Connectez-vous aux racines de la Colombie",
@@ -885,14 +888,14 @@
       },
       "highlights": [
         "Bogotá et ses environs : La Candelaria, Monserrate, Zipaquirá",
-        "Région du Café : haciendas, Vallée de Cócora, Salento",
+        "Région du Café : haciendas, Vallée de Cocora, Salento",
         "Sierra Nevada de Santa Marta : communautés indigènes",
         "Parc National Tayrona : plages et forêt tropicale",
         "Carthagène des Indes : histoire, gastronomie et plages",
         "Vols intérieurs inclus"
       ],
       "includes_list": [
-        "Vols internationaux Madrid–Bogotá–Cartagena–Madrid",
+        "Vols internationaux Madrid–Bogotá–Carthagène–Madrid",
         "Vols intérieurs selon itinéraire",
         "Tous les transferts terrestres en véhicule privé",
         "Hébergement dans les hôtels indiqués (ou similaires)",
@@ -932,7 +935,7 @@
         },
         "6": {
           "title": "Région du Café",
-          "desc": "Tour du café, Vallée de Cócora, Salento."
+          "desc": "Tour du café, Vallée de Cocora, Salento."
         },
         "7": {
           "title": "Région du Café → Filandia",
@@ -963,11 +966,11 @@
           "desc": "Tubing sur la rivière Palomino. Plage de rivière et de mer."
         },
         "14": {
-          "title": "Palomino → Cartagena",
+          "title": "Palomino → Carthagène",
           "desc": "Transfert vers Carthagène des Indes."
         },
         "15": {
-          "title": "Cartagena",
+          "title": "Carthagène",
           "desc": "Visite à pied de la ville fortifiée, Getsemaní, San Felipe."
         },
         "16": {
@@ -975,11 +978,11 @@
           "desc": "Excursion en bateau aux Îles du Rosaire. Snorkeling."
         },
         "17": {
-          "title": "Cartagena libre",
+          "title": "Carthagène, journée libre",
           "desc": "Journée libre. Shopping, gastronomie ou plage de Bocagrande."
         },
         "18": {
-          "title": "Cartagena → Madrid",
+          "title": "Carthagène → Madrid",
           "desc": "Transfert à l'aéroport. Vol retour."
         },
         "19": {
@@ -1077,14 +1080,14 @@
         },
         "9": {
           "title": "Région du Café",
-          "desc": "Tour du café, Vallée de Cócora."
+          "desc": "Tour du café, Vallée de Cocora."
         },
         "10": {
-          "title": "Région du Café → Cartagena",
-          "desc": "Vol vers Cartagena."
+          "title": "Région du Café → Carthagène",
+          "desc": "Vol vers Carthagène."
         },
         "11": {
-          "title": "Cartagena",
+          "title": "Carthagène",
           "desc": "Visite de la ville fortifiée."
         },
         "12": {
@@ -1092,7 +1095,7 @@
           "desc": "Excursion aux îles."
         },
         "13": {
-          "title": "Cartagena libre",
+          "title": "Carthagène, journée libre",
           "desc": "Journée libre pour explorer."
         },
         "14": {
@@ -1117,28 +1120,28 @@
     },
     "hero": {
       "tagline": "Nueva Frontera Colombia",
-      "title": "Un Autre Regard sur le Monde",
+      "title": "Un autre regard sur le monde",
       "subtitle": "Nous créons des souvenirs de voyage inoubliables dans le dernier paradis d'Amérique",
-      "btn": "Explorez les Voyages",
+      "btn": "Explorez les voyages",
       "scroll": "Découvrir",
-      "titleHtml": "Un Autre Regard<br>sur le Monde"
+      "titleHtml": "Un autre regard <br>sur le monde"
     },
     "intro": {
       "sub": "Découvrez la Colombie",
       "title": "Le dernier paradis d'Amérique",
-      "p1": "La Colombie est le quatrième pays le plus grand d'Amérique du Sud. La connaître entièrement ne se résume pas à un voyage ou deux… Des aventures en aventures se profilent avant de percer les secrets de cette terre mystérieuse peuplée encore par plus de 100 communautés indigènes précolombiennes.",
+      "p1": "La Colombie est le quatrième plus grand pays d'Amérique du Sud. La connaître entièrement ne se résume pas à un voyage, ni à deux… D'aventure en aventure se dévoilent les secrets de cette terre mystérieuse, encore peuplée par plus de 100 communautés autochtones précolombiennes.",
       "p2": "Une destination où chaque voyageur trouve son voyage et qui s'est ouverte progressivement au tourisme ces dernières années, permettant encore d'alterner la virginité de zones peu visitées avec le confort et les infrastructures hôtelières les plus adaptées.",
-      "cta": "En Savoir Plus"
+      "cta": "En savoir plus"
     },
     "trips": {
       "title": "Voyages",
       "sub": "Explorez avec nous",
-      "intro": "Il existe des centaines de voyages différents que l'on pourrait organiser en Colombie, mais nous vous proposons ici un panel de programmes spéciaux qui couvre les différentes régions du pays.",
-      "cta": "Voir Tous les Voyages"
+      "intro": "Il existe des centaines de voyages différents que l'on pourrait organiser en Colombie, mais nous vous proposons ici un éventail de programmes spéciaux qui couvre les différentes régions du pays.",
+      "cta": "Voir tous les voyages"
     },
     "trip1": {
       "tag": "Groupe · Vol inclus",
-      "excerpt": "Bogotá, Axe du Café, Sierra Nevada, Tayrona et Carthagène",
+      "excerpt": "Bogotá, Région du Café, Sierra Nevada, Tayrona et Carthagène",
       "dur": "19 jours",
       "type": "Culturel · Aventure"
     },
@@ -1167,22 +1170,22 @@
       },
       "luxury": {
         "label": "Voyage de Luxe",
-        "desc": "Notre concept de Luxury Travel ne se limite pas aux hébergements, mais englobe véhicules, avions privés, catamarans, hélicoptères…"
+        "desc": "Notre concept de voyage de luxe ne se limite pas aux hébergements, mais englobe véhicules, avions privés, catamarans, hélicoptères…"
       }
     },
-    "quote": "“Un voyage peut parfois être un luxe, d'autres fois, il peut aussi être de luxe. Entre nos mains, les voyages de luxe deviennent aussi un luxe de voyage.”",
+    "quote": "« Un voyage peut parfois être un luxe ; d'autres fois, il peut être de luxe. Entre nos mains, les voyages de luxe deviennent aussi un luxe de voyage. »",
     "split": {
       "sub": "Colombie",
       "title": "Un intérieur partagé par les Andes",
-      "p1": "Un intérieur partagé par les Andes et l'Axe du Café, avec la grande tache verte de l'Amazonie s'étendant au sud et la méconnue Orénoquie à l'ouest, une côte Pacifique délirante et un nord baigné par les eaux calmes de la mer des Caraïbes.",
-      "p2": "Voilà la Colombie, bien que ses mystères aillent bien au-delà : les déserts de La Guajira, les sommets de la Sierra Nevada, la Cité Perdue, le Parc National de Tayrona, la vallée de Cocora, le paysage impossible de Tatacoa…",
+      "p1": "Les Andes et la Région du Café en partagent l'intérieur, avec la grande tache verte de l'Amazonie s'étendant au sud et la méconnue Orénoquie à l'est, une côte Pacifique délirante et un nord baigné par les eaux calmes de la mer des Caraïbes.",
+      "p2": "Voilà la Colombie, bien que ses mystères aillent plus loin encore : les déserts de La Guajira, les sommets de la Sierra Nevada, la Cité Perdue, le Parc National de Tayrona, la vallée de Cocora, le paysage impossible du désert de la Tatacoa…",
       "cta": "Découvrir la Colombie"
     },
     "hotels": {
       "title": "Hôtels",
-      "sub": "Votre maison même loin de chez vous",
-      "intro": "Imaginez un coucher de soleil depuis votre bungalow exclusif face aux eaux de la mer des Caraïbes, ou passer la nuit dans un ancien monastère restauré, dormir dans une cabane au-dessus de la jungle, une maison coloniale ou dans une hacienda de café…",
-      "cta": "Voir les Hébergements"
+      "sub": "Votre maison, même loin de chez vous",
+      "intro": "Imaginez un coucher de soleil depuis votre bungalow exclusif face aux eaux de la mer des Caraïbes, une nuit dans un ancien monastère restauré, une cabane au-dessus de la jungle, une maison coloniale ou une hacienda de café…",
+      "cta": "Voir les hébergements"
     },
     "hotel1": {
       "name": "Hôtel Boutique Colonial",
@@ -1190,7 +1193,7 @@
     },
     "hotel2": {
       "name": "Hacienda de Café",
-      "loc": "Axe du Café"
+      "loc": "Région du Café"
     },
     "hotel3": {
       "name": "Lodge Caribéen",
@@ -1200,7 +1203,7 @@
       "sub": "Prêt pour l'aventure ?",
       "title": "Concevez votre voyage avec nous",
       "body": "Tout ce à quoi vous pouvez rêver est possible en Colombie avec Nueva Frontera.",
-      "btn": "Nous Contacter"
+      "btn": "Nous contacter"
     }
   },
   "cookie": {
@@ -1264,10 +1267,10 @@
     },
     "nature": {
       "title": "Nature sauvage et culture",
-      "body": "Combiner nature et découverte de la population indigène est particulièrement indiqué lors d'un voyage MICE en Colombie : lieux de rêve qui surgissent dans la nature sauvage tels que l'Axe du Café, la forêt Amazonienne, la région de Caño Cristales, le Parc National de Tayrona, les déserts de La Guajira ou Tatacoa, la vallée de Cocora, le bassin de la rivière Magdalena, les plaines orientales, les côtes du Pacifique, la mer des Caraïbes…"
+      "body": "Combiner nature et découverte de la population indigène est particulièrement indiqué lors d'un voyage MICE en Colombie : lieux de rêve qui surgissent dans la nature sauvage tels que l'Région du Café, la forêt Amazonienne, la région de Caño Cristales, le Parc National de Tayrona, les déserts de La Guajira ou Tatacoa, la vallée de Cocora, le bassin de la rivière Magdalena, les plaines orientales, les côtes du Pacifique, la mer des Caraïbes…"
     },
     "cities": {
-      "body": "Des villes modernes et trépidantes, telles Bogotá ou Medellín, côtoient des villes plus calmes et préservées ayant su garder leurs architectures telles que Villa de Leyva, Barichara, Salento ou Santa Cruz de Mompox… et enfin la célèbre Carthagène Des Indes : un mélange entre tradition et modernisme."
+      "body": "Des villes modernes et trépidantes, telles Bogotá ou Medellín, côtoient des villes plus calmes et préservées ayant su garder leurs architectures telles que Villa de Leyva, Barichara, Salento ou Santa Cruz de Mompox… et enfin la célèbre Carthagène des Indes : un mélange entre tradition et modernisme."
     },
     "beaches": {
       "title": "Plages de rêve",
@@ -1415,7 +1418,7 @@
     "stat3": "Assistance voyageur",
     "sergi": {
       "role": "Fondateur & Directeur",
-      "bio": "D'aussi loin que je me souvienne, je voulais montrer le monde aux autres. Je l'ai tout d'abord fait en tant que journaliste, à travers mes reportages à différents médias espagnols. Plus tard j'ai commencé à organiser des voyages de presse et d'autres aventures. Puis j'ai guidé des centaines de voyageurs sur les routes transsahariennes du Sahel et du Sahara. Il est temps pour moi de mener à un niveau supérieur ma manière de travailler, en emmenant les voyageurs vers la Colombie, ses jungles, ses déserts, le triangle du café, les montagnes andines… J'ai hâte que vous vous joigniez à moi dans cette nouvelle aventure."
+      "bio": "D'aussi loin que je me souvienne, je voulais montrer le monde aux autres. Je l'ai tout d'abord fait en tant que journaliste, à travers mes reportages à différents médias espagnols. Plus tard j'ai commencé à organiser des voyages de presse et d'autres aventures. Puis j'ai guidé des centaines de voyageurs sur les routes transsahariennes du Sahel et du Sahara. Il est temps pour moi de mener à un niveau supérieur ma manière de travailler, en emmenant les voyageurs vers la Colombie, ses jungles, ses déserts, le Région du Café, les montagnes andines… J'ai hâte que vous vous joigniez à moi dans cette nouvelle aventure."
     },
     "maggie": {
       "role": "Co-Fondatrice & Directrice",
@@ -1451,6 +1454,32 @@
       "title": "WhatsApp",
       "desc": "Réponse immédiate aux heures colombiennes (UTC-5)",
       "btn": "Écrire sur WhatsApp"
+    }
+  },
+  "legal": {
+    "meta": {
+      "title": "Mentions légales | Nueva Frontera Colombia"
+    },
+    "breadcrumb": "Mentions légales",
+    "hero": {
+      "title": "Mentions légales"
+    },
+    "notice": {
+      "title": "Mentions légales",
+      "body": "Conformément au devoir d'information, il est précisé que l'éditeur de ce site est Nueva Frontera Colombia S.A.S., dont le siège social est situé CL 127 N° 60, Torre 3, Apt. 504, Bogotá 11-001, Colombie."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "p1": "Les données personnelles que vous nous transmettez via les formulaires de ce site sont traitées par Nueva Frontera Colombia S.A.S. afin de répondre à vos demandes de renseignements sur nos services touristiques.",
+      "p2": "Ces données sont conservées pendant la durée de la relation commerciale, ou pendant la durée nécessaire au respect des obligations légales. Elles ne sont pas cédées à des tiers, sauf obligation légale."
+    },
+    "cookies": {
+      "title": "Politique de cookies",
+      "body": "Ce site utilise des cookies internes et tiers afin d'améliorer votre expérience de navigation, de réaliser des analyses d'audience et de proposer des contenus personnalisés."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "Pour toute question relative à ces politiques, vous pouvez nous écrire à :"
     }
   }
 }

@@ -32,11 +32,14 @@
     "follow": "Follow us",
     "brand": {
       "desc": "Inbound DMC Tour Operator created and managed by Spanish and Canadian tourism professionals living in Colombia."
-    }
+    },
+    "country": "Colombia"
   },
   "ui": {
     "wa": {
-      "tooltip": "Shall we talk?"
+      "tooltip": "Shall we talk?",
+      "message": "Hello, I would like to know more about your trips to Colombia.",
+      "aria": "Contact us on WhatsApp — Nueva Frontera Colombia"
     },
     "breadcrumb": {
       "home": "Home",
@@ -140,16 +143,16 @@
       "hero": {
         "sub": "Eastern Plains — Llanos",
         "title": "Llanos Safari",
-        "desc": "Photographic and horseback safari in the Colombian Orinoquía"
+        "desc": "Photographic and horseback safari in the Colombian Orinoquia"
       },
       "overview": {
         "title": "Colombia's Africa",
         "p1": "The Eastern Plains of Colombia are one of the most unknown and fascinating regions on the American continent. An ocean of grass stretching to the horizon, crossed by winding rivers and home to wildlife that rivals the best national parks of Africa.",
-        "p2": "During 5 days at Savanna Orinoquia Ecolodge, we head out on horseback at dawn and dusk in search of caimans, anacondas, capybaras, pink river dolphins, giant otters, capybaras and more than 400 bird species. A first-class photographic safari in the heart of the Orinoquía."
+        "p2": "During 5 days at Savanna Orinoquia Ecolodge, we head out on horseback at dawn and dusk in search of caimans, anacondas, capybaras, pink river dolphins and more than 400 bird species. A first-class photographic safari in the heart of the Orinoquia."
       },
       "cta": {
         "title": "Ready for the Llanos safari?",
-        "body": "Just 5 days, but an experience that lasts a lifetime. The Colombian Orinoquía in its purest form."
+        "body": "Just 5 days, but an experience that lasts a lifetime. The Colombian Orinoquia in its purest form."
       },
       "card": {
         "tag": "Nature",
@@ -265,7 +268,7 @@
         },
         "9": {
           "title": "Coffee Region",
-          "desc": "Coffee tour, Cócora Valley."
+          "desc": "Coffee tour, Cocora Valley."
         },
         "10": {
           "title": "Coffee Region → Cartagena",
@@ -374,13 +377,13 @@
     },
     "nido": {
       "hero": {
-        "sub": "Coffee Region — Eje Cafetero",
+        "sub": "Coffee Region — Coffee Region",
         "title": "El Nido del Cóndor",
         "desc": "Luxury among coffee plantations, Cocora Valley and Santa Rosa hot springs"
       },
       "overview": {
         "title": "Between the clouds and the coffee",
-        "p1": "The Colombian Eje Cafetero, a UNESCO World Heritage Site, is one of Latin America's most characteristic landscapes: hills covered with coffee plantations, colonial haciendas, colourful villages and the Cocora Valley with its giant wax palms."
+        "p1": "The Colombian Coffee Region, a UNESCO World Heritage Site, is one of Latin America's most characteristic landscapes: hills covered with coffee plantations, colonial haciendas, colourful villages and the Cocora Valley with its giant wax palms."
       },
       "cta": {
         "title": "Eight days in the heart of coffee country?",
@@ -431,7 +434,7 @@
       },
       "cta": {
         "title": "Seven days in the magical Pacific?",
-        "body": "The Colombian Pacific is the last frontier of luxury ecotourism in Colombia. A destination for travellers who seek the extraordinary."
+        "body": "The Colombian Pacific is the last frontier of luxury ecotourism in Colombia. A destination for travelers who seek the extraordinary."
       },
       "card": {
         "tag": "Nature",
@@ -470,11 +473,11 @@
       "hero": {
         "sub": "Sierra de La Macarena",
         "title": "Caño Cristales",
-        "desc": "The river of five colours — Colombia's natural wonder"
+        "desc": "The river of five colors — Colombia's natural wonder"
       },
       "overview": {
         "title": "The world's most beautiful river",
-        "p1": "Caño Cristales is known as the river of five colours, or the world's most beautiful river. Its crystal-clear waters flow over multicoloured rock beds where Macarenia clavigera algae proliferate, dyeing the riverbed a deep crimson that contrasts with the yellow, green, blue and black of the rock."
+        "p1": "Caño Cristales is known as the river of five colors, or the world's most beautiful river. Its crystal-clear waters flow over multicoloured rock beds where Macarenia clavigera algae proliferate, dyeing the riverbed a deep crimson that contrasts with the yellow, green, blue and black of the rock."
       },
       "cta": {
         "title": "The world's most beautiful river in 4 days?",
@@ -515,7 +518,7 @@
       "hero": {
         "sub": "Bogotá · Medellín · Cartagena",
         "title": "Mythical Cities",
-        "desc": "Colombia's great urban trilogy in 15 days"
+        "desc": "Colombia's great urban trilogy in 10 days"
       },
       "overview": {
         "title": "Three cities, three souls",
@@ -708,7 +711,7 @@
           "desc": "Island excursion."
         },
         "14": {
-          "title": "Cartagena free",
+          "title": "Free day in Cartagena",
           "desc": "Free day to explore."
         },
         "15": {
@@ -721,11 +724,11 @@
       "hero": {
         "sub": "Coffee Region · Medellín · Caribbean",
         "title": "Andes to the Caribbean",
-        "desc": "From the coffee triangle to the Caribbean beaches in 13 days"
+        "desc": "From the Coffee Region to the Caribbean beaches in 16 days"
       },
       "overview": {
         "title": "From the mountains to the sea",
-        "p1": "Andes to the Caribbean is a 13-day journey connecting two of Colombia's great worlds: the Eje Cafetero, a UNESCO World Heritage Site, with its century-old haciendas and Cocora Valley; and the Caribbean coast with its star city, Cartagena de Indias."
+        "p1": "Andes to the Caribbean is a 16-day journey connecting two of Colombia's great worlds: the Coffee Region, a UNESCO World Heritage Site, with its century-old haciendas and Cocora Valley; and the Caribbean coast with its star city, Cartagena de Indias."
       },
       "cta": {
         "title": "From the Andes to the Caribbean in 13 days?",
@@ -745,7 +748,7 @@
       },
       "highlights": [
         "Bogotá and the Cundiboyacense highlands",
-        "Coffee Region and Cócora Valley",
+        "Coffee Region and Cocora Valley",
         "Caribbean Coast: Tayrona, Santa Marta",
         "Cartagena de Indias"
       ],
@@ -769,11 +772,11 @@
       "hero": {
         "sub": "Northernmost tip of South America",
         "title": "La Guajira",
-        "desc": "Desert, turquoise sea and the ancestral culture of the Wayúu people"
+        "desc": "Desert, turquoise sea and the ancestral culture of the Wayuu people"
       },
       "overview": {
         "title": "The end of the world",
-        "p1": "La Guajira is the northernmost point of South America, a land where the ochre desert merges with the turquoise Caribbean and the grey Atlantic at Punta Gallinas. A lunar landscape of giant dunes, pink salt flats, imposing cliffs and Wayúu settlements that resisted centuries of conquest and keep their culture, language — wayuunaiki — and cosmogony alive."
+        "p1": "La Guajira is the northernmost point of South America, a land where the ochre desert merges with the turquoise Caribbean and the grey Atlantic at Punta Gallinas. A lunar landscape of giant dunes, pink salt flats, imposing cliffs and Wayuu settlements that resisted centuries of conquest and keep their culture, language — wayuunaiki — and cosmogony alive."
       },
       "cta": {
         "title": "Ready for the end of the world?",
@@ -814,11 +817,11 @@
       "hero": {
         "sub": "Ancestral Wisdom of Colombia",
         "title": "Indigenous Mysteries",
-        "desc": "Lost City, Kogui, Wayúu and Tikuna communities — the living roots of Colombia"
+        "desc": "Lost City, Kogui, Wayuu and Tikuna communities — the living roots of Colombia"
       },
       "overview": {
         "title": "Where the past lives",
-        "p1": "Colombia is home to more than 80 indigenous ethnic groups that preserve millennial languages, rituals and worldviews. This exceptional journey connects the most curious with four of the country's most fascinating peoples: the Kogui of the Sierra Nevada, the Wayúu of La Guajira, the Tikuna of the Amazon and the Tayrona, whose Lost City remains atop the sierra."
+        "p1": "Colombia is home to more than 80 indigenous ethnic groups that preserve millennial languages, rituals and worldviews. This exceptional journey connects the most curious with four of the country's most fascinating peoples: the Kogui of the Sierra Nevada, the Wayuu of La Guajira, the Tikuna of the Amazon and the Tayrona, whose Lost City remains atop the sierra."
       },
       "cta": {
         "title": "Connect with the roots of Colombia",
@@ -885,7 +888,7 @@
       },
       "highlights": [
         "Bogotá and surroundings: La Candelaria, Monserrate, Zipaquirá",
-        "Coffee Region: haciendas, Cócora Valley, Salento",
+        "Coffee Region: haciendas, Cocora Valley, Salento",
         "Sierra Nevada de Santa Marta: indigenous communities",
         "Tayrona National Park: beaches and tropical rainforest",
         "Cartagena de Indias: history, gastronomy and beaches",
@@ -932,7 +935,7 @@
         },
         "6": {
           "title": "Coffee Region",
-          "desc": "Coffee tour, Cócora Valley, Salento."
+          "desc": "Coffee tour, Cocora Valley, Salento."
         },
         "7": {
           "title": "Coffee Region → Filandia",
@@ -975,7 +978,7 @@
           "desc": "Boat trip to the Rosario Islands. Snorkeling."
         },
         "17": {
-          "title": "Cartagena free",
+          "title": "Free day in Cartagena",
           "desc": "Free day. Shopping, gastronomy or Bocagrande beach."
         },
         "18": {
@@ -1077,7 +1080,7 @@
         },
         "9": {
           "title": "Coffee Region",
-          "desc": "Coffee tour, Cócora Valley."
+          "desc": "Coffee tour, Cocora Valley."
         },
         "10": {
           "title": "Coffee Region → Cartagena",
@@ -1121,13 +1124,13 @@
       "subtitle": "We create unforgettable memories in South America's last paradise",
       "btn": "Explore Trips",
       "scroll": "Discover",
-      "titleHtml": "Another Look<br>at the World"
+      "titleHtml": "Another Look <br>at the World"
     },
     "intro": {
       "sub": "Discover Colombia",
       "title": "South America's last paradise",
-      "p1": "Colombia is the fourth largest country in South America. To know it entirely is not a matter of one trip, or two… it will take many adventures to discover all the secrets hidden in its still mysterious interior, still inhabited by more than 100 pre-Columbian indigenous communities.",
-      "p2": "A destination where every traveller finds their trip and which has been gradually opening up to tourism in recent years, still allowing the visitor to alternate the virginity of little-visited areas with the comfort and the most suitable hotel infrastructures.",
+      "p1": "Colombia is the fourth largest country in South America. Getting to know it fully takes more than one trip, or two… It will take many adventures to uncover the secrets of its still mysterious interior, home to more than 100 pre-Columbian indigenous communities.",
+      "p2": "A destination where every traveler finds their trip, and which has opened up to tourism gradually over recent years, still letting visitors alternate between pristine, little-visited areas and the comfort of well-appointed hotel infrastructure.",
       "cta": "Learn More"
     },
     "trips": {
@@ -1162,26 +1165,26 @@
         "desc": "Adventure expeditions, nature trips, trekking, cultural journeys, honeymoons, themed trips… Design your trip with us."
       },
       "mice": {
-        "desc": "The country offers multiple attractions and facilities for organizing seminars, congresses and above all incentive trips.",
+        "desc": "The country offers a wealth of attractions and facilities for organizing seminars, congresses and, above all, incentive travel.",
         "label": "MICE"
       },
       "luxury": {
         "label": "Luxury Travel",
-        "desc": "Our concept of Luxury Travel is not limited to accommodations, but also includes vehicles, private planes, catamarans, helicopters…"
+        "desc": "Our concept of Luxury Travel is not limited to accommodation — it extends to vehicles, private planes, catamarans, helicopters…"
       }
     },
-    "quote": "“A journey can sometimes be a luxury, other times, it can also be luxurious. In our hands, luxury trips also become a luxury of a journey.”",
+    "quote": "“A journey can be a luxury — and it can be luxurious. In our hands, luxury travel becomes the luxury of traveling.”",
     "split": {
       "sub": "Colombia",
       "title": "An interior divided by the Andes",
-      "p1": "An interior divided by the Andes and the Coffee Region, with the great green expanse of the Amazon stretching to the south and the unknown Orinoquia to the west, a delirious Pacific coast and a north bathed by the calm waters of the Caribbean Sea.",
-      "p2": "That is Colombia, although its mysteries go much further, like the deserts of La Guajira, the peaks of the Sierra Nevada, the Lost City, Tayrona National Park, the Cocora Valley, the impossible landscape of Tatacoa…",
+      "p1": "The Andes and the Coffee Region divide its interior, with the great green expanse of the Amazon stretching to the south and the unknown Orinoquia to the east, an exuberant Pacific coast and a north bathed by the calm waters of the Caribbean Sea.",
+      "p2": "That is Colombia, although its mysteries go far beyond: the deserts of La Guajira, the peaks of the Sierra Nevada, the Lost City, Tayrona National Park, the Cocora Valley, the impossible landscape of the Tatacoa Desert…",
       "cta": "Discover Colombia"
     },
     "hotels": {
       "title": "Hotels",
       "sub": "Home away from home",
-      "intro": "Imagine a sunset from your exclusive bungalow overlooking the Caribbean Sea, or spending the night in a restored ancient monastery, sleeping in a cabin above the jungle, a colonial mansion or a coffee hacienda…",
+      "intro": "Imagine a sunset from your exclusive bungalow overlooking the Caribbean Sea, a night in a restored monastery, a cabin above the jungle, a colonial mansion or a coffee hacienda…",
       "cta": "View Accommodations"
     },
     "hotel1": {
@@ -1197,7 +1200,7 @@
       "loc": "Caribbean Coast"
     },
     "cta": {
-      "sub": "Ready for the adventure?",
+      "sub": "Ready for adventure?",
       "title": "Design your trip with us",
       "body": "Anything you can think of is possible in Colombia with Nueva Frontera.",
       "btn": "Get in Touch"
@@ -1240,7 +1243,7 @@
     "intro": {
       "title": "Trips",
       "sub": "Explore with us",
-      "p1": "There are hundreds of different trips we could organize in Colombia, but here we offer a sample of special programs that cover different regions of this varied Latin-American country. A summary of proposals to give the traveller a first idea of the possibilities offered by this destination, but we can also prepare any type of tailor-made trip.",
+      "p1": "There are hundreds of different trips we could organize in Colombia, but here we offer a sample of special programs that cover different regions of this varied Latin-American country. A summary of proposals to give the traveler a first idea of the possibilities offered by this destination, but we can also prepare any type of tailor-made trip.",
       "p2": "Adventure expeditions, specific nature trips, trekking in the most remote places of the country, dream honeymoons, incentive programs, thematic trips for divers, surfers, climbers... Design your trip with us — anything you think of is possible in Colombia with NUEVA FRONTERA."
     },
     "cta": {
@@ -1264,7 +1267,7 @@
     },
     "nature": {
       "title": "Wildlife and culture",
-      "body": "Combining natural areas with knowledge of still-unknown indigenous populations is possible on a MICE trip in Colombia. Dreamlike places emerging from the wildest nature, such as the Eje Cafetero, the Amazon jungle, the Caño Cristales region, Tayrona National Park, the deserts of La Guajira or Tatacoa, the Cocora Valley, the Magdalena River basin, the eastern plains, the Pacific coast, the Caribbean Sea…"
+      "body": "Combining natural areas with knowledge of still-unknown indigenous populations is possible on a MICE trip in Colombia. Dreamlike places emerging from the wildest nature, such as the Coffee Region, the Amazon jungle, the Caño Cristales region, Tayrona National Park, the deserts of La Guajira or Tatacoa, the Cocora Valley, the Magdalena River basin, the eastern plains, the Pacific coast, the Caribbean Sea…"
     },
     "cities": {
       "body": "Modern and exciting cities like Bogotá or Medellín coexist in the country with quiet towns that preserve the past in their streets, such as Villa de Leyva, Barichara, Salento or Santa Cruz de Mompox… and finally the famous Cartagena de Indias, a mixture of past and present."
@@ -1272,7 +1275,7 @@
     "beaches": {
       "title": "Dream beaches",
       "body": "Thousands of kilometres of virgin and paradisiacal beaches, some of which are home to some of the most charming and exclusive lodges in the Caribbean. A paradise for scuba diving lovers and other water sports, Colombia has some of the most renowned spots on the planet.",
-      "body2": "Seabeds teeming with unique aquatic species, whale watching, coral reefs, fishing villages, long rows of coconut trees on beaches of snow-white sand and turquoise waters, small and exclusive lodges where the traveller will play Robinson Crusoe... This is the Colombian coastline."
+      "body2": "Seabeds teeming with unique aquatic species, whale watching, coral reefs, fishing villages, long rows of coconut trees on beaches of snow-white sand and turquoise waters, small and exclusive lodges where the traveler will play Robinson Crusoe... This is the Colombian coastline."
     },
     "advantages": {
       "title": "Advantages of organizing an incentive with us"
@@ -1299,7 +1302,7 @@
       "btn": "View Hotels"
     },
     "cta": {
-      "title": "Shall we organise your next incentive in Colombia?",
+      "title": "Shall we organize your next incentive in Colombia?",
       "body": "Contact our team and we will present a tailor-made proposal in less than 24 hours.",
       "btn": "Contact us now"
     }
@@ -1353,7 +1356,7 @@
       "title": "Hotels",
       "sub": "Home away from home",
       "p1": "Imagine a sunset from your exclusive bungalow overlooking the waters of the Caribbean Sea, or spending the night in an old restored monastery, sleeping in a cabin over the jungle, a colonial mansion or a coffee plantation…",
-      "p2": "Colombia's hotel infrastructure is developing day by day and today we can offer all kinds of accommodations for our trips, from luxurious international chains to small and charming boutique hotels, to the most exclusive lodges and simple accommodations managed by indigenous communities. In Colombia, we have the right hotel for every type of traveller."
+      "p2": "Colombia's hotel infrastructure is developing day by day and today we can offer all kinds of accommodations for our trips, from luxurious international chains to small and charming boutique hotels, to the most exclusive lodges and simple accommodations managed by indigenous communities. In Colombia, we have the right hotel for every type of traveler."
     },
     "collection": "Our selection",
     "cat": {
@@ -1396,8 +1399,8 @@
     "intro": {
       "title": "Nueva Frontera",
       "sub": "Another look at the world…",
-      "p1": "For decades we have been dedicated to showing different places in the world to Spanish-speaking travellers. With a long experience accumulated in Africa, it was time for a change of scenery. The pandemic and the closing of borders in Madagascar allowed us to explore in depth a country we had already known for years: Colombia.",
-      "p2": "The political and social situation of the country had changed for the better in recent years, and that encouraged us to carry out this DMC project in order to show Spanish travellers Colombia in a different way.",
+      "p1": "For decades we have been dedicated to showing different places in the world to Spanish-speaking travelers. With a long experience accumulated in Africa, it was time for a change of scenery. The pandemic and the closing of borders in Madagascar allowed us to explore in depth a country we had already known for years: Colombia.",
+      "p2": "The political and social situation of the country had changed for the better in recent years, and that encouraged us to carry out this DMC project in order to show Spanish travelers Colombia in a different way.",
       "p3": "With the personal seal that we have impregnated to all the destinations in which we have worked before, with the same passion and dedication that has always characterised us, and of course, assuming the responsibility of personally guiding the largest possible number of groups.",
       "p4": "Our trips are based on the philosophy of experience, promoting contact with local indigenous communities, discovering their customs and gastronomy, their art, their idiosyncrasy. Because a country as vast and varied as Colombia is not only landscapes and monuments… a country is above all its people."
     },
@@ -1415,7 +1418,7 @@
     "stat3": "Traveller support",
     "sergi": {
       "role": "Founder & Director",
-      "bio": "For as long as I can remember I wanted to show the world to others. At first I did it as a journalist, through my reports in various media, later I began to organize press trips and other adventures for professional teams. Then came the largest desert in the world, and those trans-Saharan routes that allowed me for years to show the Sahara and the Sahel to hundreds of travellers. Now the time has come to bring this personal way of working with travel to the jungles and deserts of Colombia, to the coffee triangle, to the Andean mountains, to its natural parks… I am looking forward to your joining me on this new journey."
+      "bio": "For as long as I can remember I wanted to show the world to others. At first I did it as a journalist, through my reports in various media, later I began to organize press trips and other adventures for professional teams. Then came the largest desert in the world, and those trans-Saharan routes that allowed me for years to show the Sahara and the Sahel to hundreds of travelers. Now the time has come to bring this personal way of working with travel to the jungles and deserts of Colombia, to the Coffee Region, to the Andean mountains, to its natural parks… I am looking forward to your joining me on this new journey."
     },
     "maggie": {
       "role": "Co-Founder & Director",
@@ -1423,7 +1426,7 @@
     },
     "cta": {
       "title": "Shall we talk about your trip?",
-      "body": "Tell us your dreams and we'll make them happen. Unique trips for unique travellers.",
+      "body": "Tell us your dreams and we'll make them happen. Unique trips for unique travelers.",
       "btn": "Contact us"
     }
   },
@@ -1451,6 +1454,32 @@
       "title": "WhatsApp",
       "desc": "Immediate response during Colombia hours (UTC-5)",
       "btn": "Write on WhatsApp"
+    }
+  },
+  "legal": {
+    "meta": {
+      "title": "Legal Notice | Nueva Frontera Colombia"
+    },
+    "breadcrumb": "Legal Notice",
+    "hero": {
+      "title": "Legal Notice"
+    },
+    "notice": {
+      "title": "Legal Notice",
+      "body": "In accordance with applicable disclosure requirements, the owner of this website is Nueva Frontera Colombia S.A.S., with registered offices at CL 127 N° 60, Torre 3, Apt. 504, Bogotá 11-001, Colombia."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "p1": "Personal data you provide through the forms on this website is processed by Nueva Frontera Colombia S.A.S. in order to handle your enquiries and requests for information about our travel services.",
+      "p2": "This data is retained for the duration of the commercial relationship, or for as long as necessary to meet legal obligations. It is not shared with third parties except where legally required."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "body": "This website uses first-party and third-party cookies to improve your browsing experience, carry out audience analysis and display personalised content."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For any question regarding these policies, you can write to us at:"
     }
   }
 }
